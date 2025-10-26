@@ -1,9 +1,14 @@
 from flask import Flask, render_template, redirect, url_for, request, session, flash
-
-app = Flask(__name__)
-app.secret_key = 'secretkey'
+from flask_sqlalchemy import SQLAlchemy
+from config import app, db
 
 users = {"admin": "12345"} # Simple in-memory user store
+
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()
+    
+    app.run(debug=True)
 
 # ---------- MAIN ROUTES ----------
 
