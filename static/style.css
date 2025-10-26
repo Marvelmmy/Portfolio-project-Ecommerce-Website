@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-color: #E9F1F9;
+}
+
+.top-nav{
+    background-color: #ffffff;
+    height: 60px;
+}
