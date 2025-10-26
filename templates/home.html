@@ -1,49 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="../static/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Jost"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beautify.id</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="top-nav">
-          <div class="nav-logo border">
-            <div class="logo">
-              <a href="#">Beautify</a>
-            </div>
-          </div>
+{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
+block content %}
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>Your beauty, one click away.</h1>
+    <p>
+      Discover a world of skincare and makeup from trusted brands and local
+      favorites, find everything your skin needs in one place. Shop the latest
+      trends and enjoy a seamless beauty experience.
+    </p>
+    <button class="shop-btn">Shop now</button>
+  </div>
 
-          <div class="nav-search">
-            <input
-              type="text"
-              placeholder="Search Beautify.id"
-              class="nav-search"
-            />
-            <div class="search-icon">
-              <i class="fas fa-magnifying-glass"></i>
-            </div>
-          </div>
+  <div class="hero-image">
+    <img
+      src="{{ url_for('static', filename='images/home-image-1.png') }}"
+      alt="Glad2Glow Moisturizer"
+    />
+  </div>
+</div>
 
-          <div class="nav-links border">
-            <a href="#">EN/ID</a>
-            <a href="#">Track Order</a>
-            <a href="#">Cart</a>
-            <a href="#">Login <i class="fas fa-user"></i></a>
-          </div>
-        </div>
-        <div class="bottom-nav"></div>
-      </nav>
-    </header>
-  </body>
-</html>
+<div class="related-section">
+  <h2>Recommended for You</h2>
+  <div id="related-items" class="related-items"></div>
+</div>
+
+<div class="container-2">
+  <h3>Explore Top Beauty Brands!</h3>
+  <p>Because great skin starts with the right brand.</p>
+  <img
+    src="{{ url_for('static', filename='images/home-image-23.png') }}"
+    alt="brands"
+  />
+</div>
+
+<!-- Flash Messages -->
+{% with messages = get_flashed_messages(with_categories=true) %} {% if messages
+%}
+<div class="flash-messages">
+  {% for category, message in messages %}
+  <div class="flash {{ category }}">{{ message }}</div>
+  {% endfor %}
+</div>
+{% endif %} {% endwith %} {% endblock %}

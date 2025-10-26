@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Beautify.id{% endblock %}</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+      <nav>
+        <div class="top-nav">
+          <div class="nav-logo border">
+            <div class="logo">
+              <a href="{{ url_for('home') }}">Beautify</a>
+            </div>
+          </div>
+
+          <div class="nav-search">
+            <input
+              type="text"
+              placeholder="Search Beautify.id"
+              class="nav-search"
+            />
+            <div class="search-icon">
+              <i class="fas fa-magnifying-glass"></i>
+            </div>
+          </div>
+
+          <div class="nav-links border">
+            <a href="#">EN/ID</a>
+            <a href="#">Track Order</a>
+            <a href="{{ url_for('cart') }}">Cart</a>
+            <a href="{{ url_for('login') }}"
+              >Login <i class="fas fa-user"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="bottom-nav">
+          <div class="left-cat">
+            <a href="{{ url_for('skincare') }}">Skincare</a>
+            <a href="{{ url_for('makeup') }}">Makeup</a>
+            <a href="{{ url_for('bestseller') }}">Bestseller</a>
+            <a href="{{ url_for('brands') }}">Brands</a>
+            <a href="{{ url_for('promo') }}">Promo</a>
+          </div>
+          <div class="right-cat">
+            <a href="#"><i class="fab fa-instagram"></i> @beautify.ID</a>
+            <a href="#"><i class="fa-solid fa-circle"></i> 081234567891</a>
+            <a href="#"
+              ><i class="fa-solid fa-question-circle"></i> Help Center</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT BLOCK -->
+    {% block content %}{% endblock %}
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="customer-service">
+          <h3>Customer Service</h3>
+          <p>Email Address</p>
+          <div class="footer-buttons">
+            <button class="cs-btn">Contact Us</button>
+            <button class="cs-btn">FAQs</button>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <h1>Beautify</h1>
+          <p>Situs Kosmetik Skincare Terlengkap & Terpercaya #1 di Indonesia</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="footer-info">
+        <div class="info-section">
+          <h4>Information</h4>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Our Store</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Help Center</a>
+        </div>
+
+        <div class="payment-section">
+          <h4>Payment Method</h4>
+          <div class="payment-icons">
+            <img
+              src="{{ url_for('static', filename='images/mastercard.png') }}"
+              alt="MasterCard"
+            />
+            <img
+              src="{{ url_for('static', filename='images/visa.png') }}"
+              alt="Visa"
+            />
+            <img
+              src="{{ url_for('static', filename='images/paypal.png') }}"
+              alt="PayPal"
+            />
+            <img
+              src="{{ url_for('static', filename='images/maestro.png') }}"
+              alt="Maestro"
+            />
+            <img
+              src="{{ url_for('static', filename='images/bitcoin.png') }}"
+              alt="Bitcoin"
+            />
+            <img
+              src="{{ url_for('static', filename='images/ebay.png') }}"
+              alt="Ebay"
+            />
+          </div>
+        </div>
+
+        <div class="care-section">
+          <h4>Customer Care</h4>
+          <p>
+            <a href="mailto:Beautify.id@gmail.com">Beautify.id@gmail.com</a>
+          </p>
+          <p>08xxxxxxxx (WhatsApp)</p>
+          <p>@beautify.id</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <h2>Beautify</h2>
+        <p>2025 © PT. Beautify Ritel Indonesia. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
