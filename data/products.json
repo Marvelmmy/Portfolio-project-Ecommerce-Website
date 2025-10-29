@@ -1,6 +1,26 @@
 [
     {
     "id" : 1,
+    "name" : "Ultra Cover Powder Foundation",
+    "category" : "Make Up",
+    "price" : 145000,
+    "stock" : 100,
+    "description" : "Description for Product A",
+    "images": ["image1a.jpg", "image1b.jpg"],
+    "tags" : ["makeup", "foundation"]
+    },
+    {
+    "id" : 2,
+    "name" : "Invisiblur All Day Loose Powder", 
+    "category" : "Make Up",
+    "price" : 145000,
+    "stock" : 50,
+    "description" : "Description for Product B",
+    "images": ["image2a.jpg", "image2b.jpg"],
+    "tags" : ["makeup", "powder"]
+    },
+    {
+    "id" : 3,
     "name" : "Product A",
     "category" : "Category 1",
     "price" : 19.99,
@@ -10,3 +30,4 @@
     "tags" : ["tag1", "tag2"]
     }
 ]
+

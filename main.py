@@ -1,16 +1,14 @@
 from flask import Flask, render_template, redirect, url_for, request, session, flash
 from flask_sqlalchemy import SQLAlchemy
 from config import app, db
+import json
 
 users = {"admin": "12345"} # Simple in-memory user store
 
-if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
-    
-    app.run(debug=True)
-
 # ---------- MAIN ROUTES ----------
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/cart')
 def cart():
@@ -63,6 +61,12 @@ def home():
     return render_template('home.html')
 
 # ---------- CATEGORY ROUTES ----------
+@app.route('/product')
+def product():
+    with open('static/data/products.json', 'r', encoding='utf-8') as f:
+        products_data = json.load(f)
+    return render_template('product.html', products=products_data)
+
 @app.route('/skincare')
 def skincare():
     return render_template('skincare.html')

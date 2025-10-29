@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
+block content %}
+<section class="gladglow">
+    <div class="glad2glow-banner">
+        <img src="{{ url_for('static', filename='images/glad2glow.jpg') }}" alt="Glad2Glow Banner" />
+    </div>
+    <div class="glad2glow-content">
+        <div class="items">
+            <p>(item name)</p>
+            <p>(price)</p>
+        </div>
+    </div>
+</section>    
+    {% endfor %}
+  </div>
+  {% endif %} {% endwith %} {% endblock %}
+</div>
