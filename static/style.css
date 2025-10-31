@@ -386,3 +386,83 @@ footer {
       }
 
 /* product page style and per item card */
+.bestseller-section {
+  padding: 40px 0;
+  background-color: #f9fafc;
+}
+
+.bestseller-section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.product-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  height: 100%;
+}
+
+.product-info p{
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 12px;
+}
+/* Bottom bar (price + icons) fixed at the bottom */
+.product-bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: #0094ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.product-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.product-icons i {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.product-icons i:hover {
+  color: #0094ff;
+}

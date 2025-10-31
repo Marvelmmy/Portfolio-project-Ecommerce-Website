@@ -77,11 +77,16 @@ def makeup():
 
 @app.route('/bestseller')
 def bestseller():
-    return render_template('bestseller.html')
+    with open('static/data/bestseller.json', 'r', encoding='utf-8') as f:
+        products = json.load(f)
+    return render_template('other-category/bestseller.html', products=products)
 
-@app.route('/brands')
-def brands():
-    return render_template('brands.html')
+@app.route('/brand/<brand_name>')
+def brand(brand_name):
+    with open('static/data/products.json', 'r', encoding='utf-8') as f:
+        products = json.load(f)
+        brand_products = [product for product in products if product.get('brand') == brand_name]
+    return render_template('other-category/brands.html', products=brand_products, brand_name=brand_name)
 
 @app.route('/promo')
 def promo():

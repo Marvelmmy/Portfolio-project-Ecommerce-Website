@@ -23,7 +23,12 @@ function changeHeroImage() {
 
 setInterval(changeHeroImage, 5000);
 
+// brands logos section script 
+function goToBrand(brandName) {
+    window.location.href = `/brand/${brandName}`;
+  }
 
+// flash messages 
 const popup = document.getElementById("popup-message");
 if (popup) {
         setTimeout(() => {

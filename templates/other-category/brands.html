@@ -1,17 +1,29 @@
-{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
-block content %}
-<section class="gladglow">
-    <div class="glad2glow-banner">
-        <img src="{{ url_for('static', filename='images/glad2glow.jpg') }}" alt="Glad2Glow Banner" />
-    </div>
-    <div class="glad2glow-content">
-        <div class="items">
-            <p>(item name)</p>
-            <p>(price)</p>
+{% extends "base.html" %} {% block content %}
+<section class="bestseller-section">
+  <h2>{{ brand_name | capitalize }} Products</h2>
+  <div class="products-grid">
+    {% for product in products %}
+    <div class="product-card">
+      <div class="product-img">
+        <img
+          src="{{ url_for('static', filename=product.image) }}"
+          alt="{{ product.name }}"
+        />
+      </div>
+
+      <div class="product-info">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <div class="product-bottom">
+          <span class="price">Rp. {{ product.price }}</span>
+          <div class="product-icons">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
         </div>
+      </div>
     </div>
-</section>    
     {% endfor %}
   </div>
-  {% endif %} {% endwith %} {% endblock %}
-</div>
+</section>
+{% endblock %}
