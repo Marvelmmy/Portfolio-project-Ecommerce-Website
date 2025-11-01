@@ -1,3 +1,8 @@
+    /* More specific selector */
+    body .wrapper .slider-container {
+        display: none !important;
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -158,6 +163,7 @@ body{
     margin-top: 50px;
     margin-bottom: 20px;
     padding-top: 20px;
+    width: 100%;
 }
 
 .container-2 h3 {
@@ -166,12 +172,7 @@ body{
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 15px;
-}
-
-.container-2 img{
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
+  padding-left: 20px;
 }
 
 .container-2 p {
@@ -179,7 +180,34 @@ body{
   line-height: 1.6;
   margin-bottom: 25px;
   margin-left: 20px;
+  padding-left: 20px;
 }
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px 40px;
+  align-items: center;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand-grid img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+  filter: grayscale(30%);
+}
+
+.brand-grid img:hover {
+  transform: scale(1.08);
+  filter: grayscale(0%);
+  opacity: 0.9;
+}
+
 .related-section {
   margin: 40px auto;
   padding: 30px;
@@ -397,6 +425,28 @@ footer {
   font-weight: 700;
   margin-bottom: 30px;
   color: #111;
+}
+
+/* Products grid */
+.brands-section {
+  background-color: #f9fafc;
+}
+
+.brands-section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+
+.banner-brands {
+  background-color:#E9F1F9 ;
+  padding: 20px 0;
+  margin: 20px 0;
+  text-align: center;
+  height: 85px;
 }
 
 .products-grid {

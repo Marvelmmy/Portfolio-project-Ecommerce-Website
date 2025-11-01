@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
+block content %}
+<div class="track-container">
+  <div class="track-order-banner">
+    <h2>Track Order</h2>
+  </div>
+  <div class="track-order-nav">
+    <a href="#to-pay-section">To Pay</a>
+    <a href="#to-ship-section">To Ship</a>
+    <a href="#to-recieve-section">To Recieve</a>
+    <a href="#to-complete-section">Completed</a>
+    <a href="#to-cancel-section">Cancelled</a>
+    <a href="#to-return-section">Return Refund</a>
+  </div>
+  <div class="nav-search">
+    <input type="text" placeholder="Search Beautify.id" class="nav-search" />
+    <div class="search-icon">
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+  </div>
+</div>
+
+<section id="to-pay-section">
+  <h4>To Pay</h4>
+  <div class="to-pay"></div>
+</section>
+
+<section id="to-ship-section">
+  <h4>To Ship</h4>
+  <div class="to-ship"></div>
+</section>
+
+<section id="to-recieve-section">
+  <h4>To Recieve</h4>
+  <div class="to-recieve"></div>
+</section>
+
+<section id="to-complete-section">
+  <h4>To Complete</h4>
+  <div class="to-complete"></div>
+</section>
+
+<section id="to-cancel-section">
+  <h4>To Cancel</h4>
+  <div class="to-cancel"></div>
+</section>
+
+<section id="to-return-section">
+  <h4>Return Refund</h4>
+  <div class="to-return"></div>
+</section>
+
+{% endif %} {% endwith %} {% endblock %}

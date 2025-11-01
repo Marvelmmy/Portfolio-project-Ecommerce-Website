@@ -12,81 +12,87 @@ block content %}
 <div class="container-2">
   <h3>Explore Top Beauty Brands!</h3>
   <p>Because great skin starts with the right brand.</p>
-  <img
-    src="../static/images/Glad2Glow-Logo.jpg"
-    alt="Glad2Glow"
-    onclick="goToBrand('Glad2Glow')"
-  />
-  <img
-    src="../static/images/Somethinc_Logo_Black-1-1.png"
-    alt="Somethinc"
-    onclick="goToBrand('Somethinc')"
-  />
-  <img src="../static/images/Esqa.jpg" alt="Esqa" onclick="goToBrand('Esqa')" />
-  <img
-    src="../static/images/makeover.jpg"
-    alt="MakeOver"
-    onclick="goToBrand('MakeOver')"
-  />
-  <img
-    src="../static/images/Wardah-pica.png"
-    alt="Wardah"
-    onclick="goToBrand('Wardah')"
-  />
-  <img
-    src="../static/images/emina-logo-png_seeklogo-466191.png"
-    alt="Emina"
-    onclick="goToBrand('Emina')"
-  />
-  <img
-    src="../static/images/luxcrime.png"
-    alt="Luxcrime"
-    onclick="goToBrand('Luxcrime')"
-  />
-  <img
-    src="../static/images/skintific-pica.png"
-    alt="Skintific"
-    onclick="goToBrand('Skintific')"
-  />
-  <img
-    src="../static/images/deorex-logo.jpg"
-    alt="Deorex"
-    onclick="goToBrand('Deorex')"
-  />
-  <img src="../static/images/blk.jpg" alt="BLK" onclick="goToBrand('BLK')" />
-  <img
-    src="../static/images/npure.jpg"
-    alt="Npure"
-    onclick="goToBrand('Npure')"
-  />
-  <img
-    src="../static/images/grace and glow.jpg"
-    alt="GraceAndGlow"
-    onclick="goToBrand('GraceAndGlow')"
-  />
-  <img
-    src="../static/images/GKL16_Scarlett - Koleksilogo.com-pica.png"
-    alt="Scarlett"
-    onclick="goToBrand('Scarlett')"
-  />
-  <img
-    src="../static/images/studio tropik.jpg"
-    alt="StudioTropik"
-    onclick="goToBrand('StudioTropik')"
-  />
-  <img
-    src="../static/images/from this island-pica.png"
-    alt="FromThisIsland"
-    onclick="goToBrand('FromThisIsland')"
-  />
-</div>
+  <div class="brand-grid">
+    <img
+      src="../static/images/Glad2Glow-Logo.jpg"
+      alt="Glad2Glow"
+      onclick="goToBrand('Glad2Glow')"
+    />
+    <img
+      src="../static/images/Somethinc_Logo_Black-1-1.png"
+      alt="Somethinc"
+      onclick="goToBrand('Somethinc')"
+    />
+    <img
+      src="../static/images/Esqa.jpg"
+      alt="Esqa"
+      onclick="goToBrand('Esqa')"
+    />
+    <img
+      src="../static/images/makeover.jpg"
+      alt="MakeOver"
+      onclick="goToBrand('MakeOver')"
+    />
+    <img
+      src="../static/images/Wardah-pica.png"
+      alt="Wardah"
+      onclick="goToBrand('Wardah')"
+    />
+    <img
+      src="../static/images/emina-logo-png_seeklogo-466191.png"
+      alt="Emina"
+      onclick="goToBrand('Emina')"
+    />
+    <img
+      src="../static/images/luxcrime.png"
+      alt="Luxcrime"
+      onclick="goToBrand('Luxcrime')"
+    />
+    <img
+      src="../static/images/skintific-pica.png"
+      alt="Skintific"
+      onclick="goToBrand('Skintific')"
+    />
+    <img
+      src="../static/images/deorex-logo.jpg"
+      alt="Deorex"
+      onclick="goToBrand('Deorex')"
+    />
+    <img src="../static/images/blk.jpg" alt="BLK" onclick="goToBrand('BLK')" />
+    <img
+      src="../static/images/npure.jpg"
+      alt="Npure"
+      onclick="goToBrand('Npure')"
+    />
+    <img
+      src="../static/images/grace and glow.jpg"
+      alt="GraceAndGlow"
+      onclick="goToBrand('GraceAndGlow')"
+    />
+    <img
+      src="../static/images/GKL16_Scarlett - Koleksilogo.com-pica.png"
+      alt="Scarlett"
+      onclick="goToBrand('Scarlett')"
+    />
+    <img
+      src="../static/images/studio tropik.jpg"
+      alt="StudioTropik"
+      onclick="goToBrand('StudioTropik')"
+    />
+    <img
+      src="../static/images/from this island-pica.png"
+      alt="FromThisIsland"
+      onclick="goToBrand('FromThisIsland')"
+    />
+  </div>
 
-<!-- Flash Messages -->
-{% with messages = get_flashed_messages(with_categories=true) %} {% if messages
-%}
-<div class="flash-messages">
-  {% for category, message in messages %}
-  <div class="flash {{ category }}">{{ message }}</div>
-  {% endfor %}
+  <!-- Flash Messages -->
+  {% with messages = get_flashed_messages(with_categories=true) %} {% if
+  messages %}
+  <div class="flash-messages">
+    {% for category, message in messages %}
+    <div class="flash {{ category }}">{{ message }}</div>
+    {% endfor %}
+  </div>
+  {% endif %} {% endwith %} {% endblock %}
 </div>
-{% endif %} {% endwith %} {% endblock %}

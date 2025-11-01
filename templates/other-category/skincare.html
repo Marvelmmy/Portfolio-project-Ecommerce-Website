@@ -1,20 +1,30 @@
-{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
-block content %}
-<div class="product-section">
-  <h2>Our Products</h2>
-  <div class="product-items">
-    {% for product in products %}
+{% extends "base.html" %} {% block content %}
+<section class="bestseller-section">
+  <h2>Skincare Products</h2>
+  <div class="products-grid">
+    {% for product in products %} {% if product.category == "Skincare" %}
     <div class="product-card">
-      <img
-        src="{{ url_for('static', filename='images/' + product.images[0]) }}"
-        alt="{{ product.name }}"
-      />
-      <h3>{{ product.name }}</h3>
-      <p>{{ product.category }}</p>
-      <p>Rp {{ "{:,.0f}".format(product.price) }}</p>
-      <a href="#" class="btn">Add to Cart</a>
+      <div class="product-img">
+        <img
+          src="{{ url_for('static', filename=product.image) }}"
+          alt="{{ product.name }}"
+        />
+      </div>
+
+      <div class="product-info">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+
+        <div class="product-bottom">
+          <span class="price">Rp. {{ product.price }}</span>
+          <div class="product-icons">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+      </div>
     </div>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </div>
-  {% endif %} {% endwith %} {% endblock %}
-</div>
+</section>
+{% endblock %}
