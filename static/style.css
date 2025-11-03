@@ -186,6 +186,29 @@ body{
   margin-left: 20px;
 }
 
+.banner-brands {
+  width: 100%;
+  height: 180px; 
+  background-color: #E9F1F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-brands img {
+  max-width: 220px; 
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  transform: translateY(0);
+}
 .brand-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -434,6 +457,9 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
+  background-color: #efefef;
+  margin-top: 20px;
+  padding: 20px 0;
 }
 
 .product-card {
