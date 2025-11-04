@@ -14,6 +14,10 @@ def about():
 def cart():
     return render_template('cart.html')
 
+@app.route('/track-order')
+def track_order():
+    return render_template('track_order.html')
+
 @app.route('/auth')
 def auth():
     try:
@@ -120,7 +124,17 @@ def brand(brand_name: str):
     try:
         with open('static/data/products.json', 'r', encoding='utf-8') as f:
             products: List[Dict[str, str]] = json.load(f)
-            brand_products = [product for product in products if product.get('brand') == brand_name]
+            brand_name_clean = brand_name.replace('-', ' ').strip().lower()
+
+            all_brands = sorted({p.get('brand', '').strip().lower() for p in products})
+            print(f"Requested brand: {brand_name_clean}")
+            print(f"Available brands: {all_brands}")
+            
+            brand_products = [
+                product for product in products 
+                if product.get('brand', '').strip().lower() == brand_name_clean
+                ]
+
     except FileNotFoundError:
         brand_products = []
     except Exception as e:

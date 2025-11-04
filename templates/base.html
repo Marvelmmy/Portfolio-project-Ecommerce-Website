@@ -55,7 +55,7 @@
 
           <div class="nav-links border">
             <a href="{{ url_for('about') }}">About</a>
-            <a href="#">Track Order</a>
+            <a href="{{ url_for('track_order') }}">Track Order</a>
             <a href="{{ url_for('cart') }}">Cart</a>
             <a href="{{ url_for('login') }}"
               >Login <i class="fas fa-user"></i
@@ -134,12 +134,16 @@
               alt="Maestro"
             />
             <img
-              src="{{ url_for('static', filename='images/logos/bitcoin.png') }}"
+              src="{{ url_for('static', filename='images/logos/bc.png') }}"
               alt="Bitcoin"
             />
             <img
               src="{{ url_for('static', filename='images/logos/ebay.png') }}"
               alt="Ebay"
+            />
+            <img
+              src="{{ url_for('static', filename='images/logos/applepay.png') }}"
+              alt="Apple Pay"
             />
           </div>
         </div>

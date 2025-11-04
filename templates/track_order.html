@@ -1,16 +1,18 @@
-{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
-block content %}
+{% extends 'base.html' %} {% block title %}Beautify.id | Track Order{% endblock
+%} {% block content %}
 <div class="track-container">
   <div class="track-order-banner">
     <h2>Track Order</h2>
   </div>
   <div class="track-order-nav">
-    <a href="#to-pay-section">To Pay</a>
-    <a href="#to-ship-section">To Ship</a>
-    <a href="#to-recieve-section">To Recieve</a>
-    <a href="#to-complete-section">Completed</a>
-    <a href="#to-cancel-section">Cancelled</a>
-    <a href="#to-return-section">Return Refund</a>
+    <nav class="track-order">
+      <a href="#to-pay-section">To Pay</a>
+      <a href="#to-ship-section">To Ship</a>
+      <a href="#to-recieve-section">To Recieve</a>
+      <a href="#to-complete-section">Completed</a>
+      <a href="#to-cancel-section">Cancelled</a>
+      <a href="#to-return-section">Return Refund</a>
+    </nav>
   </div>
   <div class="nav-search">
     <input type="text" placeholder="Search Beautify.id" class="nav-search" />
@@ -50,4 +52,4 @@ block content %}
   <div class="to-return"></div>
 </section>
 
-{% endif %} {% endwith %} {% endblock %}
+{% endwith %} {% endblock %}
