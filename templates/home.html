@@ -1,7 +1,23 @@
 {% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
 block content %}
 <div class="hero-section">
-  <a href="#"><img src="../static/images/hero2.webp" alt="" /></a>
+  <div class="hero-slider">
+    <a href="#"
+      ><img src="{{ url_for('static', filename='images/hero1.jpg') }}" alt="#"
+    /></a>
+    <a href="#"
+      ><img src="{{ url_for('static', filename='images/hero2.webp') }}" alt="#"
+    /></a>
+    <a href="#"
+      ><img src="{{ url_for('static', filename='images/hero3.jpeg') }}" alt="#"
+    /></a>
+    <a href="#"
+      ><img src="{{ url_for('static', filename='images/hero4.avif') }}" alt="#"
+    /></a>
+    <a href="#"
+      ><img src="{{ url_for('static', filename='images/hero5.webp') }}" alt="#"
+    /></a>
+  </div>
 </div>
 
 <div class="related-section">

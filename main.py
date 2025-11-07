@@ -1,32 +1,21 @@
 from flask import render_template, redirect, url_for, request, session, flash
+from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from config import app, db
 import json
 from typing import List, Dict
+from models import User, Product
+
 
 users = {"admin": "12345"} # Simple in-memory user store
 
-# ---------- MAIN ROUTES ----------
-@app.route('/about')
-def about():
-    return render_template('about.html')
+# ---------- LOGIN MANAGER SETUP ----------
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'auth'
 
-@app.route('/cart')
-def cart():
-    return render_template('cart.html')
-
-@app.route('/track-order')
-def track_order():
-    return render_template('track_order.html')
-
-@app.route('/auth')
-def auth():
-    try:
-        if 'user' in session:
-            return redirect(url_for('home'))
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-    return render_template('auth.html')
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -34,35 +23,51 @@ def login():
         username = request.form.get('username')
         password = request.form.get('password')
 
-        if username in users and users[username] == password:
-            session['user'] = username
-            flash(f"Welcome back, {username}!", "success")
+        user = User.query.filter_by(username=username).first()
+        if user and user.password == password:  # (hash this later!)
+            login_user(user)
+            flash('Login successful!', 'success')
             return redirect(url_for('home'))
         else:
-            flash("❌ Invalid username or password!", "error")
-            return redirect(url_for('auth'))
+            flash('Invalid credentials. Please try again.', 'danger')
 
-    return render_template('auth.html')
+    return render_template('login.html')
 
-@app.route('/register', methods=['POST'])
-def register():
-    username = request.form.get('username')
-    password = request.form.get('password')
-    email = request.form.get('email')
+# ---------- MAIN ROUTES ----------
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
-    if username in users:
-        flash('⚠️ User already exists! Please choose another username.', 'error')
-        return redirect(url_for('auth'))
+@app.route('/add-to-cart', methods=['POST'])
+def add_to_cart():
+    product_id = request.form.get('product_id')
+    name = request.form.get('name')
+    price = int(request.form.get('price'))
 
-    users[username] = password
-    session['user'] = username
-    flash('✅ Registration successful!', 'success')
-    return redirect(url_for('home'))
+    cart = session.get('cart', [])
+    found = False
 
-@app.route('/logout')
-def logout():
-    session.pop('user', None)
-    return redirect(url_for('home'))
+    for item in cart:
+        if item ['product_id'] == product_id:
+            item['quantity'] += 1
+            found = True
+            break
+
+    if not found:
+        cart.append({'product_id': product_id, 'name': name, 'price': price, 'quantity': 1})
+
+    session['cart'] = cart
+    return redirect(url_for('cart'))
+
+@app.route('/cart')
+def cart():
+    cart = session.get('cart', [])
+    total = sum(item['price'] * item['quantity'] for item in cart)
+    return render_template('cart.html', cart=cart, total=total)
+
+@app.route('/track-order')
+def track_order():
+    return render_template('track_order.html')
 
 @app.route('/')
 def home():
@@ -120,7 +125,7 @@ def bestseller():
     return render_template('other-category/bestseller.html', products=products)
 
 @app.route('/brand/<brand_name>')
-def brand(brand_name: str):
+def brand(brand_name: str) -> str:
     try:
         with open('static/data/products.json', 'r', encoding='utf-8') as f:
             products: List[Dict[str, str]] = json.load(f)
