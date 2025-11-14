@@ -1,20 +1,83 @@
-{% extends 'base.html' %} {% block title %}Beautify.id | Home{% endblock %} {%
-block content %}
+{% extend "base.html" %}{% block content %}
+
 <div class="product-section">
-  <h2>Our Products</h2>
+  <!-- MAKEUP -->
+  <h1>Makeup</h1>
   <div class="product-items">
-    {% for product in products %}
+    {% for product in makeup %}
     <div class="product-card">
-      <img
-        src="{{ url_for('static', filename='images/' + product.images[0]) }}"
-        alt="{{ product.name }}"
-      />
-      <h3>{{ product.name }}</h3>
-      <p>{{ product.category }}</p>
-      <p>Rp {{ "{:,.0f}".format(product.price) }}</p>
-      <a href="#" class="btn">Add to Cart</a>
+      <div class="product-img">
+        <img
+          src="{{ url_for('static', filename=product.image) }}"
+          alt="{{ product.name }}"
+        />
+      </div>
+
+      <div class="product-info">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+
+        <div class="product-bottom">
+          <span class="price">Rp. {{ product.price }}</span>
+
+          <div class="product-icons">
+            <button
+              class="add-to-cart"
+              data-id="{{ product.id }}"
+              data-name="{{ product.name }}"
+              data-price="{{ product.price }}"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+
+            <button class="add-to-wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     {% endfor %}
   </div>
-  {% endif %} {% endwith %} {% endblock %}
+
+  <!-- SKINCARE -->
+  <h1 style="margin-top: 80px">Skincare</h1>
+  <div class="product-items">
+    {% for product in skincare %}
+    <div class="product-card">
+      <div class="product-img">
+        <img
+          src="{{ url_for('static', filename=product.image) }}"
+          alt="{{ product.name }}"
+        />
+      </div>
+
+      <div class="product-info">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+
+        <div class="product-bottom">
+          <span class="price">Rp. {{ product.price }}</span>
+
+          <div class="product-icons">
+            <button
+              class="add-to-cart"
+              data-id="{{ product.id }}"
+              data-name="{{ product.name }}"
+              data-price="{{ product.price }}"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+
+            <button class="add-to-wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
+
+{% endblock %}

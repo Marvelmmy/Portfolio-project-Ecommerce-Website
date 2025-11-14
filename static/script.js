@@ -46,3 +46,9 @@ if (popup) {
           }, 500);
         });
       }
+
+// login page 
+  function resetForm() {
+    document.getElementById('login').reset();
+    document.getElementById('register').reset();
+  }

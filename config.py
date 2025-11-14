@@ -6,3 +6,5 @@ app.secret_key = 'secretkey'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 
 db = SQLAlchemy(app)
+with app.app_context():
+    db.create_all()

@@ -1,10 +1,12 @@
 from flask import render_template, redirect, url_for, request, session, flash
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
-from config import app, db
 import json
-from typing import List, Dict
-from models import User, Product
-
+from typing import List, Dict, DefaultDict
+from collections import defaultdict
+from config import app
+import models
+from models.user import User
+from models.product import Product
 
 users = {"admin": "12345"} # Simple in-memory user store
 
@@ -15,23 +17,32 @@ login_manager.login_view = 'auth'
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    return models.User.query.get(int(user_id))
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    # handle login
     if request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
 
-        user = User.query.filter_by(username=username).first()
+        user = models.User.query.filter_by(username=username).first()
         if user and user.password == password:  # (hash this later!)
             login_user(user)
             flash('Login successful!', 'success')
             return redirect(url_for('home'))
         else:
             flash('Invalid credentials. Please try again.', 'danger')
+    # render login template
+    return render_template('auth.html')
 
-    return render_template('login.html')
+# logout 
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    flash('You have been logged out.', 'info')
+    return redirect(url_for('home'))
 
 # ---------- MAIN ROUTES ----------
 @app.route('/about')
@@ -77,6 +88,7 @@ def home():
 @app.route('/product')
 def product():
     try:
+        # Load product JSON
         with open('static/data/products.json', 'r', encoding='utf-8') as f:
             products_data = json.load(f)
     except FileNotFoundError:
@@ -85,32 +97,33 @@ def product():
         print(f"An error occurred: {e}")
         products_data = []
 
+    # render template
     return render_template('product.html', products=products_data)
 
 @app.route('/skincare')
 def skincare():
     try:
-        with open('static/data/products.json', 'r', encoding='utf-8') as f:
-            products : List[Dict[str,str]] = json.load(f) 
-    except FileNotFoundError:
-        products = []
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        products = []
-
-    return render_template('skincare.html', products=products)
-
-@app.route('/makeup')
-def makeup():
-    try:
-        with open('static/data/products.json', 'r', encoding='utf-8') as f:
+        with open('static/data/skincare.json', 'r', encoding='utf-8') as f:
             products: List[Dict[str, str]] = json.load(f)
     except FileNotFoundError:
         products = []
     except Exception as e:
         print(f"An error occurred: {e}")
         products = []
-    return render_template('makeup.html', products=products)
+    return render_template('other-category/skincare.html', products=products)
+
+@app.route('/makeup')
+def makeup():
+    try:
+        with open('static/data/makeup.json', 'r', encoding='utf-8') as f:
+            products: List[Dict[str, str]] = json.load(f)
+    except FileNotFoundError:
+        products = []
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        products = []
+    return render_template('other-category/makeup.html', products=products)
+
 
 @app.route('/bestseller')
 def bestseller():

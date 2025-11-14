@@ -64,15 +64,22 @@
             <a href="{{ url_for('about') }}">About</a>
             <a href="{{ url_for('track_order') }}">Track Order</a>
             <a href="{{ url_for('cart') }}">Cart</a>
+            {% if current_user.is_authenticated %}
+            <div class="user-menu">
+              <span>Hi, {{ current_user.username }}</span>
+              <a href="{{ url_for('logout') }}">Logout</a>
+            </div>
+            {% else %}
             <a href="{{ url_for('login') }}"
               >Login <i class="fas fa-user"></i
             ></a>
+            {% endif %}
           </div>
         </div>
 
         <div class="bottom-nav">
           <div class="left-cat">
-            <a href="{{ url_for('skincare') }}">Skincare</a>
+            <a href="{{ url_for('makeup') }}">Skincare</a>
             <a href="{{ url_for('makeup') }}">Makeup</a>
             <a href="{{ url_for('bestseller') }}">Bestseller</a>
             <a href="{{ url_for('promo') }}">Promo</a>
