@@ -1,13 +1,9 @@
-<h2>Your Cart</h2>
-{% if cart %}
-<ul>
-  {% for item in cart %}
-  <li>
-    {{ item.name }} — {{ item.quantity }}x — Rp {{ item.price * item.quantity }}
-  </li>
-  {% endfor %}
-</ul>
-<p><strong>Total: Rp {{ total }}</strong></p>
-{% else %}
-<p>Your cart is empty.</p>
-{% endif %}
+{% extends 'base.html' %} {% block title %}Beautify.id | Track Order{% endblock
+%} {% block content %}
+<div class="track-container">
+  <div class="track-order-banner">
+    <h2>My Cart</h2>
+  </div>
+
+  {% endblock %}
+</div>

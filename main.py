@@ -103,26 +103,34 @@ def product():
 @app.route('/skincare')
 def skincare():
     try:
-        with open('static/data/skincare.json', 'r', encoding='utf-8') as f:
+        with open('static/data/products.json', 'r', encoding='utf-8') as f:
             products: List[Dict[str, str]] = json.load(f)
+            skincare_products = [
+                p for p in products 
+                if 'skincare' in [t.lower() for t in p.get('tags', [])]]
+
     except FileNotFoundError:
-        products = []
+        skincare_products = []
     except Exception as e:
         print(f"An error occurred: {e}")
-        products = []
-    return render_template('other-category/skincare.html', products=products)
+        skincare_products = []
+    return render_template('other-category/skincare.html', products=skincare_products)
 
 @app.route('/makeup')
 def makeup():
     try:
-        with open('static/data/makeup.json', 'r', encoding='utf-8') as f:
+        with open('static/data/products.json', 'r', encoding='utf-8') as f:
             products: List[Dict[str, str]] = json.load(f)
+            makeup_products = [
+                p for p in products 
+                if 'makeup' in [t.lower() for t in p.get('tags', [])]]
+
     except FileNotFoundError:
-        products = []
+        makeup_products = []
     except Exception as e:
         print(f"An error occurred: {e}")
-        products = []
-    return render_template('other-category/makeup.html', products=products)
+        makeup_products = []
+    return render_template('other-category/makeup.html', products=makeup_products)
 
 
 @app.route('/bestseller')
