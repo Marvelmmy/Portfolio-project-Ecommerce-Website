@@ -1,0 +1,172 @@
+[
+    {
+    "id": 294,
+    "name": "Luxcrime Refreshing Cleansing Wipes",
+    "category": "Skincare",
+    "brand": "luxcrime",
+    "price": 51900,
+    "stock": 100,
+    "description": "Makeup-removing wipes that cleanse and refresh skin anywhere.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "cleansers"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Luxcrime Soothing Cleansing Sorbet",
+    "category": "Skincare",
+    "brand": "luxcrime",
+    "price": 47500,
+    "stock": 100,
+    "description": "A lightweight balm with green tea and veggie extracts that melts makeup and leaves skin clean and glowing.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "cleansers"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Luxcrime Ultra Fine Sunscreen Spray SPF 50 PA+++ – 50 ml",
+    "category": "Skincare",
+    "brand": "luxcrime",
+    "price": 139000,
+    "stock": 100,
+    "description": "A weightless SPF 50+ mist with Aloe Vera, Green Tea, and Niacinamide to refresh and protect skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "sunscreen"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Luxcrime Ultra Light Sunscreen Essence SPF 50 PA++++",
+    "category": "Skincare",
+    "brand": "luxcrime",
+    "price": 48500,
+    "stock": 100,
+    "description": "A lightweight SPF 50+ sunscreen that hydrates, brightens, and protects without a greasy feel.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "sunscreen"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Emina Daily Matte Compact Powder 11 g (Collaboration)",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 40000,
+    "stock": 100,
+    "description": "A lightweight matte compact powder with UV protection and oil control for up to 8 hours.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "powder"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Cheek Lit Pressed Blush x Muzik Tiger",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 44000,
+    "stock": 100,
+    "description": "A long-lasting pressed blush that blends naturally for a smooth, soft-looking finish.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "blush"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Daily Matte Cushion",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 98500,
+    "stock": 100,
+    "description": "A matte cushion with oil control and 8-hour buildable coverage.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "blush"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Daily Matte Compact Powder",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 42000,
+    "stock": 100,
+    "description": "Emina Daily Matte Compact Powder is a lightweight, oil-controlling matte powder with UV protection and 8-hour wear.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "powder"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Daily Matte BB Cream",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 33500,
+    "stock": 100,
+    "description": "Emina Daily Matte BB Cream is a lightweight, oil-controlling BB cream with a healthy-matte finish.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "liquid complexion"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Emina Bright Stuff Prebiotic Tranexamic Acid Brightening Facial Cleanser 100ML",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 34000,
+    "stock": 100,
+    "description": "Emina Brightening Face Wash cleans pores, brightens in one wash, and controls oil gently.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "face wash"
+    ]
+  }
+]

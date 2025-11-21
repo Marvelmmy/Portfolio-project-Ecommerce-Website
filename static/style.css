@@ -473,7 +473,6 @@ footer {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-bottom: 30px;
   position: relative;
 }
 
@@ -488,16 +487,16 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
-  background-color: #efefef;
-  padding: 20px 20px 40px;
+  background-color: #fff;
+  padding: 20px 40px;
 }
 
 .product-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
-  background-color: #efefef;
-  padding: 20px 0;
+  background-color: #fff;
+  padding: 20px 20px;
 }
 
 .product-card {
@@ -819,4 +818,11 @@ footer {
     max-width: 100%;
     text-align: center;
   }
+}
+
+h2#makeup {
+  text-align: center;
+  font-size: 50px;
+  color: #111;
+  margin-top: 20px;
 }

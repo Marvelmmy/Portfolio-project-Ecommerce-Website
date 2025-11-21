@@ -1,9 +1,37 @@
 {% extends 'base.html' %} {% block title %}Beautify.id | Track Order{% endblock
 %} {% block content %}
+
 <div class="track-container">
   <div class="track-order-banner">
     <h2>My Cart</h2>
   </div>
 
-  {% endblock %}
+  <!-- To Pay Section -->
+  <section id="to-pay-section" class="tab-content active">
+    <div class="to-pay">
+      {% for product in products %}
+      <div class="track-order-product-container">
+        <!-- Product Image -->
+        <img
+          src="{{ url_for('static', filename='images/' + product.images[0]) }}"
+          alt="{{ product.name }}"
+        />
+
+        <div class="track-order-product-info">
+          <h3>{{ product.name }}</h3>
+          <p>Brand: {{ product.brand }}</p>
+          <p>Variation: {{ product.tags | join(', ') }}</p>
+          <p>Quantity: {{ product.quantity if product.quantity else 1 }}</p>
+          <p>Price: Rp. {{ "{:,.0f}".format(product.price) }}</p>
+        </div>
+
+        <i class="fas fa-info-circle"></i>
+      </div>
+
+      <hr />
+      {% endfor %}
+    </div>
+  </section>
 </div>
+
+{% endblock %}

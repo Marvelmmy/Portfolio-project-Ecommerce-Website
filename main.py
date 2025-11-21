@@ -49,26 +49,35 @@ def logout():
 def about():
     return render_template('about.html')
 
+# ---------- CART ROUTES ----------
 @app.route('/add-to-cart', methods=['POST'])
 def add_to_cart():
-    product_id = request.form.get('product_id')
-    name = request.form.get('name')
-    price = int(request.form.get('price'))
+    data =  request.get_json()
+    product_id = str(data.get('product_id')) 
+    name = data.get('name')
+    price = int(data.get('price'))
 
+    session.permanent = True
     cart = session.get('cart', [])
-    found = False
 
+    # Check if already exists
     for item in cart:
-        if item ['product_id'] == product_id:
+        if item['product_id'] == product_id:
             item['quantity'] += 1
-            found = True
-            break
+            session['cart'] = cart
+            return redirect(url_for('cart'))
 
-    if not found:
-        cart.append({'product_id': product_id, 'name': name, 'price': price, 'quantity': 1})
+    # If not found, add new
+    cart.append({
+        'product_id': product_id,
+        'name': name,
+        'price': price,
+        'quantity': 1
+    })
 
     session['cart'] = cart
     return redirect(url_for('cart'))
+
 
 @app.route('/cart')
 def cart():
@@ -76,14 +85,22 @@ def cart():
     total = sum(item['price'] * item['quantity'] for item in cart)
     return render_template('cart.html', cart=cart, total=total)
 
+# ---------- ORDER TRACKING ROUTES ----------
 @app.route('/track-order')
 def track_order():
     return render_template('track_order.html')
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    try:
+        with open('static/data/products.json', 'r', encoding='utf-8') as f:
+            products = json.load(f)
+    except:
+        products = []
 
+    return render_template('home.html', products=products)
+
+ 
 # ---------- CATEGORY ROUTES ----------
 @app.route('/product')
 def product():
@@ -171,7 +188,15 @@ def brand(brand_name: str) -> str:
 
 @app.route('/promo')
 def promo():
-    return render_template('promo.html')
+    try:
+        with open('static/data/promo.json', 'r', encoding='utf-8') as f:
+            products: List[Dict[str, str]] = json.load(f)
+    except FileNotFoundError:
+        products = []
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        products = []
+    return render_template('other-category/promo.html', products=products)
 
 # if app not found
 @app.errorhandler(404)

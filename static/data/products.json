@@ -2308,6 +2308,13 @@
       "body wash"
     ]
   },
+
+
+
+
+
+
+  
   {
     "id": 175,
     "name": "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++",
@@ -4415,5 +4422,328 @@
       "skincare",
       "sunscreen"
     ]
-  }
+  },
+  {
+    "id": 298,
+    "name": "Emina Daily Matte Compact Powder 11 g (Collaboration)",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 40000,
+    "stock": 100,
+    "description": "A lightweight matte compact powder with UV protection and oil control for up to 8 hours.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "powder"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Cheek Lit Pressed Blush x Muzik Tiger",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 44000,
+    "stock": 100,
+    "description": "A long-lasting pressed blush that blends naturally for a smooth, soft-looking finish.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "blush"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Daily Matte Cushion",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 98500,
+    "stock": 100,
+    "description": "A matte cushion with oil control and 8-hour buildable coverage.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "blush"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Daily Matte Compact Powder",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 42000,
+    "stock": 100,
+    "description": "Emina Daily Matte Compact Powder is a lightweight, oil-controlling matte powder with UV protection and 8-hour wear.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "powder"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Daily Matte BB Cream",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 33500,
+    "stock": 100,
+    "description": "Emina Daily Matte BB Cream is a lightweight, oil-controlling BB cream with a healthy-matte finish.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "makeup",
+      "liquid complexion"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Emina Bright Stuff Prebiotic Tranexamic Acid Brightening Facial Cleanser 100ML",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 34000,
+    "stock": 100,
+    "description": "Emina Brightening Face Wash cleans pores, brightens in one wash, and controls oil gently.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "face wash"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Emina Bright Stuff Niacinamide Oxy Ceramide Brightening Facial Cleanser 100ml",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 30000,
+    "stock": 100,
+    "description": "Emina Bright Stuff Face Wash brightens and hydrates skin while cleansing away dirt and dullness.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "face wash"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Emina Made-Calm & Purify Low pH Micellar Water 300 ml",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 53000,
+    "stock": 100,
+    "description": "Emina Bright Stuff Face Wash brightens and hydrates skin while cleansing away dirt and dullness.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "makeup remover"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Emina HyaluBright & Smooth Low pH Micellar Water 300 ml",
+    "category": "Make Up",
+    "brand": "emina",
+    "price": 53000,
+    "stock": 100,
+    "description": "Emina Low pH Micellar Water gently cleanses while calming acne-prone, oily, and red skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "makeup remover"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "SPF 50+ PA++ (Mint) - Skin Pretty Filter",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 169000,
+    "stock": 100,
+    "description": "Studio Tropik SPF (Skin Pretty Filter) combines SPF 50+ hybrid sunscreen with new Skin Fusion Capsule technology.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "sunscreen"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "SPF 50+ PA++ (Peach) - Skin Pretty Filter",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 169000,
+    "stock": 100,
+    "description": "Studio Tropik SPF (Skin Pretty Filter) combines SPF 50+ hybrid sunscreen with new Skin Fusion Capsule technology.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "sunscreen"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Rescue RX - Antibacterial Face Mist",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 99000,
+    "stock": 100,
+    "description": "Studio Tropik Rescue RX is a gentle antibacterial mist that kills acne-causing bacteria and soothes the skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "face"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "Jelly-To-Oil Cleanser",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 149000,
+    "stock": 100,
+    "description": "A jelly-to-oil cleanser that removes makeup and impurities while leaving skin clean and comfortable.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "deep cleansing cleanser"
+    ]
+},
+{
+    "id": 311,
+    "name": "Probiome Skin Tonic",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 180000,
+    "stock": 100,
+    "description": "A creamy tonic that hydrates, soothes, and plumps dry, sensitive skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "hydrating toner"
+    ]
+},
+{
+    "id": 312,
+    "name": "Herbitus Skin Tonic",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 180000,
+    "stock": 100,
+    "description": "A lightweight tonic that refreshes and calms redness for acne-prone skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "hydrating toner"
+    ]
+},
+{
+    "id": 312,
+    "name": "Pumpkinu Skin Tonic",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 180000,
+    "stock": 100,
+    "description": "A lightweight tonic that refreshes and calms redness for acne-prone skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "2-in-1 milky toner"
+    ]
+},
+{
+    "id": 313,
+    "name": "Fresh Skin Barrier Cream",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 199000,
+    "stock": 100,
+    "description": "A final-step moisturizer that locks in hydration and strengthens the skin barrier for healthier skin.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "water cream moisturizer"
+    ]
+},
+{
+    "id": 314,
+    "name": "Rich Skin Barrier Cream",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 199000,
+    "stock": 100,
+    "description": "A skin-barrier-strengthening moisturizer that seals in hydration as the final step of your routine.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "dewy cream moisturizer"
+    ]
+},
+{
+    "id": 315,
+    "name": "Brighter Skin Barrier Pudding",
+    "category": "Skincare",
+    "brand": "studio tropik",
+    "price": 199000,
+    "stock": 100,
+    "description": "Brightening moisturizer that fades acne marks, boosts radiance, and strengthens the skin barrier.",
+    "images": [
+      "image1a.jpg",
+      "image1b.jpg"
+    ],
+    "tags": [
+      "skincare",
+      "brightening moisturizer"
+    ]
+}
 ]

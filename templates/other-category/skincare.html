@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block content %}
+<div class="banner-bestseller">
+  <h2 id="makeup">Skincare</h2>
+</div>
 <div class="product-section">
-  <h1>Skincare</h1>
-
   <div class="product-items">
     {% for product in products %}
     <div class="product-card">
@@ -39,4 +40,34 @@
     {% endfor %}
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".add-to-cart");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.id;
+        const name = btn.dataset.name;
+        const price = btn.dataset.price;
+
+        fetch("/add-to-cart", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            product_id: id,
+            name: name,
+            price: price,
+          }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            alert(data.message);
+          });
+      });
+    });
+  });
+</script>
 {% endblock %}

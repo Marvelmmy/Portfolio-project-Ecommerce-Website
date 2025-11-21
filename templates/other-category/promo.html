@@ -1,7 +1,16 @@
 {% extends "base.html" %} {% block content %}
+<style>
+  .discount-price {
+    margin-right: 10px;
+    color: red;
+  }
+  .price {
+    text-decoration: line-through;
+  }
+</style>
 <section class="bestseller-section">
   <div class="banner-bestseller">
-    <h2>Best Sellers</h2>
+    <h2>Promo</h2>
   </div>
   <div class="products-grid">
     {% for product in products %}
@@ -18,9 +27,17 @@
         <p>{{ product.description }}</p>
 
         <div class="product-bottom">
+          <span class="discount-price">Rp. {{ product.price * 0.8 }}</span>
           <span class="price">Rp. {{ product.price }}</span>
           <div class="product-icons">
-            <i class="fa-solid fa-bag-shopping"></i>
+            <button
+              class="add-to-cart"
+              data-id="{{ product.id }}"
+              data-name="{{ product.name }}"
+              data-price="{{ product.price }}"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
             <i class="fa-regular fa-heart"></i>
           </div>
         </div>
@@ -29,4 +46,34 @@
     {% endfor %}
   </div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".add-to-cart");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.id;
+        const name = btn.dataset.name;
+        const price = btn.dataset.price;
+
+        fetch("/add-to-cart", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            product_id: id,
+            name: name,
+            price: price,
+          }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            alert(data.message);
+          });
+      });
+    });
+  });
+</script>
 {% endblock %}
