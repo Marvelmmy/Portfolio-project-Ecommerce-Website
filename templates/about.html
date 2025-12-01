@@ -1,42 +1,39 @@
 {% extends 'base.html' %} {% block title %}Beautify.id | About{% endblock %} {%
 block content %}
+<div class="wrap">
+  <div class="title">About Beautify</div>
 
-<div class="about-container">
-  <!-- Title -->
-  <div class="about-container-1-title">
-    <h1>About Beautify</h1>
-  </div>
-
-  <!-- Section 1 -->
-  <div class="about-container-1">
-    <img
-      src="{{ url_for('static', filename='images/about-image-1.png') }}"
-      alt="About Beautify Image 1"
-    />
-    <div class="about-desc-1">
+  <section class="card top" aria-label="About Beautify top panel">
+    <div class="text">
+      <h3>Beautify</h3>
       <p>
-        <strong>Beautify</strong> was created with one simple idea. Beauty
-        should feel good, look natural, and be easy to love. We combine the care
-        of skincare with the creativity of makeup, helping you feel confident in
-        your own skin every day.
+        Beautify was created with one simple idea. Beauty should feel good, look
+        natural, and be easy to love. We combine the care of skincare with the
+        creativity of makeup, helping you feel confident in your own skin every
+        day.
       </p>
     </div>
-  </div>
-
-  <!-- Section 2 -->
-  <div class="about-container-2">
-    <img
-      src="{{ url_for('static', filename='images/about-image-2.png') }}"
-      alt="About Beautify Image 2"
-    />
-    <div class="about-desc-2">
+    <div class="img-wrap img-top">
+      <img
+        src="{{ url_for('static', filename='images/about-image-1.jpg') }}"
+        alt="Portrait holding jar (cropped)"
+      />
+    </div>
+  </section>
+  <section class="card bottom">
+    <div class="img-wrap img-bottom">
+      <img
+        src="{{ url_for('static', filename='images/about-image-2.jpg') }}"
+        alt="Portrait holding bottle (cropped)"
+      />
+    </div>
+    <div class="text">
       <p>
         Beauty with integrity. That is our promise. Our products are crafted
         with refined, skin-loving ingredients and made with a commitment to
         sustainability at every step.
       </p>
     </div>
-  </div>
+  </section>
 </div>
-
 {% endblock %}

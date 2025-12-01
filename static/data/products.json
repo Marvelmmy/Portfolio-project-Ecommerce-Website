@@ -7,7 +7,7 @@
     "price": 145000,
     "stock": 100,
     "description": "Ultra Cover Powder Foundation by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ultracover.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -21,7 +21,7 @@
     "price": 145000,
     "stock": 100,
     "description": "Invisiblur All Day Loose Powder by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "invisiblur.wep",
     "tags": [
       "makeup",
       "skintific"
@@ -35,7 +35,7 @@
     "price": 98900,
     "stock": 100,
     "description": "Mugwort Purifying Micellar Water & Cleaning Balm by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "mugpurifying.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -49,7 +49,7 @@
     "price": 98900,
     "stock": 100,
     "description": "Daily Filter Perfect Skin Tint by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "dailyfilt.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -63,7 +63,7 @@
     "price": 169000,
     "stock": 100,
     "description": "Cover Glow Perfect Pink Cushion by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "coverpinkcushion.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -77,7 +77,7 @@
     "price": 169000,
     "stock": 100,
     "description": "All Cover Perfect Gold Cushion by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "allcover.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -91,7 +91,7 @@
     "price": 69000,
     "stock": 100,
     "description": "Cover Perfect Serum Concealer by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "coverperfect.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -105,7 +105,7 @@
     "price": 169000,
     "stock": 100,
     "description": "Perfect Stay Velvet Matte Cushion by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "PerfectStayVelvet MatteCushion.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -119,7 +119,7 @@
     "price": 138900,
     "stock": 100,
     "description": "5X Ceramide Barrier Moisturizer Gel by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "5xceramide1.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -133,7 +133,7 @@
     "price": 138900,
     "stock": 100,
     "description": "MSH Niacinamide Brightening Moisturizer Gel by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "mshnia.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -147,7 +147,7 @@
     "price": 298900,
     "stock": 100,
     "description": "Symwhite 377 Dark Spot Moisturizer Gel by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "symwhite.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -161,7 +161,7 @@
     "price": 148900,
     "stock": 100,
     "description": "5X Ceramide Barrier Moisturizer Gel by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "5xceramide2.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -175,7 +175,7 @@
     "price": 138900,
     "stock": 100,
     "description": "MSH Niacinamide Brightening Moisturizer Gel by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "mshnia1.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -189,7 +189,7 @@
     "price": 148900,
     "stock": 100,
     "description": "Retinol Skin Renewal Moisturizer by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "retinol.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -203,7 +203,7 @@
     "price": 148900,
     "stock": 100,
     "description": "ECTOIN SKIN CREAM GEL MOISTURIZER by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "truffle.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -217,7 +217,7 @@
     "price": 148900,
     "stock": 100,
     "description": "5X Ceramide Barrier Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "5xserum.webp",
     "tags": [
       "serum",
       "skintific"
@@ -231,7 +231,7 @@
     "price": 149000,
     "stock": 100,
     "description": "10% Pure Vitamin C Fresh Brightening Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "100persen.webp",
     "tags": [
       "serum",
       "skintific"
@@ -245,7 +245,7 @@
     "price": 138900,
     "stock": 100,
     "description": "Retinol Skin Renewal Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "retinolskinrenewal.webp",
     "tags": [
       "serum",
       "skintific"
@@ -259,7 +259,7 @@
     "price": 128900,
     "stock": 100,
     "description": "Instant Glowing First Serum Spray by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "instagglowing.webp",
     "tags": [
       "serum",
       "skintific"
@@ -273,7 +273,7 @@
     "price": 148900,
     "stock": 100,
     "description": "Symwhite 377 Dark Spot Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "symwhite.webp",
     "tags": [
       "serum",
       "skintific"
@@ -287,7 +287,7 @@
     "price": 128900,
     "stock": 100,
     "description": "4D Hyaluronic Acid Hydrating Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "4DHyaluronic.webp",
     "tags": [
       "serum",
       "skintific"
@@ -301,7 +301,7 @@
     "price": 138900,
     "stock": 100,
     "description": "Niacinamide Brightening Serum by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "niacinamde.webp",
     "tags": [
       "serum",
       "skintific"
@@ -315,7 +315,7 @@
     "price": 88900,
     "stock": 100,
     "description": "Alaska Volcano Pore Clay Stick40g by Skintific is a mask product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "alaskavolcano.webp",
     "tags": [
       "mask",
       "skintific"
@@ -329,7 +329,7 @@
     "price": 88900,
     "stock": 100,
     "description": "Mugwort Acne Clay Stick Acne Treatment by Skintific is a mask product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "mugwortacneclay.webp",
     "tags": [
       "mask",
       "skintific"
@@ -343,7 +343,7 @@
     "price": 88900,
     "stock": 100,
     "description": "Niacinamide Bright Boost Clay Stick by Skintific is a mask product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "niacinamademask.webp",
     "tags": [
       "mask",
       "skintific"
@@ -357,7 +357,7 @@
     "price": 88900,
     "stock": 100,
     "description": "5X Ceramide Low pH Cleanser by Skintific is a cleanser product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "cleanser5c.webp",
     "tags": [
       "cleansers",
       "skintific"
@@ -371,7 +371,7 @@
     "price": 88900,
     "stock": 100,
     "description": "Amino Acid Ultra Gentle Cleanser Mousse by Skintific is a cleanser product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "amino.webp",
     "tags": [
       "cleansers",
       "skintific"
@@ -385,7 +385,7 @@
     "price": 98900,
     "stock": 100,
     "description": "3X Acid Acne Gel Cleanser by Skintific is a cleanser product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "cleanser3x.webp",
     "tags": [
       "cleansers",
       "skintific"
@@ -399,7 +399,7 @@
     "price": 98900,
     "stock": 100,
     "description": "Aqua Light Daily Sunscreen SPF 35 PA+++ by Skintific is a sunscreen product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "aqualight.webp",
     "tags": [
       "sunscreen",
       "skintific"
@@ -413,7 +413,7 @@
     "price": 98900,
     "stock": 100,
     "description": "5X Ceramide Serum Sunscreen SPF 50+ PA++++ by Skintific is a sunscreen product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "5xceramidesunscnreen.webp",
     "tags": [
       "sunscreen",
       "skintific"
@@ -427,7 +427,7 @@
     "price": 98900,
     "stock": 100,
     "description": "Matte Fit Serum Sunscreen 50ml SPF 50+ PA++++ by Skintific is a sunscreen product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "mattefit.webp",
     "tags": [
       "sunscreen",
       "skintific"
@@ -441,7 +441,7 @@
     "price": 115900,
     "stock": 100,
     "description": "Glycolic Acid Exfoliating Daily Clarifying Toner AHA PHA by Skintific is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "glycolic.webp",
     "tags": [
       "toner",
       "skintific"
@@ -455,7 +455,7 @@
     "price": 115900,
     "stock": 100,
     "description": "5X Ceramide Soothing Calming Essence Toner by Skintific is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "toner5x.webp",
     "tags": [
       "toner",
       "skintific"
@@ -469,7 +469,7 @@
     "price": 115900,
     "stock": 100,
     "description": "4D Hyaluronic Acid Barrier Essence Toner HYD Booster by Skintific is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "toner4d.webp",
     "tags": [
       "toner",
       "skintific"
@@ -483,7 +483,7 @@
     "price": 45000,
     "stock": 100,
     "description": "GLAD2GLOW MILK AMINO ACID GENTLE CLEANSER by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gaminocleanser.webp",
     "tags": [
       "cleansers"
     ]
@@ -496,7 +496,7 @@
     "price": 45000,
     "stock": 100,
     "description": "GLAD2GLOW MUGWORT MICELLAR WATER ACNE CLEANSER SALICYLIC ACID by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gmugwort.webp",
     "tags": [
       "cleansers"
     ]
@@ -509,7 +509,7 @@
     "price": 46900,
     "stock": 100,
     "description": "GLAD2GLOW BETAINE MICELLAR WATER CHERRY BLOSSOM 300ML by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "cherryblossom.webp",
     "tags": [
       "cleansers"
     ]
@@ -522,7 +522,7 @@
     "price": 29000,
     "stock": 100,
     "description": "GLAD2GLOW CHERRY BLOSSOM BETAINE MICELLAR WATER by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "betaineg2g.webp",
     "tags": [
       "cleansers"
     ]
@@ -535,7 +535,7 @@
     "price": 39000,
     "stock": 100,
     "description": "GLAD2GLOW CENTELLA SALICYLIC ACID ACNE GEL CLEANSER by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gcentellacleanser.webp",
     "tags": [
       "cleansers"
     ]
@@ -548,7 +548,7 @@
     "price": 39000,
     "stock": 100,
     "description": "Glad2Glow Niacinamide Pomegranate Brightening Serum by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gblueberry.webp",
     "tags": [
       "cleansers"
     ]
@@ -561,7 +561,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Glad2Glow Yuja Symwhite 377 Serum to Remove Dark Spots by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gyuja.webp",
     "tags": [
       "serum"
     ]
@@ -574,7 +574,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2glow Creamy Berry Brightening Body Serum Overnight by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gcreamyberry.webp",
     "tags": [
       "serum"
     ]
@@ -587,7 +587,7 @@
     "price": 79000,
     "stock": 100,
     "description": "Glad2glow Intense Serum for Eyelashes & Eyebrows by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gglash.webp",
     "tags": [
       "serum"
     ]
@@ -600,7 +600,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2glow Mixberry Juicy Lip Serum by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gmixberry.webp",
     "tags": [
       "serum"
     ]
@@ -613,7 +613,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2Glow Peach Retinol Serum by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gpeachserum.webp",
     "tags": [
       "serum"
     ]
@@ -626,7 +626,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2Glow Jeju Tangerine Vita C Power Bright Glow Serum by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gjejutangerine.webp",
     "tags": [
       "serum"
     ]
@@ -639,7 +639,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Glad2Glow Centella 2% Salicylic Acid Power Acne Serum by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gcentella2persen.webp",
     "tags": [
       "serum"
     ]
@@ -652,20 +652,20 @@
     "price": 79000,
     "stock": 100,
     "description": "Glad2Glow Centella Allantoin Soothing Gel Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gcentellallantoin.webp",
     "tags": [
       "moisturizers"
     ]
   },
   {
     "id": 48,
-    "name": "Glad2Glow Centella Allantoin Soothing Gel Moisturizer",
+    "name": "Glad2Glow Promagranate Niacinamide Brightening Moisturizer",
     "category": "Moisturizers",
     "brand": "Skintific",
     "price": 59000,
     "stock": 100,
     "description": "Glad2Glow Centella Allantoin Soothing Gel Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gpomagranateniacamade.webp",
     "tags": [
       "moisturizers"
     ]
@@ -678,7 +678,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Glad2glow Kiwi 3D Acid Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gkiwi3d.webp",
     "tags": [
       "moisturizers"
     ]
@@ -691,7 +691,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2glow Peach Retinol Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gpeachretinol.webp",
     "tags": [
       "moisturizers"
     ]
@@ -704,7 +704,7 @@
     "price": 49000,
     "stock": 100,
     "description": "Glad2Glow Yuja Symwhite 377 Moisturizer for Dark Spots by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gyujasymwhite.webp",
     "tags": [
       "moisturizers"
     ]
@@ -717,7 +717,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Glad2Glow Blueberry 5% Ceramide Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gblueberry5.webp",
     "tags": [
       "moisturizers"
     ]
@@ -730,7 +730,7 @@
     "price": 45000,
     "stock": 100,
     "description": "GLAD2GLOW Brightening Moisturizer containing 5% Niacinamide and Pomegranate by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "g2gpomagranateniacamade.webp",
     "tags": [
       "moisturizers"
     ]
@@ -743,7 +743,7 @@
     "price": 299000,
     "stock": 100,
     "description": "From This Island Papua Red Fruit Potent Plumping Serum 20ml by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftipapua.webp",
     "tags": [
       "all"
     ]
@@ -756,7 +756,7 @@
     "price": 170000,
     "stock": 100,
     "description": "Sugarcane AHA Exfoliating Solution by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftisugarcane.webp",
     "tags": [
       "all"
     ]
@@ -769,7 +769,7 @@
     "price": 259000,
     "stock": 100,
     "description": "Papua Red Fruit Plumping Cream by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftipapua2.webp",
     "tags": [
       "all"
     ]
@@ -782,7 +782,7 @@
     "price": 195000,
     "stock": 100,
     "description": "Mangosteen Brightening Serum by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftimangosteen.webp",
     "tags": [
       "all"
     ]
@@ -795,7 +795,7 @@
     "price": 159000,
     "stock": 100,
     "description": "Java Black Tea Soothing Gel Cleanser by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftijava.webp",
     "tags": [
       "all"
     ]
@@ -808,7 +808,7 @@
     "price": 219000,
     "stock": 100,
     "description": "Tropical Guava Barrier Moisture Gel by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftitropical.webp",
     "tags": [
       "all"
     ]
@@ -821,7 +821,7 @@
     "price": 179000,
     "stock": 100,
     "description": "From This Island White Tea Ultra Light Protective Sun Serum by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftiwhitetea.webp",
     "tags": [
       "all"
     ]
@@ -834,7 +834,7 @@
     "price": 189000,
     "stock": 100,
     "description": "Bali Green Coffee Espresso Eye Cream by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftibali.webp",
     "tags": [
       "all"
     ]
@@ -847,7 +847,7 @@
     "price": 159000,
     "stock": 100,
     "description": "From This Island Blue Pea Purifying Micellar Water by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftibluepea.webp",
     "tags": [
       "all"
     ]
@@ -860,7 +860,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Cinnamon Toast by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipcinnamon.webp",
     "tags": [
       "all"
     ]
@@ -873,7 +873,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Classic Nude by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipclassicnude.webp",
     "tags": [
       "all"
     ]
@@ -886,7 +886,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Pink Sugar by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilippinksugar.webp",
     "tags": [
       "all"
     ]
@@ -899,7 +899,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Sweet Peach by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipsweetpeach.webp",
     "tags": [
       "all"
     ]
@@ -912,7 +912,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Cold Brew by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipcoldbrew.webp",
     "tags": [
       "all"
     ]
@@ -925,7 +925,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Berry Burst by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipberryburst.webp",
     "tags": [
       "all"
     ]
@@ -938,7 +938,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Sparkling Blush by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipsparklingblush.webp",
     "tags": [
       "all"
     ]
@@ -951,7 +951,7 @@
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Clearly Naked by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "ftilipclearlynaked.webp",
     "tags": [
       "all"
     ]
@@ -964,7 +964,7 @@
     "price": 169000,
     "stock": 100,
     "description": "ESQA Minimalist Blurring Serum Skin Tint SPF 35 PA++ by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaminimalist.webp",
     "tags": [
       "face"
     ]
@@ -977,7 +977,7 @@
     "price": 145000,
     "stock": 100,
     "description": "ESQA (Refill) Flawless Cushion Serum SPF 50+ PA+++ - Satin by Skintific is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaflawless.webp",
     "tags": [
       "face"
     ]
@@ -990,7 +990,7 @@
     "price": 208000,
     "stock": 100,
     "description": "[NEW] ESQA Flawless Cushion Serum SPF 50+ PA+++ - Satin by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "eqaflawless1.webp",
     "tags": [
       "face"
     ]
@@ -1003,7 +1003,7 @@
     "price": 79000,
     "stock": 100,
     "description": "ESQA Dream Lash Serum Mascara by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqadreamlash.webp",
     "tags": [
       "face"
     ]
@@ -1016,7 +1016,7 @@
     "price": 129000,
     "stock": 100,
     "description": "ESQA Minimalist Eye Tint Corrector by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaminimalisteyetin.webp",
     "tags": [
       "face"
     ]
@@ -1029,7 +1029,7 @@
     "price": 59000,
     "stock": 100,
     "description": "ESQA Minimalist Serum Concealer by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaminimalistserum.webp",
     "tags": [
       "face"
     ]
@@ -1042,7 +1042,7 @@
     "price": 115000,
     "stock": 100,
     "description": "ESQA Glow Pop Serum Lip Balm by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaglowpop.webp",
     "tags": [
       "face"
     ]
@@ -1055,7 +1055,7 @@
     "price": 129000,
     "stock": 100,
     "description": "Flawless Liquid Concealer 5gr by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaflawlessliquis5gr.webp",
     "tags": [
       "face"
     ]
@@ -1068,7 +1068,7 @@
     "price": 129000,
     "stock": 100,
     "description": "Flawless Liquid Corrector 5gr by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaliquidcorrector.webp",
     "tags": [
       "face"
     ]
@@ -1081,7 +1081,7 @@
     "price": 110000,
     "stock": 100,
     "description": "ESQA Wonder Crush Serum Liquid Blush On by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqawondercrush.webp",
     "tags": [
       "face"
     ]
@@ -1094,7 +1094,7 @@
     "price": 79000,
     "stock": 100,
     "description": "ESQA Slick Drip Serum Lip Tint by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaslickdrip.webp",
     "tags": [
       "face"
     ]
@@ -1107,7 +1107,7 @@
     "price": 115000,
     "stock": 100,
     "description": "Primer Serum by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaprimerserum.webp",
     "tags": [
       "face"
     ]
@@ -1120,7 +1120,7 @@
     "price": 142000,
     "stock": 100,
     "description": "Flawless Powder Foundation by Skintific is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaflawlesspowder.webp",
     "tags": [
       "face"
     ]
@@ -1133,7 +1133,7 @@
     "price": 142000,
     "stock": 100,
     "description": "Flawless Micro Setting Powder by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqamicrosetting.webp",
     "tags": [
       "face"
     ]
@@ -1146,7 +1146,7 @@
     "price": 69000,
     "stock": 100,
     "description": "Mist Universe Setting Spray by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqamistuni.webp",
     "tags": [
       "face"
     ]
@@ -1159,7 +1159,7 @@
     "price": 109000,
     "stock": 100,
     "description": "Goddess Eyeshadow Palette by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqagoddesseyeshadowpalette.webp",
     "tags": [
       "eyes"
     ]
@@ -1172,7 +1172,7 @@
     "price": 109000,
     "stock": 100,
     "description": "Brow Pomade Pencil by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqabrow.webp",
     "tags": [
       "eyes"
     ]
@@ -1185,7 +1185,7 @@
     "price": 109000,
     "stock": 100,
     "description": "Brow Stroke Pencil by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqabrowstroke.webp",
     "tags": [
       "eyes"
     ]
@@ -1198,7 +1198,7 @@
     "price": 155000,
     "stock": 100,
     "description": "FREEZE Tinted Brow Mascara by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqatinted.webp",
     "tags": [
       "eyes"
     ]
@@ -1211,7 +1211,7 @@
     "price": 130000,
     "stock": 100,
     "description": "ESQA Waterproof Intense Eyeliner by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqawaterproofintense.webp",
     "tags": [
       "eyes"
     ]
@@ -1224,7 +1224,7 @@
     "price": 79000,
     "stock": 100,
     "description": "ESQA Dream Lash Serum Mascara by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqadreamlash.webp",
     "tags": [
       "eyes"
     ]
@@ -1237,7 +1237,7 @@
     "price": 89000,
     "stock": 100,
     "description": "ESQA Glaze Eyeshadow Trio by Skintific is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaglazetrio.webp",
     "tags": [
       "eyes"
     ]
@@ -1250,7 +1250,7 @@
     "price": 240000,
     "stock": 100,
     "description": "The Goddess Cheek Palette by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqathegod.webp",
     "tags": [
       "cheeks"
     ]
@@ -1263,7 +1263,7 @@
     "price": 109000,
     "stock": 100,
     "description": "ESQA Blush On by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqablushon.webp",
     "tags": [
       "cheeks"
     ]
@@ -1276,7 +1276,7 @@
     "price": 110000,
     "stock": 100,
     "description": "ESQA Wonder Crush Serum Liquid Blush On by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqawondercrushcheeks.webp",
     "tags": [
       "cheeks"
     ]
@@ -1289,7 +1289,7 @@
     "price": 105000,
     "stock": 100,
     "description": "ESQA Bronzer by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqabronzer.webp",
     "tags": [
       "cheeks"
     ]
@@ -1302,7 +1302,7 @@
     "price": 105000,
     "stock": 100,
     "description": "ESQA Highlighter by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqahighlighter.webp",
     "tags": [
       "cheeks"
     ]
@@ -1315,7 +1315,7 @@
     "price": 120000,
     "stock": 100,
     "description": "[NEW LAUNCH] ESQA Bitty Balm Stick Blush by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqabittybalm.webp",
     "tags": [
       "cheeks"
     ]
@@ -1328,7 +1328,7 @@
     "price": 105000,
     "stock": 100,
     "description": "ESQA Lip Gloss by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqalipp.webp",
     "tags": [
       "lips"
     ]
@@ -1341,7 +1341,7 @@
     "price": 115000,
     "stock": 100,
     "description": "ESQA Glow Pop Serum Lip Balm by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaglowpopserum.webp",
     "tags": [
       "lips"
     ]
@@ -1354,7 +1354,7 @@
     "price": 79000,
     "stock": 100,
     "description": "ESQA Slick Drip Serum Lip Tint by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaslickdriptint.webp",
     "tags": [
       "lips"
     ]
@@ -1367,7 +1367,7 @@
     "price": 79000,
     "stock": 100,
     "description": "ESQA Blurred Haze Velvet Lip Tint by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqablurredhaze.webp",
     "tags": [
       "lips"
     ]
@@ -1380,7 +1380,7 @@
     "price": 99000,
     "stock": 100,
     "description": "ESQA Cloud Kiss Refillable Powder Lipstick by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "esqaclodukiss.webp",
     "tags": [
       "lips"
     ]
@@ -1393,7 +1393,7 @@
     "price": 425000,
     "stock": 100,
     "description": "SCARLETT Low pH Glow Bright Gel Cleanser-Facial Wash Gentle Formula 100ml by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlowphglowbright.png",
     "tags": [
       "face wash"
     ]
@@ -1406,7 +1406,7 @@
     "price": 425000,
     "stock": 100,
     "description": "SCARLETT Low pH Acne Peace Gel Cleanser-Facial Wash Gentle Sabun Cuci Muka Low pH 100ml by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "sacrlettlowphacne.png",
     "tags": [
       "face wash"
     ]
@@ -1419,7 +1419,7 @@
     "price": 178500,
     "stock": 100,
     "description": "Scarlett Brightening Facial Wash 100ml [TRIPLEPACK] by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarletttriplee,jpg",
     "tags": [
       "face wash"
     ]
@@ -1432,7 +1432,7 @@
     "price": 120000,
     "stock": 100,
     "description": "Scarlett Brightening Facial Wash 100ml [TWINPACK] by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettdouble.png",
     "tags": [
       "face wash"
     ]
@@ -1445,7 +1445,7 @@
     "price": 59000,
     "stock": 100,
     "description": "Scarlett Acne Cloud Facial Foam by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacnecloudfacial.png",
     "tags": [
       "face wash"
     ]
@@ -1458,7 +1458,7 @@
     "price": 59000,
     "stock": 100,
     "description": "Scarlett Brightly Cloud Facial Foam by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrightlycloudfaciam.png",
     "tags": [
       "face wash"
     ]
@@ -1471,7 +1471,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Hydro Fresh Cleanser by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarletthydrofreshcleaner.png",
     "tags": [
       "face wash"
     ]
@@ -1484,7 +1484,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Acne Care Facial Wash by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacnecare.png",
     "tags": [
       "face wash"
     ]
@@ -1497,7 +1497,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Brightening Facial Wash by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrighteningfacialwash.png",
     "tags": [
       "face wash"
     ]
@@ -1510,7 +1510,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Scarlett Blue Hydra Intensive Calming Solution by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettblueserum.png",
     "tags": [
       "face serum"
     ]
@@ -1523,7 +1523,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Scarlett Revive Glow Elixir Red Exfo Intensive Peeling Solution by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettrevive.png",
     "tags": [
       "face serum"
     ]
@@ -1536,7 +1536,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Hyalu B5 + Reishi Mushroom & Bifida Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarletthyalu.png",
     "tags": [
       "face serum"
     ]
@@ -1549,7 +1549,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Niacinamide 5% Beta Glucan 7 Phyto Extract Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettniacinamade.jpg",
     "tags": [
       "face serum"
     ]
@@ -1562,7 +1562,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett C-Power Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettcpower.jpg",
     "tags": [
       "face serum"
     ]
@@ -1575,7 +1575,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Skin Smoothing Retinol Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettskinsmoothing.jpg",
     "tags": [
       "face serum"
     ]
@@ -1588,7 +1588,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Glowtening Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettglowtening.jpg",
     "tags": [
       "face serum"
     ]
@@ -1601,7 +1601,7 @@
     "Price": 60000,
     "stock": 100,
     "description": "Scarlett Acne Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacneserum.png",
     "tags": [
       "face serum"
     ]
@@ -1614,7 +1614,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Brightly Ever After Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrightlyever.png",
     "tags": [
       "face serum"
     ]
@@ -1627,7 +1627,7 @@
     "price": 39000,
     "stock": 100,
     "description": "Scarlett Ultra Light Daily Sunscreen 30ml by SCARLETT is a sunscreen product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettultralight.png",
     "tags": [
       "sunscreen"
     ]
@@ -1640,7 +1640,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Ultra Light Daily Sunscreen 50ml by SCARLETT is a sunscreen product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrightdaily.jpg",
     "tags": [
       "sunscreen"
     ]
@@ -1653,7 +1653,7 @@
     "price": 75000,
     "stock": 100,
     "description": "Scarlett Brightly Ever After Essence Foam Toner - 105ml by SCARLETT is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettftbrightly.png",
     "tags": [
       "toner"
     ]
@@ -1666,7 +1666,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Hyalu B9 + Bio Plavita & Ceramide Essence Toner by SCARLETT is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarletthyalub9.png",
     "tags": [
       "toner"
     ]
@@ -1679,7 +1679,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Acne Essence Toner by SCARLETT is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettessencetoner.png",
     "tags": [
       "toner"
     ]
@@ -1692,7 +1692,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Brightly Ever After Essence Toner by SCARLETT is a toner product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarletteverf=after.png",
     "tags": [
       "toner"
     ]
@@ -1705,7 +1705,7 @@
     "price": 45000,
     "stock": 100,
     "description": "Scarlett Revive Glow Elixir Red Exfo Intensive Peeling Solution by SCARLETT is a exofiliator product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettredexo.png",
     "tags": [
       "exofiliator"
     ]
@@ -1718,7 +1718,7 @@
     "price": 120000,
     "stock": 100,
     "description": "Scarlett Peeling So Good by SCARLETT is a exofiliator product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettsogood.png",
     "tags": [
       "exofiliator"
     ]
@@ -1731,7 +1731,7 @@
     "price": 120000,
     "stock": 100,
     "description": "Scarlett Herbalism Mugwort Mask by SCARLETT is a face mask product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettmugwort.jpg",
     "tags": [
       "face mask"
     ]
@@ -1744,7 +1744,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Seriously Soothing & Hydrating Gel Mask by SCARLETT is a face mask product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettcoverpdp.jpg",
     "tags": [
       "face mask"
     ]
@@ -1757,7 +1757,7 @@
     "price": 579000,
     "stock": 100,
     "description": "Scarlett Aqua Reset & Barrier Glow Bright Gel Moisturizer 6% Niacin-Peach by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettglow.png",
     "tags": [
       "mositurizer"
     ]
@@ -1770,7 +1770,7 @@
     "price": 57900,
     "stock": 100,
     "description": "Scarlett Aqua Reset & Barrier Hydra Boost Gel Moisturizer 5% Panthenol-Hyalu by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettaquareset.png",
     "tags": [
       "mositurizer"
     ]
@@ -1783,7 +1783,7 @@
     "price": 57900,
     "stock": 100,
     "description": "Scarlett Aqua Reset & Barrier Acne Peace Gel Moisturizer 5% Heartleaf-Salicylic Acid by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacne.png",
     "tags": [
       "mositurizer"
     ]
@@ -1796,7 +1796,7 @@
     "price": 57900,
     "stock": 100,
     "description": "Scarlett Phyto Biotics Renewing Moisturizer by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettphytobionics.png",
     "tags": [
       "mositurizer"
     ]
@@ -1809,7 +1809,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Combo Acne Cream  [Acne Day Cream + Night Cream] by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettcombo1.png",
     "tags": [
       "mositurizer"
     ]
@@ -1822,7 +1822,7 @@
     "price": 120000,
     "stock": 100,
     "description": "Scarlett Combo Brightly Ever After Cream by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettcombo2.png",
     "tags": [
       "mositurizer"
     ]
@@ -1835,7 +1835,7 @@
     "price": 120000,
     "stock": 100,
     "description": "Scarlett Brightly Ever After Day Cream by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrightlymoist.png",
     "tags": [
       "mositurizer"
     ]
@@ -1848,7 +1848,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Acne Day Cream by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacnemoist.png",
     "tags": [
       "mositurizer"
     ]
@@ -1861,7 +1861,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Brightly Ever After Night Cream by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettbrightlynight.png",
     "tags": [
       "mositurizer"
     ]
@@ -1874,7 +1874,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Acne Night Cream by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettacndenight.png",
     "tags": [
       "mositurizer"
     ]
@@ -1887,7 +1887,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett 7X Ceramide Moisturizer 20Gr  by SCARLETT is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlett7xceramide.png",
     "tags": [
       "mositurizer"
     ]
@@ -1900,7 +1900,7 @@
     "price": 59800,
     "stock": 100,
     "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM JUICY CHERRY by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlip1.png",
     "tags": [
       "lip treatment"
     ]
@@ -1913,7 +1913,7 @@
     "price": 59800,
     "stock": 100,
     "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PEACHY GLAZE by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlip2.png",
     "tags": [
       "lip treatment"
     ]
@@ -1926,7 +1926,7 @@
     "price": 59800,
     "stock": 100,
     "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM BERRY SHINE by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlip3.png",
     "tags": [
       "lip treatment"
     ]
@@ -1939,7 +1939,7 @@
     "price": 0,
     "stock": 100,
     "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM CARAMEL GLOSS by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlip4.png",
     "tags": [
       "lip treatment"
     ]
@@ -1952,7 +1952,7 @@
     "price": 59800,
     "stock": 100,
     "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PINK PUNCH by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "scarlettlip5.png",
     "tags": [
       "lip treatment"
     ]
@@ -1965,7 +1965,7 @@
     "price": 49000,
     "stock": 100,
     "description": "NPURE Acne Power Clear MIcellar Water 300ml by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREacne.webp",
     "tags": [
       "makeup"
     ]
@@ -1978,7 +1978,7 @@
     "price": 94000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Power Powder by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREpowderpowder.webp",
     "tags": [
       "makeup"
     ]
@@ -1991,7 +1991,7 @@
     "price": 89000,
     "stock": 100,
     "description": "NPURE CENTELLA ASIATICA FLAWLESS MATTE POWER CUSHION / REFILL CUSHION by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREcentella.webp",
     "tags": [
       "makeup"
     ]
@@ -2004,7 +2004,7 @@
     "price": 80000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Power Primer by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPURAcentellaprimer.webp",
     "tags": [
       "makeup"
     ]
@@ -2017,7 +2017,7 @@
     "price": 59000,
     "stock": 100,
     "description": "NPURE Power Glow Lip Oil by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREpowerlipoil.webp",
     "tags": [
       "makeup"
     ]
@@ -2030,7 +2030,7 @@
     "price": 159000,
     "stock": 100,
     "description": "NPURE Power Powder + Power Primer by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREpowderpowder.webp",
     "tags": [
       "makeup"
     ]
@@ -2043,7 +2043,7 @@
     "price": 29500,
     "stock": 100,
     "description": "NPURE ACNE POWER CLEAR MICELLAR WATER 100ml by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREFreekapas.webp",
     "tags": [
       "makeup"
     ]
@@ -2056,7 +2056,7 @@
     "price": 70000,
     "stock": 100,
     "description": "NPURE Cica Beat The Sun Glow SPF 50 PA ++++ by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREskincare1.avif",
     "tags": [
       "skincare"
     ]
@@ -2069,7 +2069,7 @@
     "price": 89000,
     "stock": 100,
     "description": "NPURE Cica Clear Pad by NPUREis a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREclearpad.avif",
     "tags": [
       "skincare"
     ]
@@ -2082,7 +2082,7 @@
     "price": 90000,
     "stock": 100,
     "description": "NPURE Acne Face toner Centella Asiatica 150ml by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREacnefacetoner.avif",
     "tags": [
       "skincare"
     ]
@@ -2095,7 +2095,7 @@
     "price": 95000,
     "stock": 100,
     "description": "NPURE Cica Beat The Sun POWDER by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREcicatoner.avif",
     "tags": [
       "skincare"
     ]
@@ -2108,7 +2108,7 @@
     "price": 80000,
     "stock": 100,
     "description": "NPURE CENTELLA ASIATICA ACNE CLEAR CHOCOMINT CLAY MASK by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREcentellasia.avif",
     "tags": [
       "skincare"
     ]
@@ -2121,7 +2121,7 @@
     "price": 81000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Face Wash by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREcentellasia2.avif",
     "tags": [
       "skincare"
     ]
@@ -2134,7 +2134,7 @@
     "price": 62000,
     "stock": 100,
     "description": "NPURE ACNE SPOT TREATMENT 20GR by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREspottreatment.avif",
     "tags": [
       "skincare"
     ]
@@ -2147,7 +2147,7 @@
     "price": 71000,
     "stock": 100,
     "description": "NPURE DARK SPOT TREATMENT 5ml by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREdarkspot.avif",
     "tags": [
       "skincare"
     ]
@@ -2160,7 +2160,7 @@
     "price": 80000,
     "stock": 100,
     "description": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZE by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPURErobioticscomfortme1.avif",
     "tags": [
       "skincare"
     ]
@@ -2173,7 +2173,7 @@
     "price": 71000,
     "stock": 100,
     "description": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZE by Skintific is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREsunscreencica.avif",
     "tags": [
       "skincare"
     ]
@@ -2186,7 +2186,7 @@
     "price": 15000,
     "stock": 100,
     "description": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZER by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREfacesheet.avif",
     "tags": [
       "skincare"
     ]
@@ -2199,7 +2199,7 @@
     "price": 90000,
     "stock": 100,
     "description": "NPURE NONI PROBIOTICS \"BALANCE ME\" FINE TONER by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPURErobioticsbalanceme.avif",
     "tags": [
       "skincare"
     ]
@@ -2212,7 +2212,7 @@
     "price": 55000,
     "stock": 100,
     "description": "NPURE Licorice Advanced Peeling Gel by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPURElicorice.avif",
     "tags": [
       "skincare"
     ]
@@ -2225,7 +2225,7 @@
     "price": 62000,
     "stock": 100,
     "description": "NPURE Noni Hypoallergenic Gentle Gel Cleanser 100ml by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREhypoallergic.avif",
     "tags": [
       "skincare"
     ]
@@ -2238,7 +2238,7 @@
     "price": 90000,
     "stock": 100,
     "description": "NPURE Marigold Memory Bounce Moisturizer by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "NPUREmarigold.avif",
     "tags": [
       "skincare"
     ]
@@ -2251,7 +2251,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Brightening Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "GNG_BWBlackOpium.webp",
     "tags": [
       "body wash"
     ]
@@ -2264,7 +2264,7 @@
     "price": 60000,
     "stock": 100,
     "description": "English Pear and Freesia Anti Acne Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "GNG_BWEnglishPear_16474f28-b602-4cb5-b2b6-dd73a41f8d1a.webp",
     "tags": [
       "body wash"
     ]
@@ -2277,7 +2277,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Peony Blush Soft & Glow Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "GNG_BWPeony.webp",
     "tags": [
       "body wash"
     ]
@@ -2290,7 +2290,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Rouge 540 Glow & Firm Scrub Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "GNG_BWROUGE540.webp",
     "tags": [
       "body wash"
     ]
@@ -2303,7 +2303,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Miss Moisture & Glow Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": [],
+    "images": "GNG_BWMissMoisture.webp",
     "tags": [
       "body wash"
     ]
@@ -2314,7 +2314,7 @@
 
 
 
-  
+
   {
     "id": 175,
     "name": "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++",
@@ -2323,10 +2323,8 @@
     "price": 179000,
     "stock": 100,
     "description": "High Coverage Cushion with a Smooth Satin Finish ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2340,10 +2338,8 @@
     "price": 239000,
     "stock": 100,
     "description": "High Coverage Cushion with a Smooth Satin Finish ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2357,10 +2353,8 @@
     "price": 149000,
     "stock": 100,
     "description": "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "(REFILL) Copy Paste CoverBlur Powder Foundation.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2374,10 +2368,8 @@
     "price": 212000,
     "stock": 100,
     "description": "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Copy Paste CoverBlur Powder Foundation.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2391,10 +2383,8 @@
     "price": 67000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 10ml.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2408,10 +2398,8 @@
     "price": 212000,
     "stock": 100,
     "description": "Healthy Glow Finish Skin Tint + Sunscreen in One! ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 50ml.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2425,10 +2413,8 @@
     "price": 174000,
     "stock": 100,
     "description": "16HR Oil-Controlling & Pore-Blurring Loose Powder",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "HOOMAN UNDER CONTROL HD Blur Loose Powder.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2442,10 +2428,8 @@
     "price": 165000,
     "stock": 100,
     "description": "Your HOOMAN Skin at its finest ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "(REFILL) Hooman Breathable UV Cushion Cover SPF35 PA++++.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2459,10 +2443,8 @@
     "price": 208000,
     "stock": 100,
     "description": "COPY & PASTE healthy & glowing complexion to your skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "COPY PASTE BREATHABLE MESH CUSHION SPF 33 PA++.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2476,10 +2458,8 @@
     "price": 165000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "(REFILL) COPY PASTE BREATHABLE MESH CUSHION SPF 33 PA++.jpeg",
     "tags": [
       "makeup",
       "face"
@@ -2493,10 +2473,8 @@
     "price": 87000,
     "stock": 100,
     "description": "Effortless Brow-Filler Effect",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Brow Filler Slim Retractable Eyebrow.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2510,10 +2488,8 @@
     "price": 112000,
     "stock": 100,
     "description": "Extreme Fix & Hold for Brows ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Browcara 24hold Waterproof Brow Gel.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2527,10 +2503,8 @@
     "price": 87000,
     "stock": 100,
     "description": "1st* Thinnest Brow Pencil",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Microslim 4D Eyebrow Pencil.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2544,10 +2518,8 @@
     "price": 95900,
     "stock": 100,
     "description": "Somethinc's Batman Limited Edition ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Forever Stay Eyeliner - Blackest Black Batman Edition.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2561,10 +2533,8 @@
     "price": 109900,
     "stock": 100,
     "description": "Somethinc's Batman Limited Edition",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Tipsy Lashlift Lengthening Mascara - Batman Edition.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2578,10 +2548,8 @@
     "price": 115000,
     "stock": 100,
     "description": "Keratin Lash Lift Mascara with Instant Lifting! ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Tipsy Lash Lift Lengthening Mascara.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2595,10 +2563,8 @@
     "price": 105000,
     "stock": 100,
     "description": "3D Micro-blink Liquid Glitter",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Jewel Glitter Liquid.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2612,10 +2578,8 @@
     "price": 112000,
     "stock": 100,
     "description": "Eyeliner pencil that glides smoothly for your day to day & special occasion needs! ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "VELVET Sugar Kohl Waterproof Gel Eyeliner.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2629,10 +2593,8 @@
     "price": 89000,
     "stock": 100,
     "description": "It's eye-mportant to be Scandalous",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "SCANDAL Waterproof Retractable Eyeliner.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2646,10 +2608,8 @@
     "price": 105000,
     "stock": 100,
     "description": "Only your lashes will know what happened last night ",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "imagHANGOVER Voluminous Fiber Lash Smudgeproof Mascarae1a.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2663,10 +2623,8 @@
     "price": 79000,
     "stock": 100,
     "description": "EASY! Level up your brow like EXPERT!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Brow Matters Triangle Eyebrow Pencil.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2680,10 +2638,8 @@
     "price": 87000,
     "stock": 100,
     "description": "PRECISE! Get your very precise brow shape in SECONDS!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "BROW WIZ Retractable Eyebrow.jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2697,10 +2653,8 @@
     "price": 89000,
     "stock": 100,
     "description": "I won't cry for you darling, my eyeliner is far more interesting! (RENEWAL with SLIMMER TIP & SQUARE PEN)",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "FOREVER STAY Waterproof Liquid Eyeliner (RENEWAL).jpeg",
     "tags": [
       "makeup",
       "eyes"
@@ -2714,10 +2668,8 @@
     "price": 129000,
     "stock": 100,
     "description": "Transferproof 3D Lip Glaze with unbeatable hydration!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Forever Stay Comfort Lip Glaze.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2731,10 +2683,8 @@
     "price": 102900,
     "stock": 100,
     "description": "Transferproof 3D Lip Glaze with unbeatable hydration!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Ceraplump Tinted Lip Balm SPF25 PA++++ - Batman Editionge1a.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2748,10 +2698,8 @@
     "price": 99000,
     "stock": 100,
     "description": "SPF Tinted Lip Balm for instant juicy, healthy, plumpy lips!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "Ceraplump Tinted Lip Balm SPF25 PA++++.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2765,10 +2713,8 @@
     "price": 108900,
     "stock": 100,
     "description": "The Most Transferproof & Lightweight Lipstick Ever!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Checkmatte Transferproof Lipstick.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2782,10 +2728,8 @@
     "price": 82500,
     "stock": 100,
     "description": "Unleash Your True Personality",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "IDOL BLURRY Soft Lip Mattege1a.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2793,16 +2737,14 @@
   },
   {
     "id": 203,
-    "name": "MULTITASK Water Gloss",
+    "name": "MULTITASK Water Gloss Apricot",
     "category": "Make Up",
     "brand": "somethinc",
     "price": 87000,
     "stock": 100,
     "description": "Wet Plumpy Lips",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MULTITASK Water Gloss Apricot.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2810,16 +2752,14 @@
   },
   {
     "id": 204,
-    "name": "MULTITASK Water Gloss",
+    "name": "MULTITASK Water Gloss Blossom",
     "category": "Make Up",
     "brand": "somethinc",
     "price": 87000,
     "stock": 100,
     "description": "Wet Plumpy Lips",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MULTITASK Water Gloss Blossom.jpeg",
     "tags": [
       "makeup",
       "lips"
@@ -2833,10 +2773,8 @@
     "price": 179000,
     "stock": 100,
     "description": "Advanced Acne Treatment with 4x Acne Combat Power*",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Acne Treatment 2% Salicylic Acid Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2850,10 +2788,8 @@
     "price": 179000,
     "stock": 100,
     "description": "Advanced Exfoliating Serum for Smooth & Renewed Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Advanced Peeling 20% AHA BHA PHA LHA Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2867,10 +2803,8 @@
     "price": 169000,
     "stock": 100,
     "description": "Calms & Strengthens Skin Barrier",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Calm Down! Skinpair Barrier Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2884,10 +2818,8 @@
     "price": 315000,
     "stock": 100,
     "description": "Smooth Skin Surface & Diamond-Like Glow",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Diamond Glow PhytoCell Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2901,10 +2833,8 @@
     "price": 179000,
     "stock": 100,
     "description": "Brighten & Glow for Normal to Sensitive Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Gentle Bright Niacinamide + Alpha Arbutin Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2918,10 +2848,8 @@
     "price": 249000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Glass-C 12% Vitamin C+ GlutaBright™ + Ferulic Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2935,10 +2863,8 @@
     "price": 249000,
     "stock": 100,
     "description": "48HR* Hydration Lock for Plumper Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Hyaluronic 9+ Advanced + B5 Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2952,10 +2878,8 @@
     "price": 219000,
     "stock": 100,
     "description": "Ultimate Anti-Aging Care, Fade Wrinkles & Boost Skin Regeneration",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Level 1% Encapsulated Retinol.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2969,10 +2893,8 @@
     "price": 439000,
     "stock": 100,
     "description": "Eternal Youth Serum to fight signs of aging",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "SKINLIFT 1% Copper Peptide Resveratrol Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -2986,10 +2908,8 @@
     "price": 215000,
     "stock": 100,
     "description": "Microneedle-Like Effect Serum",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "BioSpicule Renewal Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -3003,10 +2923,8 @@
     "price": 150000,
     "stock": 100,
     "description": "Exfoliating Glowing Serum for Normal-Oily Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "10% Lactic + Glycolic Peeling Serum.jpeg",
     "tags": [
       "skincare",
       "serum"
@@ -3020,10 +2938,8 @@
     "price": 69000,
     "stock": 100,
     "description": "Antioxidant-Rich Jelly Deep Cleansing Balm",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Omega Jelly Deep Cleansing Balm.jpeg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3037,10 +2953,8 @@
     "price": 140000,
     "stock": 100,
     "description": "Gentle pH Balancer Jelly Cleanser to Freshen Skin Everyday!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Low pH Gentle Jelly Cleanser.jpeg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3054,10 +2968,8 @@
     "price": 125000,
     "stock": 100,
     "description": "Get Rid of Acne Poreblem in 28 days",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "ACNEDOT Treatment Low pH Cleanser.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3071,10 +2983,8 @@
     "price": 98000,
     "stock": 100,
     "description": "Deeply Cleanse After a Heavy Day",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Alpha Squalaneoxidant Deep Cleansing Oil.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3088,10 +2998,8 @@
     "price": 65000,
     "stock": 100,
     "description": "Reset & Refresh Everyday!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Reset Gentle Micellar Cleansing Water.jpeg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3099,16 +3007,14 @@
   },
   {
     "id": 221,
-    "name": "Reset Gentle Micellar Cleansing Water",
+    "name": "Calm Down Gentle Micellar Water",
     "category": "Skincare",
     "brand": "somethinc",
-    "price": 65000,
+    "price": 48900,
     "stock": 100,
     "description": "Reset & Refresh Everyday!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Calm Down Gentle Micellar Water.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3122,10 +3028,8 @@
     "price": 75000,
     "stock": 100,
     "description": "Keep Calm & Chill! Your Sensitive Skin Bestie to Rescue",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "alm Down! PHA 3% Soothing Everyday Toner.jpeg",
     "tags": [
       "skincare",
       "toners"
@@ -3139,10 +3043,8 @@
     "price": 135000,
     "stock": 100,
     "description": "Get Rid of Acne Poreblem in 28 days",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "ACNEDOT Treatment Toner.jpg",
     "tags": [
       "skincare",
       "toners"
@@ -3156,10 +3058,8 @@
     "price": 249000,
     "stock": 100,
     "description": "Essence Toner for Deep Hydration & Fresh Nourishment!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "SUPPLE POWER Hyaluronic9+ Onsen Essence Toner.jpg",
     "tags": [
       "skincare",
       "toners"
@@ -3173,10 +3073,8 @@
     "price": 150000,
     "stock": 100,
     "description": "Make Your Own Glow in 30 Days with #GLOWMAKER!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "GLOW MAKER AHA BHA PHA Clarifying Treatment Toner.jpeg",
     "tags": [
       "skincare",
       "toners"
@@ -3190,10 +3088,8 @@
     "price": 142000,
     "stock": 100,
     "description": "A Lightweight Moisturizer for Sensitive & Angry Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Calm Down! Skinpair R-Cover Cream.jpeg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3207,10 +3103,8 @@
     "price": 186000,
     "stock": 100,
     "description": "Hydrate, Revive, & Strengthen Your Skin",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "CERAMIC SKIN Saviour Moisturizer Gel (Reformulated).jpeg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3224,10 +3118,8 @@
     "price": 142000,
     "stock": 100,
     "description": "Hydrate, Nourish, Balance",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "BEE POWER Propolis & Manuka Honey Sleeping Mask.jpeg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3241,10 +3133,8 @@
     "price": 175000,
     "stock": 100,
     "description": "Get Rid of Acne Poreblem in 28 days",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "imageACNEDOT Treatment Moisturizer Gel.jpeg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3258,10 +3148,8 @@
     "price": 142000,
     "stock": 100,
     "description": "24/7 #MySupplePower In A Jar",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Supple Power Hyaluronic9+Onsen Moisture Bomb Gel.jpeg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3275,10 +3163,8 @@
     "price": 109000,
     "stock": 100,
     "description": "Easy Touch-Up Sunscreen Powder with Oil-control & Pore Blurring effect",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Holyshield! No Sebum Mineral Blur Translucent Loose Powder SPF39 PA++++.jpeg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3292,10 +3178,8 @@
     "price": 120000,
     "stock": 100,
     "description": "Holy Shield! My skin is protected",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Holyshield! Sunscreen Shake Mist SPF46 PA+++.jpeg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3309,10 +3193,8 @@
     "price": 76000,
     "stock": 100,
     "description": "Holy Shield! My Skin is Protected Now!",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Holyshield! Sunscreen Comfort Corrector Serum SPF 50+ PA++++.jpeg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3326,10 +3208,8 @@
     "price": 201000,
     "stock": 100,
     "description": "24H matte foundation with oil control. Lightweight, waterproof, SPF 30.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Powerstay 24H Weightless Liquid Foundation.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3343,10 +3223,8 @@
     "price": 239000,
     "stock": 100,
     "description": "Flawless 24H matte cushion with oil control. Lightweight, long-lasting, SPF 50/PA++++.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Powerstay Sync Matte Cushion.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3360,10 +3238,8 @@
     "price": 239000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Hydrastay Prismatic Glass Cushion.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3377,10 +3253,8 @@
     "price": 160000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Hydrastay Prismatic Glass Cushion [Refill].jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3394,10 +3268,8 @@
     "price": 225000,
     "stock": 100,
     "description": "24H hydrating glow cushion for dry skin. Smooth, radiant finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Hydrastay Lite Glow Cushion.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3411,10 +3283,8 @@
     "price": 168000,
     "stock": 100,
     "description": "Natural foundation with soft-focus effect. Hydrating, brightening, and UV-protective.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Ultra Cover Liquid Matt Foundation.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3428,10 +3298,8 @@
     "price": 225000,
     "stock": 100,
     "description": "24H matte cushion with oil control. SPF 50, lightweight, flawless finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "[NEW SHADES] MAKE OVER Powerstay Demi-Matte Cover Cushion.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3445,10 +3313,8 @@
     "price": 165000,
     "stock": 100,
     "description": "12H high-coverage matte foundation. Lightweight, oil-absorbing, SPF 30, non-comedogenic.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images": 
+      "MAKE OVER Powerstay Total Cover Matte Cream Foundation 12 g.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3462,10 +3328,8 @@
     "price": 201000,
     "stock": 100,
     "description": "24H hydrating foundation for dry skin. Lightweight, buildable, and gives a natural glow.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Hydrastay Glow Fluid Foundation.jpeg",
     "tags": [
       "makeup",
       "foundation"
@@ -3479,10 +3343,8 @@
     "price": 123000,
     "stock": 100,
     "description": "12H full-coverage concealer with smooth matte finish. Non-sticky and easy to blend.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Powerstay Total Cover Liquid Concealer.jpeg",
     "tags": [
       "makeup",
       "concealer"
@@ -3496,10 +3358,8 @@
     "price": 1000,
     "stock": 100,
     "description": "12H full-coverage concealer with smooth matte finish. Non-sticky and easy to blend.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Powerstay Radiant Illuminizer.jpeg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3513,27 +3373,23 @@
     "price": 211000,
     "stock": 100,
     "description": "3-shade shimmer palette with smooth, long-lasting glow. #GlowOnDemand",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Powerstay Ultra Glow Highlighter 3 x 3.5 g.jpeg",
     "tags": [
       "makeup",
       "highlighter"
     ]
   },
-  {
+    {
     "id": 246,
-    "name": "MAKE OVER Powerstay Ultra Glow Highlighter 3 x 3.5 g",
+    "name": "MAKE OVER Shimmering Powder",
     "category": "Make Up",
     "brand": "make over",
-    "price": 211000,
+    "price": 135000,
     "stock": 100,
-    "description": "3-shade shimmer palette with smooth, long-lasting glow. #GlowOnDemand",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "description": "Add 'the last touch' Shimmering Powder to create healthy glowing skin.",
+    "images":
+      "MAKE OVER Shimmering Powder.jpeg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3547,10 +3403,8 @@
     "price": 182000,
     "stock": 100,
     "description": "Universal highlighter with reflective pigments for an intense, seamless glow.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Riche Glow Face Highlighter.jpeg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3564,10 +3418,8 @@
     "price": 144000,
     "stock": 100,
     "description": "2-in-1 compact powder for highlighting and contouring. Fits all skin tones with Vitamin E.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Face Contour Kit 14 g.jpeg",
     "tags": [
       "makeup",
       "contour"
@@ -3581,10 +3433,8 @@
     "price": 151000,
     "stock": 100,
     "description": "Cream-to-powder blush stick for a soft matte, natural flush.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Multifix Matte Blusher.jpeg",
     "tags": [
       "makeup",
       "blush on"
@@ -3598,10 +3448,8 @@
     "price": 110000,
     "stock": 100,
     "description": "Lightweight, silky, long-lasting blush for a natural glow.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Blush On Single 6 g.jpeg",
     "tags": [
       "makeup",
       "blush on"
@@ -3615,10 +3463,8 @@
     "price": 160000,
     "stock": 100,
     "description": "14H cream blush duo for a smooth, long-lasting suede finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "[NEW LIMITED EDITION] MAKE OVER Powerstay Suede Blush.jpeg",
     "tags": [
       "makeup",
       "blush on"
@@ -3629,13 +3475,11 @@
     "name": "MAKE OVER Hydrastay Liquid Tint Blush",
     "category": "Make Up",
     "brand": "make over",
-    "price": 140000,
+    "price": 145000,
     "stock": 100,
     "description": "24H hydrating liquid blush with lasting color and SPF 15.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Hydrastay Liquid Tint Blush.jpeg",
     "tags": [
       "makeup",
       "blush on"
@@ -3649,10 +3493,8 @@
     "price": 153000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Powerstay Grip Brow Gel CLEAR 5.5 g.jpeg",
     "tags": [
       "makeup",
       "mascara"
@@ -3666,10 +3508,8 @@
     "price": 140000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Powerstay Brow Volumizer Mascara.jpeg",
     "tags": [
       "makeup",
       "mascara"
@@ -3683,10 +3523,8 @@
     "price": 139000,
     "stock": 100,
     "description": "12H waterproof mascara for 10x fuller, clump-free lashes.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Lash Impulse Waterproof Mascara.jpeg",
     "tags": [
       "makeup",
       "mascara"
@@ -3700,10 +3538,8 @@
     "price": 139000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Powerstay Micro Brow Sculptor.jpeg",
     "tags": [
       "makeup",
       "mascara"
@@ -3717,13 +3553,11 @@
     "price": 159000,
     "stock": 100,
     "description": "5-shade lip palette with Jojoba Oil and Vitamin E for soft, vibrant lips.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Make Over Lip Color Palette 5.jpeg",
     "tags": [
       "makeup",
-      "lip pallete"
+      "lip palette"
     ]
   },
   {
@@ -3734,10 +3568,8 @@
     "price": 112000,
     "stock": 100,
     "description": "Matte lip liner for precise contour and fuller, long-lasting lips.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "MAKE OVER Lip Amplify Contour Liner.jpeg",
     "tags": [
       "makeup",
       "lip pencil"
@@ -3751,10 +3583,8 @@
     "price": 91000,
     "stock": 100,
     "description": "4-shade matte and shimmer eye palette with intense, blendable colors that last up to 10 hours.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Quad Eye Palette Sunlit Blaze.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -3768,10 +3598,8 @@
     "price": 91000,
     "stock": 100,
     "description": "4-shade matte and shimmer palette with intense, blendable colors for versatile everyday looks.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Quad Eye Palette Brunette Dawn.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -3785,10 +3613,8 @@
     "price": 91000,
     "stock": 100,
     "description": "4-shade matte and shimmer palette with intense, blendable, long-lasting colors.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Quad Eye Palette Rose Aurora.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -3802,10 +3628,8 @@
     "price": 59500,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "EyeXpert Perfect Precision Liner.png",
     "tags": [
       "makeup",
       "eyes"
@@ -3819,10 +3643,8 @@
     "price": 58000,
     "stock": 100,
     "description": "Oval-tip brow pencil for precise, natural, long-lasting brows.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Eyexpert Matic Brow Definer.png",
     "tags": [
       "makeup",
       "eyes"
@@ -3836,10 +3658,8 @@
     "price": 122000,
     "stock": 100,
     "description": "Wardah Lip Paint Bundle - Dazzling New York with Brow Definer + FREE Passport Case.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "NEW! Wardah Bundle Colorfit Lip Paint - Dazzling New York.png",
     "tags": [
       "makeup",
       "eyes"
@@ -3853,10 +3673,8 @@
     "price": 234000,
     "stock": 100,
     "description": "Wardah Lip Paint Bundle – Royal London with Cushion, Brow Definer + FREE Luggage Tag.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "NEW! Wardah Bundle Colorfit Lip Paint - Royal London.png",
     "tags": [
       "makeup",
       "eyes"
@@ -3870,10 +3688,8 @@
     "price": 48000,
     "stock": 100,
     "description": "Lightweight concealer with medium-high coverage for daily use.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Lightening Liquid Concealer.png",
     "tags": [
       "makeup",
       "eyes"
@@ -3887,10 +3703,8 @@
     "price": 98000,
     "stock": 100,
     "description": "3-in-1 contour and highlight palette with creamy and intense colors for easy face definition.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Highlight Contour Palette.webp",
     "tags": [
       "makeup",
       "face"
@@ -3904,10 +3718,8 @@
     "price": 98500,
     "stock": 100,
     "description": "Lightweight glow cushion with SPF 33 and high coverage for a flawless, radiant finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Refill Colorfit Perfect Glow Cushion SPF 33 PA++.png",
     "tags": [
       "makeup",
       "face"
@@ -3921,10 +3733,8 @@
     "price": 234000,
     "stock": 100,
     "description": "Wardah Lip Paint Bundle – Royal London with Cushion, Brow Definer & FREE Luggage Tag.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "NEW! Wardah Bundle Colorfit Lip Paint - Royal London.png",
     "tags": [
       "makeup",
       "face"
@@ -3938,10 +3748,8 @@
     "price": 135000,
     "stock": 100,
     "description": "Lightweight glow cushion with high coverage for a radiant, flawless, non-cakey finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Perfect Glow Cushion.png",
     "tags": [
       "makeup",
       "face"
@@ -3955,10 +3763,8 @@
     "price": 89000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Wardah SKYWARD Matte Lip Cream X Garuda Indonesia- 20 PEACH OF MIND.png",
     "tags": [
       "makeup",
       "lips"
@@ -3972,10 +3778,8 @@
     "price": 89000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Wardah SKYWARD Matte Lip Cream X Garuda Indonesia- 03 SEE YOU Latte.png",
     "tags": [
       "makeup",
       "lips"
@@ -3989,10 +3793,8 @@
     "price": 69000,
     "stock": 100,
     "description": "Limited edition halal matte lip cream with long-lasting, non-transfer color in 6 world-inspired shades.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Colorfit Last All Day Lip Paint Around the World.png",
     "tags": [
       "makeup",
       "lips"
@@ -4006,10 +3808,8 @@
     "price": 47500,
     "stock": 100,
     "description": "Quick-set matte lip cream with vitamin C and 5 camera-ready shades.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "EVERYDAY! MATTE LIP SHOT.webp",
     "tags": [
       "makeup",
       "lips"
@@ -4023,10 +3823,8 @@
     "price": 64000,
     "stock": 100,
     "description": "Fresh matte lip ink with watery texture and serum oils for a healthy, bare-lip look.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "COLORFIT FRESH LIP INK SERUM.png",
     "tags": [
       "makeup",
       "lips"
@@ -4040,10 +3838,8 @@
     "price": 29500,
     "stock": 100,
     "description": "Limited edition lip balm with Vitamin E and UV protection for soft, hydrated lips.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "LIP BALM PICNIC LIMITED EDITION.png",
     "tags": [
       "makeup",
       "lips"
@@ -4057,10 +3853,8 @@
     "price": 69500,
     "stock": 100,
     "description": "Intense, transferproof lip paint that lasts up to 12 hours.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "COLORFIT LAST ALL DAY LIP PAINT.png",
     "tags": [
       "makeup",
       "lips"
@@ -4074,10 +3868,8 @@
     "price": 99900,
     "stock": 100,
     "description": "On-the-go sunscreen perfect for busy days and makeup reapplication.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "UV SHIELD LIGHT MATTE SUN STICK SPF 50 PA++++.webp",
     "tags": [
       "skincare",
       "uv shield series"
@@ -4091,10 +3883,8 @@
     "price": 89000,
     "stock": 100,
     "description": "UV Shield Active Protection Serum is a lightweight, waterproof SPF 50 sunscreen for strong outdoor protection.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "UV SHIELD ACTIVE PROTECTION SERUM SPF 50 PA++++.webp",
     "tags": [
       "skincare",
       "uv shield series"
@@ -4108,10 +3898,8 @@
     "price": 62000,
     "stock": 100,
     "description": "Wardah UV Shield Aqua Fresh Essence is a lightweight, hydrating SPF 50 sunscreen with a fresh water-like feel.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "UV SHIELD AQUA FRESH SUNSCREEN SERUM SPF 50 PA++++.webp",
     "tags": [
       "skincare",
       "uv shield series"
@@ -4125,10 +3913,8 @@
     "price": 29000,
     "stock": 100,
     "description": "Wardah Crystal Secret Radiance Serum Mask brightens and fades dark spots while strengthening the skin barrier.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "CRYSTAL SECRET RADIANCE SERUM MASK.webp",
     "tags": [
       "skincare",
       "crystal secret"
@@ -4142,10 +3928,8 @@
     "price": 50000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "CRYSTAL SECRET MICELLAR CLEANSING GEL.webp",
     "tags": [
       "skincare",
       "crystal secret"
@@ -4159,15 +3943,17 @@
     "price": 115000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "CRYSTAL SECRET BRIGHT PEPTIDE + 5% NIACINAMIDE HYPERPIGMENTATION EXPERT NIGHT MOISTURIZER.webp",
     "tags": [
       "skincare",
       "crystal secret"
     ]
   },
+
+
+
+
   {
     "id": 283,
     "name": "[BUNDLE] Luxcrime Blushin Babe + Highlighter",
@@ -4176,10 +3962,8 @@
     "price": 228000,
     "stock": 100,
     "description": "-",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "[BUNDLE] Luxcrime Blushin Babe + Highlighter.webp",
     "tags": [
       "makeup",
       "face"
@@ -4193,10 +3977,8 @@
     "price": 109000,
     "stock": 100,
     "description": "Lightweight, blendable liquid blush for a soft, natural, long-lasting flush.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Blushin Babe.webp",
     "tags": [
       "makeup",
       "face"
@@ -4210,10 +3992,8 @@
     "price": 79000,
     "stock": 100,
     "description": "Lightweight, long-lasting powder blush that blends easily for a natural, healthy flush.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Fleshy-Cheek Blush.png",
     "tags": [
       "makeup",
       "face"
@@ -4227,10 +4007,8 @@
     "price": 95000,
     "stock": 100,
     "description": "Brow gel that tints and sets brows for a natural, long-lasting look.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime On Fleek Browcara.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -4244,10 +4022,8 @@
     "price": 95000,
     "stock": 100,
     "description": "Ultra-slim brow pencil for precise, natural, smudge-proof strokes.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Slim Triangle Precision Brow Pencil.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -4261,10 +4037,8 @@
     "price": 85700,
     "stock": 100,
     "description": "Waterproof matte liquid eyeliner with a precise brush for bold, long-lasting lines.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Ultra Stay Eyeliner.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -4278,10 +4052,8 @@
     "price": 79000,
     "stock": 100,
     "description": "A fast-drying, no-fallout liquid glitter for easy sparkle on eyes or face.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Glorious Liquid Glitter.webp",
     "tags": [
       "makeup",
       "eyes"
@@ -4295,10 +4067,8 @@
     "price": 89000,
     "stock": 100,
     "description": "A glossy lip balm with Avocado and Macadamia oils that hydrates and tints lips.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Glass Tinted Lip Balm.webp",
     "tags": [
       "makeup",
       "lips"
@@ -4312,10 +4082,8 @@
     "price": 79000,
     "stock": 100,
     "description": "A lightweight lip stain with rich color, all-day comfort, and nourishing Vitamin E and Jojoba Oil.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Harley Quinn Ultra Light Lip Stain.webp",
     "tags": [
       "makeup",
       "lips"
@@ -4329,10 +4097,8 @@
     "price": 89000,
     "stock": 100,
     "description": "A transfer-proof glossy lipstick that lasts all day while keeping lips soft and hydrated.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Shine Addict Lip Vinyl.webp",
     "tags": [
       "makeup",
       "lips"
@@ -4346,10 +4112,8 @@
     "price": 129000,
     "stock": 100,
     "description": "A gentle micellar water that cleanses, hydrates, and refreshes skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Deep Cleansing Micellar Water.webp",
     "tags": [
       "skincare",
       "cleansers"
@@ -4363,10 +4127,8 @@
     "price": 51900,
     "stock": 100,
     "description": "Makeup-removing wipes that cleanse and refresh skin anywhere.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Refreshing Cleansing Wipes.webp",
     "tags": [
       "skincare",
       "cleansers"
@@ -4380,10 +4142,8 @@
     "price": 47500,
     "stock": 100,
     "description": "A lightweight balm with green tea and veggie extracts that melts makeup and leaves skin clean and glowing.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Soothing Cleansing Sorbet.webp",
     "tags": [
       "skincare",
       "cleansers"
@@ -4397,10 +4157,8 @@
     "price": 139000,
     "stock": 100,
     "description": "A weightless SPF 50+ mist with Aloe Vera, Green Tea, and Niacinamide to refresh and protect skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Ultra Fine Sunscreen Spray SPF 50 PA+++ – 50 ml.webp",
     "tags": [
       "skincare",
       "sunscreen"
@@ -4414,10 +4172,8 @@
     "price": 48500,
     "stock": 100,
     "description": "A lightweight SPF 50+ sunscreen that hydrates, brightens, and protects without a greasy feel.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Luxcrime Ultra Light Sunscreen Essence SPF 50 PA++++.webp",
     "tags": [
       "skincare",
       "sunscreen"
@@ -4431,10 +4187,8 @@
     "price": 40000,
     "stock": 100,
     "description": "A lightweight matte compact powder with UV protection and oil control for up to 8 hours.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Emina Daily Matte Compact Powder 11 g (Collaboration).png",
     "tags": [
       "makeup",
       "powder"
@@ -4448,10 +4202,8 @@
     "price": 44000,
     "stock": 100,
     "description": "A long-lasting pressed blush that blends naturally for a smooth, soft-looking finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Cheek Lit Pressed Blush x Muzik Tiger.png",
     "tags": [
       "makeup",
       "blush"
@@ -4465,10 +4217,8 @@
     "price": 98500,
     "stock": 100,
     "description": "A matte cushion with oil control and 8-hour buildable coverage.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Daily Matte Cushion.png",
     "tags": [
       "makeup",
       "blush"
@@ -4482,10 +4232,8 @@
     "price": 42000,
     "stock": 100,
     "description": "Emina Daily Matte Compact Powder is a lightweight, oil-controlling matte powder with UV protection and 8-hour wear.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Daily Matte Compact Powder.jpeg",
     "tags": [
       "makeup",
       "powder"
@@ -4499,10 +4247,8 @@
     "price": 33500,
     "stock": 100,
     "description": "Emina Daily Matte BB Cream is a lightweight, oil-controlling BB cream with a healthy-matte finish.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "image1a.png",
     "tags": [
       "makeup",
       "liquid complexion"
@@ -4516,10 +4262,8 @@
     "price": 34000,
     "stock": 100,
     "description": "Emina Brightening Face Wash cleans pores, brightens in one wash, and controls oil gently.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Emina Bright Stuff Prebiotic Tranexamic Acid Brightening Facial Cleanser 100ML.png",
     "tags": [
       "skincare",
       "face wash"
@@ -4533,10 +4277,8 @@
     "price": 30000,
     "stock": 100,
     "description": "Emina Bright Stuff Face Wash brightens and hydrates skin while cleansing away dirt and dullness.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Emina Bright Stuff Niacinamide Oxy Ceramide Brightening Facial Cleanser 100ml.png",
     "tags": [
       "skincare",
       "face wash"
@@ -4550,10 +4292,8 @@
     "price": 53000,
     "stock": 100,
     "description": "Emina Bright Stuff Face Wash brightens and hydrates skin while cleansing away dirt and dullness.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Emina Made-Calm & Purify Low pH Micellar Water 300 ml.png",
     "tags": [
       "skincare",
       "makeup remover"
@@ -4567,10 +4307,8 @@
     "price": 53000,
     "stock": 100,
     "description": "Emina Low pH Micellar Water gently cleanses while calming acne-prone, oily, and red skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Emina HyaluBright & Smooth Low pH Micellar Water 300 ml.png",
     "tags": [
       "skincare",
       "makeup remover"
@@ -4584,10 +4322,8 @@
     "price": 169000,
     "stock": 100,
     "description": "Studio Tropik SPF (Skin Pretty Filter) combines SPF 50+ hybrid sunscreen with new Skin Fusion Capsule technology.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "SPF 50+ PA++ (Mint) - Skin Pretty Filter.webp",
     "tags": [
       "skincare",
       "sunscreen"
@@ -4601,10 +4337,8 @@
     "price": 169000,
     "stock": 100,
     "description": "Studio Tropik SPF (Skin Pretty Filter) combines SPF 50+ hybrid sunscreen with new Skin Fusion Capsule technology.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "SPF 50+ PA++ (Peach) - Skin Pretty Filter.webp",
     "tags": [
       "skincare",
       "sunscreen"
@@ -4618,10 +4352,8 @@
     "price": 99000,
     "stock": 100,
     "description": "Studio Tropik Rescue RX is a gentle antibacterial mist that kills acne-causing bacteria and soothes the skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Rescue RX - Antibacterial Face Mist.webp",
     "tags": [
       "skincare",
       "face"
@@ -4635,10 +4367,8 @@
     "price": 149000,
     "stock": 100,
     "description": "A jelly-to-oil cleanser that removes makeup and impurities while leaving skin clean and comfortable.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Jelly-To-Oil Cleanser.webp",
     "tags": [
       "skincare",
       "deep cleansing cleanser"
@@ -4652,10 +4382,8 @@
     "price": 180000,
     "stock": 100,
     "description": "A creamy tonic that hydrates, soothes, and plumps dry, sensitive skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Probiome Skin Tonic.webp",
     "tags": [
       "skincare",
       "hydrating toner"
@@ -4669,10 +4397,8 @@
     "price": 180000,
     "stock": 100,
     "description": "A lightweight tonic that refreshes and calms redness for acne-prone skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Herbitus Skin Tonic.webp",
     "tags": [
       "skincare",
       "hydrating toner"
@@ -4686,10 +4412,8 @@
     "price": 180000,
     "stock": 100,
     "description": "A lightweight tonic that refreshes and calms redness for acne-prone skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Pumpkinu Skin Tonic.webp",
     "tags": [
       "skincare",
       "2-in-1 milky toner"
@@ -4703,10 +4427,8 @@
     "price": 199000,
     "stock": 100,
     "description": "A final-step moisturizer that locks in hydration and strengthens the skin barrier for healthier skin.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Fresh Skin Barrier Cream.webp",
     "tags": [
       "skincare",
       "water cream moisturizer"
@@ -4720,10 +4442,8 @@
     "price": 199000,
     "stock": 100,
     "description": "A skin-barrier-strengthening moisturizer that seals in hydration as the final step of your routine.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Rich Skin Barrier Cream.webp",
     "tags": [
       "skincare",
       "dewy cream moisturizer"
@@ -4737,10 +4457,8 @@
     "price": 199000,
     "stock": 100,
     "description": "Brightening moisturizer that fades acne marks, boosts radiance, and strengthens the skin barrier.",
-    "images": [
-      "image1a.jpg",
-      "image1b.jpg"
-    ],
+    "images":
+      "Brighter Skin Barrier Pudding.webp",
     "tags": [
       "skincare",
       "brightening moisturizer"

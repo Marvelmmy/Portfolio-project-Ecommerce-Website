@@ -3,8 +3,10 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.secret_key = 'secretkey'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Rms211411@localhost:5432/beautify'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
-with app.app_context():
-    db.create_all()
+
+

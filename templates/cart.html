@@ -6,10 +6,20 @@
     <h2>My Cart</h2>
   </div>
 
+  <div class="tab-menu">
+    <div class="nav-search">
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+  </div>
   <!-- To Pay Section -->
   <section id="to-pay-section" class="tab-content active">
     <div class="to-pay">
-      {% for product in products %}
+      {% for product in cart %}
       <div class="track-order-product-container">
         <!-- Product Image -->
         <img
@@ -24,12 +34,22 @@
           <p>Quantity: {{ product.quantity if product.quantity else 1 }}</p>
           <p>Price: Rp. {{ "{:,.0f}".format(product.price) }}</p>
         </div>
-
-        <i class="fas fa-info-circle"></i>
+        <button
+          class="delete-btn"
+          onclick="removeItem('{{ product.product_id }}')"
+        >
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
       </div>
 
       <hr />
       {% endfor %}
+      <div class="payment">
+        <button class="payment">
+          Proceed to Payment - Rp. {{ "{:,.0f}".format(cart |
+          sum(attribute='price')) }}
+        </button>
+      </div>
     </div>
   </section>
 </div>

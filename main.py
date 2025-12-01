@@ -1,42 +1,80 @@
-from flask import render_template, redirect, url_for, request, session, flash
+from flask import jsonify, render_template, redirect, url_for, request, session, flash
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
+from werkzeug.security import generate_password_hash, check_password_hash
+from config import app, db
+from models import User
+from models import Product
+import os
+from werkzeug.utils import secure_filename
+from flask import current_app
 import json
-from typing import List, Dict, DefaultDict
-from collections import defaultdict
-from config import app
-import models
-from models.user import User
-from models.product import Product
-
-users = {"admin": "12345"} # Simple in-memory user store
+from typing import List, Dict
 
 # ---------- LOGIN MANAGER SETUP ----------
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'auth'
+login_manager.login_view = 'login'  # FIXED
+
+with app.app_context():
+    db.create_all()
 
 @login_manager.user_loader
-def load_user(user_id):
-    return models.User.query.get(int(user_id))
+def load_user(user_id: int) -> User:
+    return User.query.get(int(user_id))
 
+
+# ---------- LOGIN ----------
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    # handle login
     if request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
 
-        user = models.User.query.filter_by(username=username).first()
-        if user and user.password == password:  # (hash this later!)
+        user = User.query.filter_by(username=username).first()
+
+        if user and check_password_hash(user.password, password):
             login_user(user)
             flash('Login successful!', 'success')
             return redirect(url_for('home'))
         else:
             flash('Invalid credentials. Please try again.', 'danger')
-    # render login template
+
     return render_template('auth.html')
 
-# logout 
+
+# ---------- REGISTER ----------
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        username = request.form.get('username')
+        email = request.form.get('Email')
+        password = request.form.get('password')
+        
+        # Check duplicates
+        if User.query.filter_by(username=username).first():
+            flash("Username already exists.", "danger")
+            return redirect(url_for('register'))
+
+        if User.query.filter_by(email=email).first():
+            flash("Email already exists.", "danger")
+            return redirect(url_for('register'))
+
+        new_user = User(
+            username=username,
+            email=email,
+            password=generate_password_hash(password)  # HASHED
+        )
+
+        db.session.add(new_user)
+        db.session.commit()
+
+        flash("Account created!", "success")
+        return redirect(url_for('login'))  # should login next
+
+    return render_template('auth.html')
+
+
+# ---------- LOGOUT ----------
 @app.route('/logout')
 @login_required
 def logout():
@@ -44,7 +82,37 @@ def logout():
     flash('You have been logged out.', 'info')
     return redirect(url_for('home'))
 
-# ---------- MAIN ROUTES ----------
+
+# ---------- PROFILE IMAGE UPLOAD ----------
+
+@app.route('/profile')
+@login_required
+def profile():
+    return render_template('other-category/profile.html')
+
+@app.route('/upload_profile', methods=['POST'])
+@login_required
+def upload_profile():
+    if 'image' not in request.files:
+        flash("No file selected.", "danger")
+        return redirect(url_for('profile'))
+
+    file = request.files['image']
+    if file.filename == '':
+        flash("No file selected.", "danger")
+        return redirect(url_for('profile'))
+
+    filename = secure_filename(file.filename)
+    filepath = os.path.join(current_app.root_path, "static/images/profile", filename)
+    file.save(filepath)
+
+    current_user.profile_image = filename
+    db.session.commit()
+
+    flash("Profile image updated!", "success")
+    return redirect(url_for('profile'))
+
+# ---------- ABOUT ROUTES ----------
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -52,38 +120,81 @@ def about():
 # ---------- CART ROUTES ----------
 @app.route('/add-to-cart', methods=['POST'])
 def add_to_cart():
-    data =  request.get_json()
-    product_id = str(data.get('product_id')) 
+    data = request.get_json()
+
+    product_id = str(data.get('product_id'))
     name = data.get('name')
     price = int(data.get('price'))
 
-    session.permanent = True
     cart = session.get('cart', [])
 
-    # Check if already exists
+    # Check if item exists
     for item in cart:
         if item['product_id'] == product_id:
             item['quantity'] += 1
             session['cart'] = cart
-            return redirect(url_for('cart'))
+            return {"message": "Increased quantity"}, 200
 
-    # If not found, add new
+    # Add new item
     cart.append({
-        'product_id': product_id,
-        'name': name,
-        'price': price,
-        'quantity': 1
+        "product_id": product_id,
+        "name": name,
+        "price": price,
+        "quantity": 1
     })
 
     session['cart'] = cart
-    return redirect(url_for('cart'))
+    session.permanent = True
 
+    return {"message": "Added to cart!"}, 200
+
+# remove item from cart
+@app.route('/remove-from-cart', methods=['POST'])
+def remove_from_cart():
+    data = request.get_json()
+    product_id = str(data.get('product_id'))
+
+    cart = session.get('cart', [])
+
+    # remove items where product_id matches
+    cart = [item for item in cart if item['product_id'] != product_id]
+
+    session['cart'] = cart
+    session.modified = True
+
+    return {"message": "Item removed"}, 200
 
 @app.route('/cart')
 def cart():
-    cart = session.get('cart', [])
-    total = sum(item['price'] * item['quantity'] for item in cart)
-    return render_template('cart.html', cart=cart, total=total)
+    session_cart = session.get('cart', [])
+
+    # Load all products
+    with open('static/data/products.json', 'r', encoding='utf-8') as f:
+        products = json.load(f)
+
+    cart_items = []
+
+    for item in session_cart:
+        for p in products:
+            if int(p['id']) == int(item['product_id']):
+                cart_items.append({
+                    "product_id": item['product_id'],
+                    "name": p.get('name'),
+                    "price": p.get('price'),
+                    "brand": p.get('brand', ''),
+                    "tags": p.get('tags', []),
+                    "images": p.get('images', []),
+                    "quantity": item['quantity'],
+                    "total_price": p.get('price') * item['quantity']
+                })
+                break
+
+    total = sum(i['total_price'] for i in cart_items)
+
+    print("CART ITEMS:", cart_items)  # Debug
+
+    return render_template("cart.html", cart=cart_items, total=total)
+
 
 # ---------- ORDER TRACKING ROUTES ----------
 @app.route('/track-order')

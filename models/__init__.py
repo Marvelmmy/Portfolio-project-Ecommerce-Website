@@ -1,3 +1,4 @@
-from flask_sqlalchemy import SQLAlchemy
+from config import db
 
-db = SQLAlchemy()
+from .user import User
+from .product import Product

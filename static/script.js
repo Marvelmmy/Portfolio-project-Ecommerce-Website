@@ -52,3 +52,27 @@ if (popup) {
     document.getElementById('login').reset();
     document.getElementById('register').reset();
   }
+
+// cart page
+function removeItem(productId) {
+    fetch("/remove-from-cart", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ product_id: productId })
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        location.reload(); 
+    });
+}
+
+// profile preview 
+function previewProfileImage(event) {
+    const reader = new FileReader();
+    reader.onload = function(){
+        const output = document.getElementById('profile-preview');
+        output.src = reader.result;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+}

@@ -36,6 +36,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -66,17 +70,25 @@
             <a href="{{ url_for('cart') }}">Cart</a>
             {% if current_user.is_authenticated %}
             <div class="user-menu">
-              <span>Hi, {{ current_user.username }}</span>
+              <a href="{{ url_for('profile') }}">
+                <img
+                  src="{% if current_user.profile_image %}
+            {{ url_for('static', filename='images/profile/' + current_user.profile_image) }}
+         {% else %}
+            {{ url_for('static', filename='images/profile/default.png') }}
+         {% endif %}"
+                />
+              </a>
+              <span>{{ current_user.username }}</span>
               <a href="{{ url_for('logout') }}">Logout</a>
             </div>
             {% else %}
-            <a href="{{ url_for('login') }}"
-              >Login <i class="fas fa-user"></i
-            ></a>
+            <a href="{{ url_for('login') }}">
+              Login <i class="fas fa-user"></i>
+            </a>
             {% endif %}
           </div>
         </div>
-
         <div class="bottom-nav">
           <div class="left-cat">
             <a href="{{ url_for('skincare') }}">Skincare</a>
