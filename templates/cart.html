@@ -1,54 +1,61 @@
-{% extends 'base.html' %} {% block title %}Beautify.id | Track Order{% endblock
-%} {% block content %}
+{% extends 'base.html' %} {% block title %}Beautify.id | My Cart{% endblock %}
+{% block content %}
 
 <div class="track-container">
   <div class="track-order-banner">
     <h2>My Cart</h2>
   </div>
 
-  <div class="tab-menu">
-    <div class="nav-search">
-      <input
-        type="text"
-        placeholder="&#9776; Specific Order"
-        class="nav-search-input"
-      />
-      <i class="fas fa-magnifying-glass"></i>
-    </div>
-  </div>
-  <!-- To Pay Section -->
   <section id="to-pay-section" class="tab-content active">
     <div class="to-pay">
       {% for product in cart %}
-      <div class="track-order-product-container">
-        <!-- Product Image -->
-        <img
-          src="{{ url_for('static', filename='images/' + product.images[0]) }}"
-          alt="{{ product.name }}"
-        />
-
-        <div class="track-order-product-info">
-          <h3>{{ product.name }}</h3>
-          <p>Brand: {{ product.brand }}</p>
-          <p>Variation: {{ product.tags | join(', ') }}</p>
-          <p>Quantity: {{ product.quantity if product.quantity else 1 }}</p>
-          <p>Price: Rp. {{ "{:,.0f}".format(product.price) }}</p>
+      <div class="cart-card">
+        <!-- LEFT: Product Image -->
+        <div class="cart-img-wrapper">
+          <img
+            src="{{ url_for('static', filename='images/products/' + product.images) }}"
+            alt="{{ product.name }}"
+          />
         </div>
-        <button
-          class="delete-btn"
-          onclick="removeItem('{{ product.product_id }}')"
-        >
-          <i class="fa-solid fa-trash-can"></i>
-        </button>
-      </div>
 
-      <hr />
+        <!-- CENTER: Product Info -->
+        <div class="cart-info">
+          <h4 class="brand">{{ product.brand }}</h4>
+          <p class="name">{{ product.name }}</p>
+          <p class="variation">Variation: {{ product.tags | join(', ') }}</p>
+          <p class="qty">Qty: {{ product.quantity }}</p>
+          <p class="price">Rp. {{ "{:,.0f}".format(product.price) }}</p>
+        </div>
+
+        <div class="cart-actions">
+          <button
+            class="qty-btn"
+            onclick="updateQuantity('{{ product.product_id }}', 'minus')"
+          >
+            -
+          </button>
+          <span class="qty-number">{{ product.quantity }}</span>
+          <button
+            class="qty-btn"
+            onclick="updateQuantity('{{ product.product_id }}', 'plus')"
+          >
+            +
+          </button>
+          <button
+            class="delete-btn"
+            onclick="removeItem('{{ product.product_id }}')"
+          >
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </div>
+      </div>
       {% endfor %}
-      <div class="payment">
-        <button class="payment">
-          Proceed to Payment - Rp. {{ "{:,.0f}".format(cart |
-          sum(attribute='price')) }}
-        </button>
+
+      <div class="checkout-bar">
+        <div class="checkout-info">
+          <span class="total-price">Rp. {{ "{:,.0f}".format(total) }}</span>
+          <button class="checkout-btn">Checkout ({{ cart|count }})</button>
+        </div>
       </div>
     </div>
   </section>

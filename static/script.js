@@ -54,7 +54,7 @@ if (popup) {
   }
 
 // cart page
-function removeItem(productId) {
+function removeItem(productId) { // productId is passed from the template
     fetch("/remove-from-cart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -64,6 +64,25 @@ function removeItem(productId) {
     .then(data => {
         console.log(data);
         location.reload(); 
+    });
+}
+
+function updateQuantity(product_id, action) { // action for item quantity
+    fetch("/update-quantity", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            product_id: product_id,
+            action: action  
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.ok) {
+            location.reload(); 
+        } else {
+            alert(data.message);
+        }
     });
 }
 

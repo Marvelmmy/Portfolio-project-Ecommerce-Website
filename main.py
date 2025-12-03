@@ -3,7 +3,8 @@ from flask_login import LoginManager, login_user, logout_user, login_required, c
 from werkzeug.security import generate_password_hash, check_password_hash
 from config import app, db
 from models import User
-from models import Product
+from models.cart import Cart
+from models.product import Product
 import os
 from werkzeug.utils import secure_filename
 from flask import current_app
@@ -118,83 +119,103 @@ def about():
     return render_template('about.html')
 
 # ---------- CART ROUTES ----------
+# ---------- CART ROUTES ----------
+from flask_login import login_required, current_user
+
 @app.route('/add-to-cart', methods=['POST'])
+@login_required
 def add_to_cart():
     data = request.get_json()
 
-    product_id = str(data.get('product_id'))
-    name = data.get('name')
-    price = int(data.get('price'))
+    user_id = current_user.id
+    product_id = data['product_id']
+    name = data['name']            
+    price = int(data['price'])     
 
-    cart = session.get('cart', [])
+    existing = Cart.query.filter_by(user_id=user_id, product_id=product_id).first()
 
-    # Check if item exists
-    for item in cart:
-        if item['product_id'] == product_id:
-            item['quantity'] += 1
-            session['cart'] = cart
-            return {"message": "Increased quantity"}, 200
+    if existing:
+        existing.quantity += 1
+    else:
+        new_item = Cart(
+            user_id=user_id,
+            product_id=product_id,
+            quantity=1
+        )
+        db.session.add(new_item)
 
-    # Add new item
-    cart.append({
-        "product_id": product_id,
-        "name": name,
-        "price": price,
-        "quantity": 1
-    })
+    db.session.commit()
+    return {"message": "Added!"}, 200
 
-    session['cart'] = cart
-    session.permanent = True
 
-    return {"message": "Added to cart!"}, 200
-
-# remove item from cart
 @app.route('/remove-from-cart', methods=['POST'])
+@login_required
 def remove_from_cart():
     data = request.get_json()
-    product_id = str(data.get('product_id'))
+    user_id = current_user.id
+    product_id = data['product_id']
 
-    cart = session.get('cart', [])
-
-    # remove items where product_id matches
-    cart = [item for item in cart if item['product_id'] != product_id]
-
-    session['cart'] = cart
-    session.modified = True
+    item = Cart.query.filter_by(user_id=user_id, product_id=product_id).first()
+    if item:
+        db.session.delete(item)
+        db.session.commit()
 
     return {"message": "Item removed"}, 200
 
-@app.route('/cart')
-def cart():
-    session_cart = session.get('cart', [])
+@app.route('/update-quantity', methods=['POST'])
+@login_required
+def update_quantity():
 
-    # Load all products
+    data = request.get_json()
+    product_id = data.get('product_id')
+    action = data.get('action')
+    user_id = current_user.id
+
+    item = Cart.query.filter_by(user_id=user_id, product_id=product_id).first()
+
+    if not item:
+        return jsonify({"ok": False, "message": "Item not found"}), 404
+
+    if action == "plus":
+        item.quantity += 1
+
+    elif action == "minus":
+        item.quantity -= 1
+        if item.quantity <= 0:
+            db.session.delete(item)
+            db.session.commit()
+            return jsonify({"ok": True, "message": "Item removed"})
+
+    db.session.commit()
+    return jsonify({"ok": True, "message": "Quantity updated"})
+
+@app.route('/cart')
+@login_required
+def cart():
+    user_id = current_user.id
+    cart_rows = Cart.query.filter_by(user_id=user_id).all()
+
+    # Load product data
     with open('static/data/products.json', 'r', encoding='utf-8') as f:
         products = json.load(f)
 
     cart_items = []
 
-    for item in session_cart:
+    for row in cart_rows:
         for p in products:
-            if int(p['id']) == int(item['product_id']):
+            if int(p['id']) == int(row.product_id):
                 cart_items.append({
-                    "product_id": item['product_id'],
-                    "name": p.get('name'),
-                    "price": p.get('price'),
-                    "brand": p.get('brand', ''),
-                    "tags": p.get('tags', []),
+                    "product_id": row.product_id,
+                    "name": p['name'],
+                    "price": p['price'],
                     "images": p.get('images', []),
-                    "quantity": item['quantity'],
-                    "total_price": p.get('price') * item['quantity']
+                    "quantity": row.quantity,
+                    "total_price": p['price'] * row.quantity
                 })
-                break
 
     total = sum(i['total_price'] for i in cart_items)
 
-    print("CART ITEMS:", cart_items)  # Debug
-
     return render_template("cart.html", cart=cart_items, total=total)
-
 
 # ---------- ORDER TRACKING ROUTES ----------
 @app.route('/track-order')

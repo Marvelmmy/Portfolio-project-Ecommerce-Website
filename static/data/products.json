@@ -21,7 +21,7 @@
     "price": 145000,
     "stock": 100,
     "description": "Invisiblur All Day Loose Powder by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "invisiblur.wep",
+    "images": "invisiblur.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -2154,12 +2154,12 @@
   },
   {
     "id": 163,
-    "name": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZE",
+    "name": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZER",
     "category": "Skincare",
     "brand": "NPURE",
     "price": 80000,
     "stock": 100,
-    "description": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZE by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "description": "NPURE NONI PROBIOTICS \"COMFORT ME\" MOISTURIZER by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
     "images": "NPURErobioticscomfortme1.avif",
     "tags": [
       "skincare"
@@ -4248,7 +4248,7 @@
     "stock": 100,
     "description": "Emina Daily Matte BB Cream is a lightweight, oil-controlling BB cream with a healthy-matte finish.",
     "images":
-      "image1a.png",
+      "Daily Matte BB Cream.png",
     "tags": [
       "makeup",
       "liquid complexion"
