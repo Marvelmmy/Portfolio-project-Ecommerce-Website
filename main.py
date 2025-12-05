@@ -288,6 +288,7 @@ def track_order():
 
 
 @app.route('/paynow', methods=['POST'])
+@login_required
 def paynow():   
     user_id = current_user.id
     cart_rows = Cart.query.filter_by(user_id=user_id).all()

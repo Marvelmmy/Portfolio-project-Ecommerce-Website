@@ -100,3 +100,10 @@ function previewProfileImage(event) {
 function paynow() {
     alert("Payment Successful! Thank you for your purchase.");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const activeSection = "{{ section }}";
+    if (activeSection) {
+        goToSection(activeSection);
+    }
+});

@@ -269,14 +269,6 @@ body{
   opacity: 0.9;
 }
 
-.related-section {
-  margin: 40px auto;
-  padding: 30px;
-  background: linear-gradient(135deg, #f0f7ff, #eaf3ff);
-  border-radius: 20px;
-  text-align: center;
-  width: 85%;
-}
 
 .related-items {
   display: flex;
@@ -284,30 +276,6 @@ body{
   gap: 25px;
   flex-wrap: wrap;
   margin-top: 25px;
-}
-
-.related-items .item {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-  padding: 15px;
-  width: 180px;
-  transition: transform 0.2s ease;
-}
-
-.related-items .item:hover {
-  transform: scale(1.05);
-}
-
-.related-items img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.related-items p {
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 14px;
 }
 
 footer {
