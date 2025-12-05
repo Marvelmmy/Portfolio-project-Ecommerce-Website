@@ -45,7 +45,7 @@ Catatan Penting:
 - Halaman Skincare
 - Semua produk di Brands Page
 - Screenshot di folder screenshot website
-
+- section selain to pay pada track order page hanya hiasan
 
 
 
