@@ -23,3 +23,6 @@ python main.py
 
 # 5. Open in your browser
 # Usually: http://127.0.0.1:5000
+
+note: 
+untuk bestseller dan promo page hanya hiasan, yang dapat di add ke cart adalah makeup, skincare dan semua product brands di brands page
