@@ -1,28 +1,54 @@
-# TUTORIAL MENGGUNAKAN WEBSITE 
+# Portfolio-project-Ecommerce-Website
 
-# 1. Clone GitHub repository
+Ini adalah proyek aplikasi e-commerce sederhana berbasis **Flask** sebagai bagian dari portofolio. Aplikasi ini menampilkan berbagai produk, halaman brand, cart, dan beberapa halaman dekoratif.
+
+## Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di komputer Anda.
+
+### 1. Prasyarat
+Pastikan Anda sudah menginstal:
+- Python  
+- Git  
+
+### 2. Unduh Proyek
+Buka Command Prompt dan jalankan:
+```bash
 git clone https://github.com/Marvelmmy/Portfolio-project-Ecommerce-Website.git
+
+3. Masuk ke Folder Proyek
 cd Portfolio-project-Ecommerce-Website
 
-# 2. (Optional but recommended) Create a virtual environment
-python -m venv venv         # Windows / Linux / macOS
-# Activate it:
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-# source venv/bin/activate
-
-# 3. Install Python dependencies
+4. Siapkan Virtual Environment
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
 
-# 4. Run the Flask application
-python main.py
 
-# Or, depending on config, you can use:
-# flask run
+Jika instalasi gagal, pastikan file requirements.txt ada di folder proyek.
 
-# 5. Open in your browser
-# Usually: http://127.0.0.1:5000
+5. Jalankan Aplikasi Flask
+
+Biasanya file utama adalah main.py, jadi jalankan:
+
+set FLASK_APP=main.py
+flask run
+
+### 6. Lihat Aplikasi di Browser
+Setelah server berjalan, buka alamat berikut di browser Anda:
+http://127.0.0.1:5000
+
+Catatan Penting:
+- Halaman bestseller dan promo hanya bersifat dekoratif.
+- Produk yang bisa ditambahkan ke cart hanya berada di:
+- Halaman Makeup
+- Halaman Skincare
+- Semua produk di Brands Page
+- Screenshot di folder screenshot website
+
+
+
+
 
 note: 
 untuk bestseller dan promo page hanya hiasan, yang dapat di add ke cart adalah makeup, skincare dan semua product brands di brands page
