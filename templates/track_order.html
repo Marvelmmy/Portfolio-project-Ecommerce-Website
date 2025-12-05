@@ -5,6 +5,10 @@
     <h2>Track Order</h2>
   </div>
 
+  {% with messages = get_flashed_messages(with_categories=true) %} {% if
+  messages %} {% for category, message in messages %}
+  <div class="alert alert-{{ category }}">{{ message }}</div>
+  {% endfor %} {% endif %} {% endwith %}
   <div class="track-order-nav">
     <nav class="track-order">
       <button onclick="goToSection('to-pay-section')" class="order-nav-btn">
