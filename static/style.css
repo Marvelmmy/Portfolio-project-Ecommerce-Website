@@ -40,7 +40,7 @@ body{
     background-color: #F5F5F5;
     border-radius: 10px;
     padding: 0 10px;
-    margin-right: auto;  /* pushes links to the right */
+    margin-right: auto; 
 }
 
 .nav-search input {
@@ -195,7 +195,7 @@ body{
 
 .container-2{
     background-color: #ffffff;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
 }
@@ -223,8 +223,8 @@ body{
 
 .banner-brands {
   width: 100%;
-  height: 180px; 
-  background-color: #E9F1F9;
+  height: 200px; 
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1003,15 +1003,7 @@ h2#makeup {
      --soft-shadow: 0 6px 12px rgba(11,32,48,0.08);
      --max-width:1100px;
    }
-   html,body{
-     height:100%;
-     margin:0;
-     font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-     -webkit-font-smoothing:antialiased;
-     -moz-osx-font-smoothing:grayscale;
-     color:var(--text);
-     background: linear-gradient(180deg, #e9f4fb 0%, var(--bg) 65%);
-   }
+
    .wrap{
      max-width:var(--max-width);
      margin:40px auto;
