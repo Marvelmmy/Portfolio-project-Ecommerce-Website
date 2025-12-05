@@ -95,3 +95,8 @@ function previewProfileImage(event) {
     };
     reader.readAsDataURL(event.target.files[0]);
 }
+
+//checkout payment
+function paynow() {
+    alert("Payment Successful! Thank you for your purchase.");
+}

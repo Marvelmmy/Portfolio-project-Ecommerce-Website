@@ -17,7 +17,7 @@
     <div class="product-card">
       <div class="product-img">
         <img
-          src="{{ url_for('static', filename=product.image) }}"
+          src="{{ url_for('static', filename='images/products/' + product.images) }}"
           alt="{{ product.name }}"
         />
       </div>

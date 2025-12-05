@@ -1,44 +1,210 @@
-    [{
-        "id" : 175,
-        "name" : "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++",
-        "category" : "Make Up",
-        "brand"  : "Somethinc",
-        "price" : 179000,
-        "stock" : 100,
-        "description" : "High Coverage Cushion with a Smooth Satin Finish ",
-        "images": ["image1a.jpg", "image1b.jpg"],
-        "tags" : ["makeup", "cushion"]
-    },
-    {
-        "id" : 176,
-        "name" : "CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++",
-        "category" : "Make Up",
-        "brand"  : "Somethinc",
-        "price" : 239000,
-        "stock" : 100,
-        "description" : "High Coverage Cushion with a Smooth Satin Finish ",
-        "images": ["image1a.jpg", "image1b.jpg"],
-        "tags" : ["makeup", "cushion"]
-    },
-    {
-        "id" : 177,
-        "name" : "(REFILL) Copy Paste CoverBlur Powder Foundation",
-        "category" : "Make Up",
-        "brand"  : "Somethinc",
-        "price" : 149000,
-        "stock" : 100,
-        "description" : "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
-        "images": ["image1a.jpg", "image1b.jpg"],
-        "tags" : ["makeup", "foundation"]
-    },
-    {
-        "id" : 178,
-        "name" : "Copy Paste CoverBlur Powder Foundation",
-        "category" : "Make Up",
-        "price" : 212000,
-        "stock" : 100,
-        "description" : "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
-        "images": ["image1a.jpg", "image1b.jpg"],
-        "tags" : ["makeup", "foundation"]
-    }
+[
+      {
+    "id": 144,
+    "name": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PEACHY GLAZE",
+    "category": "LIp Treatment",
+    "brand": "SCARLETT",
+    "price": 59800,
+    "stock": 100,
+    "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PEACHY GLAZE by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "scarlettlip2.png",
+    "tags": [
+      "lip treatment"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM BERRY SHINE",
+    "category": "LIp Treatment",
+    "brand": "SCARLETT",
+    "price": 59800,
+    "stock": 100,
+    "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM BERRY SHINE by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "scarlettlip3.png",
+    "tags": [
+      "lip treatment"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM CARAMEL GLOSS",
+    "category": "LIp Treatment",
+    "brand": "SCARLETT",
+    "price": 0,
+    "stock": 100,
+    "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM CARAMEL GLOSS by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "scarlettlip4.png",
+    "tags": [
+      "lip treatment"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PINK PUNCH",
+    "category": "LIp Treatment",
+    "brand": "SCARLETT",
+    "price": 59800,
+    "stock": 100,
+    "description": "[IN VITRO SPF 50+ PA++++] SCARLETT GLASS GLOW TINTED LIP BALM PINK PUNCH by SCARLETT is a lip treatment product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "scarlettlip5.png",
+    "tags": [
+      "lip treatment"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "NPURE Acne Power Clear MIcellar Water 300ml",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 49000,
+    "stock": 100,
+    "description": "NPURE Acne Power Clear MIcellar Water 300ml by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREacne.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "NPURE Centella Asiatica Power Powder",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 94000,
+    "stock": 100,
+    "description": "NPURE Centella Asiatica Power Powder by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcentella.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "NPURE CENTELLA ASIATICA FLAWLESS MATTE POWER CUSHION / REFILL CUSHION",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 89000,
+    "stock": 100,
+    "description": "NPURE CENTELLA ASIATICA FLAWLESS MATTE POWER CUSHION / REFILL CUSHION by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcentella.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "NPURE Centella Asiatica Power Primer",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 80000,
+    "stock": 100,
+    "description": "NPURE Centella Asiatica Power Primer by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcentellasia2.avif",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "NPURE Power Glow Lip Oil",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 59000,
+    "stock": 100,
+    "description": "NPURE Power Glow Lip Oil by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREpowerlipoil.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "NPURE Power Powder + Power Primer",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 159000,
+    "stock": 100,
+    "description": "NPURE Power Powder + Power Primer by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREpowderpowder.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "NPURE ACNE POWER CLEAR MICELLAR WATER 100ml",
+    "category": "Makeup",
+    "brand": "NPURE",
+    "price": 29500,
+    "stock": 100,
+    "description": "NPURE ACNE POWER CLEAR MICELLAR WATER 100ml by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREFreekapas.webp",
+    "tags": [
+      "makeup"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "NPURE Cica Beat The Sun Glow SPF 50 PA ++++",
+    "category": "Skincare",
+    "brand": "NPURE",
+    "price": 70000,
+    "stock": 100,
+    "description": "NPURE Cica Beat The Sun Glow SPF 50 PA ++++ by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREskincare1.avif",
+    "tags": [
+      "skincare"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "NPURE Cica Clear Pad",
+    "category": "Skincare",
+    "brand": "NPURE",
+    "price": 89000,
+    "stock": 100,
+    "description": "NPURE Cica Clear Pad by NPUREis a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcicaclearpad.avif",
+    "tags": [
+      "skincare"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "NPURE Acne Face toner Centella Asiatica 150ml",
+    "category": "Skincare",
+    "brand": "NPURE",
+    "price": 90000,
+    "stock": 100,
+    "description": "NPURE Acne Face toner Centella Asiatica 150ml by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREacnefacetoner.avif",
+    "tags": [
+      "skincare"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "NPURE Cica Beat The Sun POWDER",
+    "category": "Skincare",
+    "brand": "NPURE",
+    "price": 95000,
+    "stock": 100,
+    "description": "NPURE Cica Beat The Sun POWDER by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcicatoner.avif",
+    "tags": [
+      "skincare"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "NPURE CENTELLA ASIATICA ACNE CLEAR CHOCOMINT CLAY MASK",
+    "category": "Skincare",
+    "brand": "NPURE",
+    "price": 80000,
+    "stock": 100,
+    "description": "NPURE CENTELLA ASIATICA ACNE CLEAR CHOCOMINT CLAY MASK by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
+    "images": "NPUREcentellasia2.avif",
+    "tags": [
+      "skincare"
+    ]
+  }
 ]

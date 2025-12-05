@@ -1,4 +1,4 @@
-from flask import jsonify, render_template, redirect, url_for, request, session, flash
+from flask import jsonify, render_template, redirect, url_for, request, session, flash, send_from_directory
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from config import app, db
@@ -23,6 +23,9 @@ with app.app_context():
 def load_user(user_id: int) -> User:
     return User.query.get(int(user_id))
 
+@app.route('/favicon.ico')
+def favicon():
+    return redirect(url_for('static', filename='images/website-logo.png'))
 
 # ---------- LOGIN ----------
 @app.route('/login', methods=['GET', 'POST'])
@@ -41,7 +44,6 @@ def login():
             flash('Invalid credentials. Please try again.', 'danger')
 
     return render_template('auth.html')
-
 
 # ---------- REGISTER ----------
 @app.route('/register', methods=['GET', 'POST'])
@@ -83,9 +85,7 @@ def logout():
     flash('You have been logged out.', 'info')
     return redirect(url_for('home'))
 
-
 # ---------- PROFILE IMAGE UPLOAD ----------
-
 @app.route('/profile')
 @login_required
 def profile():
@@ -217,10 +217,89 @@ def cart():
 
     return render_template("cart.html", cart=cart_items, total=total)
 
-# ---------- ORDER TRACKING ROUTES ----------
-@app.route('/track-order')
+@app.route('/checkout', methods=['POST'])
+@login_required
+def checkout():
+    user_id = current_user.id
+    cart_rows = Cart.query.filter_by(user_id=user_id).all()
+
+    if not cart_rows:
+        flash("Your cart is empty.", "warning")
+        return redirect('/cart')
+
+    # Load product data
+    with open('static/data/products.json', 'r', encoding='utf-8') as f:
+        products = json.load(f)
+
+    checkout_items = []
+    total = 0
+
+    for row in cart_rows:
+        for p in products:
+            if int(p['id']) == int(row.product_id):
+                item_total = p['price'] * row.quantity
+
+                checkout_items.append({
+                    "product_id": row.product_id,
+                    "name": p['name'],
+                    "price": p['price'],
+                    "quantity": row.quantity,
+                    "total_price": item_total,
+                    "images": p.get('images', [])
+                })
+
+                total += item_total
+
+    return render_template("track_order.html", items=checkout_items, total=total)
+
+@app.route('/trackorder')
+@login_required
 def track_order():
-    return render_template('track_order.html')
+    user_id = current_user.id
+    cart_rows = Cart.query.filter_by(user_id=user_id).all()
+
+    if not cart_rows:
+        return render_template("track_order.html", items=[], total=0)
+
+    with open("static/data/products.json", "r", encoding="utf-8") as f:
+        products = json.load(f)
+
+    items = []
+    total = 0
+
+    for row in cart_rows:
+        for p in products:
+            if int(p['id']) == int(row.product_id):
+
+                item_total = p["price"] * row.quantity
+                total += item_total
+
+                items.append({
+                    "product_id": row.product_id,
+                    "name": p['name'],
+                    "brand": p.get("brand", ""),
+                    "tags": p.get("tags", []),
+                    "price": p["price"],
+                    "quantity": row.quantity,
+                    "images": p.get('images', [])[0] if isinstance(p.get('images', []), list) else p.get('images', "")
+                })
+
+    return render_template("track_order.html", items=items, total=total)
+
+
+@app.route('/paynow', methods=['POST'])
+def paynow():   
+    user_id = current_user.id
+    cart_rows = Cart.query.filter_by(user_id=user_id).all()
+
+    for row in cart_rows:
+        db.session.delete(row)
+
+    db.session.commit()
+
+    flash("Payment Successful! Thank you for your purchase.", "success")
+    return redirect(url_for('track_order'))
+
 
 @app.route('/')
 def home():
@@ -308,7 +387,7 @@ def brand(brand_name: str) -> str:
             brand_products = [
                 product for product in products 
                 if product.get('brand', '').strip().lower() == brand_name_clean
-                ]
+            ]
 
     except FileNotFoundError:
         brand_products = []

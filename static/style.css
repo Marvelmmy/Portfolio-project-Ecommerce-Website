@@ -503,30 +503,22 @@ footer {
 .delete-btn:hover {
   color: #d9534f;
 }
-
 .checkout-bar {
   display: flex;
   justify-content: flex-end;
   padding: 20px;
 }
 
-.checkout-bar .total {
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 30px;
-  color: #000;
-}
-
 .checkout-info {
+  display: flex;       
+  align-items: center; 
+  gap: 20px;           
   font-size: 14px;
-  margin-top: 5px;
-  gap: 20px;
 }
 
-.checkout-info span {
-  font-weight: bold;
-  color: #000;
-  margin-right: 20px;
+.checkout-form {
+  display: flex;
+  align-items: center;
 }
 
 .checkout-btn {
@@ -537,14 +529,16 @@ footer {
   border-radius: 2px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.2s;
 }
-
 .checkout-btn:hover {
-  background: #3a7cbc;
+  background: #2c6bb2;
 }
 
-
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
 
 /* --- Bottom Bar --- */
 .footer-bottom {
@@ -817,6 +811,14 @@ footer {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+
+.tab-content{
+  color: #fff;
+}
+
+#to-pay-section{
+  background-color: #f8f8f8;
+}
 .nav-search {
   display: flex;
   align-items: center;
@@ -824,6 +826,31 @@ footer {
   border-radius: 6px;
   padding: 5px 10px;
   margin-left: 20px;
+}
+.total-pay{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.pay-now-btn{
+  background-color: #468FD2;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay-now-btn:hover {
+  background-color: #2c6bb2;
 }
 
 .nav-search-input {

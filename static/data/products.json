@@ -21,7 +21,7 @@
     "price": 145000,
     "stock": 100,
     "description": "Invisiblur All Day Loose Powder by Skintific is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "invisiblur.webp",
+    "images": "insiviblur.webp",
     "tags": [
       "makeup",
       "skintific"
@@ -189,7 +189,7 @@
     "price": 148900,
     "stock": 100,
     "description": "Retinol Skin Renewal Moisturizer by Skintific is a moisturizer product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "retinol.webp",
+    "images": "retinolskinrenewal.webp",
     "tags": [
       "moisturizer",
       "skintific"
@@ -259,7 +259,7 @@
     "price": 128900,
     "stock": 100,
     "description": "Instant Glowing First Serum Spray by Skintific is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "instagglowing.webp",
+    "images": "instangglowing.webp",
     "tags": [
       "serum",
       "skintific"
@@ -509,7 +509,7 @@
     "price": 46900,
     "stock": 100,
     "description": "GLAD2GLOW BETAINE MICELLAR WATER CHERRY BLOSSOM 300ML by Skintific is a cleaners product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "cherryblossom.webp",
+    "images": "cheryblossom.webp",
     "tags": [
       "cleansers"
     ]
@@ -587,7 +587,7 @@
     "price": 79000,
     "stock": 100,
     "description": "Glad2glow Intense Serum for Eyelashes & Eyebrows by Glad2Glow is a serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "g2gglash.webp",
+    "images": "g2glash.webp",
     "tags": [
       "serum"
     ]
@@ -661,7 +661,7 @@
     "id": 48,
     "name": "Glad2Glow Promagranate Niacinamide Brightening Moisturizer",
     "category": "Moisturizers",
-    "brand": "Skintific",
+    "brand": "Glad2Glow",
     "price": 59000,
     "stock": 100,
     "description": "Glad2Glow Centella Allantoin Soothing Gel Moisturizer by Glad2Glow is a moisturizers product designed to deliver optimal results while staying comfortable for daily use.",
@@ -739,7 +739,7 @@
     "id": 54,
     "name": "From This Island Papua Red Fruit Potent Plumping Serum 20ml",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 299000,
     "stock": 100,
     "description": "From This Island Papua Red Fruit Potent Plumping Serum 20ml by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -752,7 +752,7 @@
     "id": 55,
     "name": "Sugarcane AHA Exfoliating Solution",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 170000,
     "stock": 100,
     "description": "Sugarcane AHA Exfoliating Solution by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -765,7 +765,7 @@
     "id": 56,
     "name": "Papua Red Fruit Plumping Cream",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 259000,
     "stock": 100,
     "description": "Papua Red Fruit Plumping Cream by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -778,7 +778,7 @@
     "id": 57,
     "name": "Mangosteen Brightening Serum",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 195000,
     "stock": 100,
     "description": "Mangosteen Brightening Serum by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -791,7 +791,7 @@
     "id": 58,
     "name": "Java Black Tea Soothing Gel Cleanser",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 159000,
     "stock": 100,
     "description": "Java Black Tea Soothing Gel Cleanser by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -804,7 +804,7 @@
     "id": 59,
     "name": "Tropical Guava Barrier Moisture Gel",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 219000,
     "stock": 100,
     "description": "Tropical Guava Barrier Moisture Gel by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -817,7 +817,7 @@
     "id": 60,
     "name": "From This Island White Tea Ultra Light Protective Sun Serum",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 179000,
     "stock": 100,
     "description": "From This Island White Tea Ultra Light Protective Sun Serum by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -830,7 +830,7 @@
     "id": 61,
     "name": "Bali Green Coffee Espresso Eye Cream",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 189000,
     "stock": 100,
     "description": "Bali Green Coffee Espresso Eye Cream by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -843,7 +843,7 @@
     "id": 62,
     "name": "From This Island Blue Pea Purifying Micellar Water",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 159000,
     "stock": 100,
     "description": "From This Island Blue Pea Purifying Micellar Water by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -856,7 +856,7 @@
     "id": 63,
     "name": "Illipe Plumping Lip Butter - Cinnamon Toast",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Cinnamon Toast by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -869,7 +869,7 @@
     "id": 64,
     "name": "Illipe Plumping Lip Butter - Classic Nude",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Classic Nude by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -882,7 +882,7 @@
     "id": 65,
     "name": "Illipe Plumping Lip Butter - Pink Sugar",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Pink Sugar by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -895,7 +895,7 @@
     "id": 66,
     "name": "Illipe Plumping Lip Butter - Sweet Peach",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Sweet Peach by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -908,7 +908,7 @@
     "id": 67,
     "name": "Illipe Plumping Lip Butter - Cold Brew",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Cold Brew by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -921,7 +921,7 @@
     "id": 68,
     "name": "Illipe Plumping Lip Butter - Berry Burst",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Berry Burst by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
@@ -934,11 +934,11 @@
     "id": 69,
     "name": "Illipe Plumping Lip Butter - Sparkling Blush",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Sparkling Blush by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "ftilipsparklingblush.webp",
+    "images": "ftilipsparkling.webp",
     "tags": [
       "all"
     ]
@@ -947,11 +947,11 @@
     "id": 70,
     "name": "Illipe Plumping Lip Butter - Clearly Naked",
     "category": "All",
-    "brand": "From This Island",
+    "brand": "FromThisIsland",
     "price": 149000,
     "stock": 100,
     "description": "Illipe Plumping Lip Butter - Clearly Naked by From This Island is a all product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "ftilipclearlynaked.webp",
+    "images": "ftilipclearly.webp",
     "tags": [
       "all"
     ]
@@ -964,7 +964,7 @@
     "price": 169000,
     "stock": 100,
     "description": "ESQA Minimalist Blurring Serum Skin Tint SPF 35 PA++ by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "esqaminimalist.webp",
+    "images": "esqaminimalistserum.webp",
     "tags": [
       "face"
     ]
@@ -990,7 +990,7 @@
     "price": 208000,
     "stock": 100,
     "description": "[NEW] ESQA Flawless Cushion Serum SPF 50+ PA+++ - Satin by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "eqaflawless1.webp",
+    "images": "esqaflawless1.webp",
     "tags": [
       "face"
     ]
@@ -1081,7 +1081,7 @@
     "price": 110000,
     "stock": 100,
     "description": "ESQA Wonder Crush Serum Liquid Blush On by ESQA is a face product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "esqawondercrush.webp",
+    "images": "esqawondercursh.webp",
     "tags": [
       "face"
     ]
@@ -1159,7 +1159,7 @@
     "price": 109000,
     "stock": 100,
     "description": "Goddess Eyeshadow Palette by ESQA is a eyes product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "esqagoddesseyeshadowpalette.webp",
+    "images": "esqagoddeseyeshadowpalette.webp",
     "tags": [
       "eyes"
     ]
@@ -1298,7 +1298,7 @@
     "id": 97,
     "name": "ESQA Highlighter",
     "category": "Cheeks",
-    "brand": "Skintific",
+    "brand": "ESQA",
     "price": 105000,
     "stock": 100,
     "description": "ESQA Highlighter by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
@@ -1315,7 +1315,7 @@
     "price": 120000,
     "stock": 100,
     "description": "[NEW LAUNCH] ESQA Bitty Balm Stick Blush by ESQA is a cheeks product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "esqabittybalm.webp",
+    "images": "esqabittybalm.png",
     "tags": [
       "cheeks"
     ]
@@ -1337,7 +1337,7 @@
     "id": 100,
     "name": "ESQA Glow Pop Serum Lip Balm",
     "category": "Lips",
-    "brand": "Skintific",
+    "brand": "ESQA",
     "price": 115000,
     "stock": 100,
     "description": "ESQA Glow Pop Serum Lip Balm by ESQA is a lips product designed to deliver optimal results while staying comfortable for daily use.",
@@ -1406,7 +1406,7 @@
     "price": 425000,
     "stock": 100,
     "description": "SCARLETT Low pH Acne Peace Gel Cleanser-Facial Wash Gentle Sabun Cuci Muka Low pH 100ml by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "sacrlettlowphacne.png",
+    "images": "scarlettlowphacne.png",
     "tags": [
       "face wash"
     ]
@@ -1419,7 +1419,7 @@
     "price": 178500,
     "stock": 100,
     "description": "Scarlett Brightening Facial Wash 100ml [TRIPLEPACK] by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "scarletttriplee,jpg",
+    "images": "scarletttriplee.jpg",
     "tags": [
       "face wash"
     ]
@@ -1458,7 +1458,7 @@
     "price": 59000,
     "stock": 100,
     "description": "Scarlett Brightly Cloud Facial Foam by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "scarlettbrightlycloudfaciam.png",
+    "images": "scarlettbrightlycloudfacial.png",
     "tags": [
       "face wash"
     ]
@@ -1471,7 +1471,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Hydro Fresh Cleanser by SCARLETT is a face wash product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "scarletthydrofreshcleaner.png",
+    "images": "scarletthyrdofreshcleanser.png",
     "tags": [
       "face wash"
     ]
@@ -1614,7 +1614,7 @@
     "price": 60000,
     "stock": 100,
     "description": "Scarlett Brightly Ever After Serum by SCARLETT is a face serum product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "scarlettbrightlyever.png",
+    "images": "scarlettbrightylever.png",
     "tags": [
       "face serum"
     ]
@@ -1978,7 +1978,7 @@
     "price": 94000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Power Powder by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPUREpowderpowder.webp",
+    "images": "NPUREcentella.webp",
     "tags": [
       "makeup"
     ]
@@ -2004,7 +2004,7 @@
     "price": 80000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Power Primer by NPURE is a makeup product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPURAcentellaprimer.webp",
+    "images": "NPUREcentellasia2.avif",
     "tags": [
       "makeup"
     ]
@@ -2069,7 +2069,7 @@
     "price": 89000,
     "stock": 100,
     "description": "NPURE Cica Clear Pad by NPUREis a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPUREclearpad.avif",
+    "images": "NPUREcicaclearpad.avif",
     "tags": [
       "skincare"
     ]
@@ -2108,7 +2108,7 @@
     "price": 80000,
     "stock": 100,
     "description": "NPURE CENTELLA ASIATICA ACNE CLEAR CHOCOMINT CLAY MASK by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPUREcentellasia.avif",
+    "images": "NPUREcentellasia2.avif",
     "tags": [
       "skincare"
     ]
@@ -2121,7 +2121,7 @@
     "price": 81000,
     "stock": 100,
     "description": "NPURE Centella Asiatica Face Wash by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPUREcentellasia2.avif",
+    "images": "NPUREcentellasia.avif",
     "tags": [
       "skincare"
     ]
@@ -2225,7 +2225,7 @@
     "price": 62000,
     "stock": 100,
     "description": "NPURE Noni Hypoallergenic Gentle Gel Cleanser 100ml by NPURE is a skincare product designed to deliver optimal results while staying comfortable for daily use.",
-    "images": "NPUREhypoallergic.avif",
+    "images": "NPUREhyppoallergic.avif",
     "tags": [
       "skincare"
     ]
@@ -2247,7 +2247,7 @@
     "id": 170,
     "name": "Brightening Solution Body Wash",
     "category": "Body Wash",
-    "brand": "Grace and Glow",
+    "brand": "GraceandGlow",
     "price": 60000,
     "stock": 100,
     "description": "Brightening Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
@@ -2260,7 +2260,7 @@
     "id": 171,
     "name": "English Pear and Freesia Anti Acne Solution Body Wash",
     "category": "Body Wash",
-    "brand": "Grace and Glow",
+    "brand": "GraceandGlow",
     "price": 60000,
     "stock": 100,
     "description": "English Pear and Freesia Anti Acne Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
@@ -2273,7 +2273,7 @@
     "id": 172,
     "name": "Peony Blush Soft & Glow Solution Body Wash",
     "category": "Body Wash",
-    "brand": "Grace and Glow",
+    "brand": "GraceandGlow",
     "price": 60000,
     "stock": 100,
     "description": "Peony Blush Soft & Glow Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
@@ -2286,7 +2286,7 @@
     "id": 173,
     "name": "Rouge 540 Glow & Firm Scrub Solution Body Wash",
     "category": "Body Wash",
-    "brand": "Grace and Glow",
+    "brand": "GraceandGlow",
     "price": 60000,
     "stock": 100,
     "description": "Rouge 540 Glow & Firm Scrub Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
@@ -2299,7 +2299,7 @@
     "id": 174,
     "name": "Miss Moisture & Glow Solution Body Wash",
     "category": "Body Wash",
-    "brand": "Grace and Glow",
+    "brand": "GraceandGlow",
     "price": 60000,
     "stock": 100,
     "description": "Miss Moisture & Glow Solution Body Wash by Grace and Glow is a body wash product designed to deliver optimal results while staying comfortable for daily use.",
@@ -2324,7 +2324,7 @@
     "stock": 100,
     "description": "High Coverage Cushion with a Smooth Satin Finish ",
     "images": 
-      "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpeg",
+      "Refill CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2339,7 +2339,7 @@
     "stock": 100,
     "description": "High Coverage Cushion with a Smooth Satin Finish ",
     "images": 
-      "CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpeg",
+      "CoverBlur Pro Filter Breathable Cushion SPF 40 PA++++.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2354,7 +2354,7 @@
     "stock": 100,
     "description": "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
     "images":
-      "(REFILL) Copy Paste CoverBlur Powder Foundation.jpeg",
+      "(REFILL) Copy Paste CoverBlur Powder Foundation.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2369,7 +2369,7 @@
     "stock": 100,
     "description": "24H Cover & Blur Powder Foundation for an undetectable flawless complexion!",
     "images": 
-      "Copy Paste CoverBlur Powder Foundation.jpeg",
+      "Copy Paste CoverBlur Powder Foundation.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2384,7 +2384,7 @@
     "stock": 100,
     "description": "-",
     "images": 
-      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 10ml.jpeg",
+      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 10ml.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2399,7 +2399,7 @@
     "stock": 100,
     "description": "Healthy Glow Finish Skin Tint + Sunscreen in One! ",
     "images": 
-      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 50ml.jpeg",
+      "Copy Paste Tinted Sunscreen SPF 40 PA++++ 50ml.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2414,7 +2414,7 @@
     "stock": 100,
     "description": "16HR Oil-Controlling & Pore-Blurring Loose Powder",
     "images": 
-      "HOOMAN UNDER CONTROL HD Blur Loose Powder.jpeg",
+      "HOOMAN UNDER CONTROL HD Blur Loose Powder.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2429,7 +2429,7 @@
     "stock": 100,
     "description": "Your HOOMAN Skin at its finest ",
     "images": 
-      "(REFILL) Hooman Breathable UV Cushion Cover SPF35 PA++++.jpeg",
+      "(REFILL) Hooman Breathable UV Cushion Cover SPF35 PA++++.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2459,7 +2459,7 @@
     "stock": 100,
     "description": "-",
     "images": 
-      "(REFILL) COPY PASTE BREATHABLE MESH CUSHION SPF 33 PA++.jpeg",
+      "(REFILL) COPY PASTE BREATHABLE MESH CUSHION SPF 33 PA++.jpg",
     "tags": [
       "makeup",
       "face"
@@ -2474,7 +2474,7 @@
     "stock": 100,
     "description": "Effortless Brow-Filler Effect",
     "images":
-      "Brow Filler Slim Retractable Eyebrow.jpeg",
+      "Brow Filler Slim Retractable Eyebrow.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2489,7 +2489,7 @@
     "stock": 100,
     "description": "Extreme Fix & Hold for Brows ",
     "images": 
-      "Browcara 24hold Waterproof Brow Gel.jpeg",
+      "Browcara 24hold Waterproof Brow Gel.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2504,7 +2504,7 @@
     "stock": 100,
     "description": "1st* Thinnest Brow Pencil",
     "images":
-      "Microslim 4D Eyebrow Pencil.jpeg",
+      "Microslim 4D Eyebrow Pencil.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2519,7 +2519,7 @@
     "stock": 100,
     "description": "Somethinc's Batman Limited Edition ",
     "images": 
-      "Forever Stay Eyeliner - Blackest Black Batman Edition.jpeg",
+      "Forever Stay Eyeliner - Blackest Black Batman Edition.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2534,7 +2534,7 @@
     "stock": 100,
     "description": "Somethinc's Batman Limited Edition",
     "images": 
-      "Tipsy Lashlift Lengthening Mascara - Batman Edition.jpeg",
+      "Tipsy Lashlift Lengthening Mascara - Batman Edition.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2549,7 +2549,7 @@
     "stock": 100,
     "description": "Keratin Lash Lift Mascara with Instant Lifting! ",
     "images":
-      "Tipsy Lash Lift Lengthening Mascara.jpeg",
+      "Tipsy Lash Lift Lengthening Mascara.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2564,7 +2564,7 @@
     "stock": 100,
     "description": "3D Micro-blink Liquid Glitter",
     "images": 
-      "Jewel Glitter Liquid.jpeg",
+      "Jewel Glitter Liquid.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2579,7 +2579,7 @@
     "stock": 100,
     "description": "Eyeliner pencil that glides smoothly for your day to day & special occasion needs! ",
     "images":
-      "VELVET Sugar Kohl Waterproof Gel Eyeliner.jpeg",
+      "VELVET Sugar Kohl Waterproof Gel Eyeliner.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2594,7 +2594,7 @@
     "stock": 100,
     "description": "It's eye-mportant to be Scandalous",
     "images":
-      "SCANDAL Waterproof Retractable Eyeliner.jpeg",
+      "SCANDAL Waterproof Retractable Eyeliner.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2609,7 +2609,7 @@
     "stock": 100,
     "description": "Only your lashes will know what happened last night ",
     "images": 
-      "imagHANGOVER Voluminous Fiber Lash Smudgeproof Mascarae1a.jpeg",
+      "HANGOVER Voluminous Fiber Lash Smudgeproof Mascara.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2624,7 +2624,7 @@
     "stock": 100,
     "description": "EASY! Level up your brow like EXPERT!",
     "images":
-      "Brow Matters Triangle Eyebrow Pencil.jpeg",
+      "Brow Matters Triangle Eyebrow Pencil.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2639,7 +2639,7 @@
     "stock": 100,
     "description": "PRECISE! Get your very precise brow shape in SECONDS!",
     "images":
-      "BROW WIZ Retractable Eyebrow.jpeg",
+      "BROW WIZ Retractable Eyebrow.jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2654,7 +2654,7 @@
     "stock": 100,
     "description": "I won't cry for you darling, my eyeliner is far more interesting! (RENEWAL with SLIMMER TIP & SQUARE PEN)",
     "images":
-      "FOREVER STAY Waterproof Liquid Eyeliner (RENEWAL).jpeg",
+      "FOREVER STAY Waterproof Liquid Eyeliner (RENEWAL).jpg",
     "tags": [
       "makeup",
       "eyes"
@@ -2669,7 +2669,7 @@
     "stock": 100,
     "description": "Transferproof 3D Lip Glaze with unbeatable hydration!",
     "images":
-      "Forever Stay Comfort Lip Glaze.jpeg",
+      "Forever Stay Comfort Lip Glaze.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2684,7 +2684,7 @@
     "stock": 100,
     "description": "Transferproof 3D Lip Glaze with unbeatable hydration!",
     "images":
-      "Ceraplump Tinted Lip Balm SPF25 PA++++ - Batman Editionge1a.jpeg",
+      "Ceraplump Tinted Lip Balm SPF25 PA++++ - Batman Edition.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2699,7 +2699,7 @@
     "stock": 100,
     "description": "SPF Tinted Lip Balm for instant juicy, healthy, plumpy lips!",
     "images": 
-      "Ceraplump Tinted Lip Balm SPF25 PA++++.jpeg",
+      "Ceraplump Tinted Lip Balm SPF25 PA++++.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2714,7 +2714,7 @@
     "stock": 100,
     "description": "The Most Transferproof & Lightweight Lipstick Ever!",
     "images":
-      "Checkmatte Transferproof Lipstick.jpeg",
+      "Checkmatte Transferproof Lipstick.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2729,7 +2729,7 @@
     "stock": 100,
     "description": "Unleash Your True Personality",
     "images": 
-      "IDOL BLURRY Soft Lip Mattege1a.jpeg",
+      "IDOL BLURRY Soft Lip Matte.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2744,7 +2744,7 @@
     "stock": 100,
     "description": "Wet Plumpy Lips",
     "images":
-      "MULTITASK Water Gloss Apricot.jpeg",
+      "MULTITASK Water Gloss Apricot.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2759,7 +2759,7 @@
     "stock": 100,
     "description": "Wet Plumpy Lips",
     "images":
-      "MULTITASK Water Gloss Blossom.jpeg",
+      "MULTITASK Water Gloss Blossom.jpg",
     "tags": [
       "makeup",
       "lips"
@@ -2774,7 +2774,7 @@
     "stock": 100,
     "description": "Advanced Acne Treatment with 4x Acne Combat Power*",
     "images":
-      "Acne Treatment 2% Salicylic Acid Serum.jpeg",
+      "Acne Treatment 2% Salicylic Acid Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2789,7 +2789,7 @@
     "stock": 100,
     "description": "Advanced Exfoliating Serum for Smooth & Renewed Skin",
     "images":
-      "Advanced Peeling 20% AHA BHA PHA LHA Serum.jpeg",
+      "Advanced Peeling 20% AHA BHA PHA LHA Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2804,7 +2804,7 @@
     "stock": 100,
     "description": "Calms & Strengthens Skin Barrier",
     "images":
-      "Calm Down! Skinpair Barrier Serum.jpeg",
+      "Calm Down! Skinpair Barrier Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2819,7 +2819,7 @@
     "stock": 100,
     "description": "Smooth Skin Surface & Diamond-Like Glow",
     "images":
-      "Diamond Glow PhytoCell Serum.jpeg",
+      "Diamond Glow PhytoCell Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2834,7 +2834,7 @@
     "stock": 100,
     "description": "Brighten & Glow for Normal to Sensitive Skin",
     "images":
-      "Gentle Bright Niacinamide + Alpha Arbutin Serum.jpeg",
+      "Gentle Bright Niacinamide + Alpha Arbutin Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2849,7 +2849,7 @@
     "stock": 100,
     "description": "-",
     "images":
-      "Glass-C 12% Vitamin C+ GlutaBright™ + Ferulic Serum.jpeg",
+      "Glass-C 12% Vitamin C+ GlutaBright™ + Ferulic Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2879,7 +2879,7 @@
     "stock": 100,
     "description": "Ultimate Anti-Aging Care, Fade Wrinkles & Boost Skin Regeneration",
     "images":
-      "Level 1% Encapsulated Retinol.jpeg",
+      "Level 1% Encapsulated Retinol.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2894,7 +2894,7 @@
     "stock": 100,
     "description": "Eternal Youth Serum to fight signs of aging",
     "images": 
-      "SKINLIFT 1% Copper Peptide Resveratrol Serum.jpeg",
+      "SKINLIFT 1% Copper Peptide Resveratrol Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2909,7 +2909,7 @@
     "stock": 100,
     "description": "Microneedle-Like Effect Serum",
     "images":
-      "BioSpicule Renewal Serum.jpeg",
+      "BioSpicule Renewal Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2924,7 +2924,7 @@
     "stock": 100,
     "description": "Exfoliating Glowing Serum for Normal-Oily Skin",
     "images":
-      "10% Lactic + Glycolic Peeling Serum.jpeg",
+      "10% Lactic + Glycolic Peeling Serum.jpg",
     "tags": [
       "skincare",
       "serum"
@@ -2939,7 +2939,7 @@
     "stock": 100,
     "description": "Antioxidant-Rich Jelly Deep Cleansing Balm",
     "images":
-      "Omega Jelly Deep Cleansing Balm.jpeg",
+      "Omega Jelly Deep Cleansing Balm.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -2954,7 +2954,7 @@
     "stock": 100,
     "description": "Gentle pH Balancer Jelly Cleanser to Freshen Skin Everyday!",
     "images":
-      "Low pH Gentle Jelly Cleanser.jpeg",
+      "Low pH Gentle Jelly Cleanser.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -2999,7 +2999,7 @@
     "stock": 100,
     "description": "Reset & Refresh Everyday!",
     "images":
-      "Reset Gentle Micellar Cleansing Water.jpeg",
+      "Reset Gentle Micellar Cleansing Water.jpg",
     "tags": [
       "skincare",
       "cleansers"
@@ -3029,7 +3029,7 @@
     "stock": 100,
     "description": "Keep Calm & Chill! Your Sensitive Skin Bestie to Rescue",
     "images":
-      "alm Down! PHA 3% Soothing Everyday Toner.jpeg",
+      "Calm Down! PHA 3% Soothing Everyday Toner.jpg",
     "tags": [
       "skincare",
       "toners"
@@ -3074,7 +3074,7 @@
     "stock": 100,
     "description": "Make Your Own Glow in 30 Days with #GLOWMAKER!",
     "images":
-      "GLOW MAKER AHA BHA PHA Clarifying Treatment Toner.jpeg",
+      "GLOW MAKER AHA BHA PHA Clarifying Treatment Toner.jpg",
     "tags": [
       "skincare",
       "toners"
@@ -3089,7 +3089,7 @@
     "stock": 100,
     "description": "A Lightweight Moisturizer for Sensitive & Angry Skin",
     "images":
-      "Calm Down! Skinpair R-Cover Cream.jpeg",
+      "Calm Down! Skinpair R-Cover Cream.jpg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3104,7 +3104,7 @@
     "stock": 100,
     "description": "Hydrate, Revive, & Strengthen Your Skin",
     "images":
-      "CERAMIC SKIN Saviour Moisturizer Gel (Reformulated).jpeg",
+      "CERAMIC SKIN Saviour Moisturizer Gel (Reformulated).jpg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3119,7 +3119,7 @@
     "stock": 100,
     "description": "Hydrate, Nourish, Balance",
     "images":
-      "BEE POWER Propolis & Manuka Honey Sleeping Mask.jpeg",
+      "BEE POWER Propolis & Manuka Honey Sleeping Mask.png",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3134,7 +3134,7 @@
     "stock": 100,
     "description": "Get Rid of Acne Poreblem in 28 days",
     "images":
-      "imageACNEDOT Treatment Moisturizer Gel.jpeg",
+      "ACNEDOT Treatment Moisturizer Gel.jpg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3149,7 +3149,7 @@
     "stock": 100,
     "description": "24/7 #MySupplePower In A Jar",
     "images":
-      "Supple Power Hyaluronic9+Onsen Moisture Bomb Gel.jpeg",
+      "Supple Power Hyaluronic9+Onsen Moisture Bomb Gel.jpg",
     "tags": [
       "skincare",
       "moisturizer"
@@ -3164,7 +3164,7 @@
     "stock": 100,
     "description": "Easy Touch-Up Sunscreen Powder with Oil-control & Pore Blurring effect",
     "images":
-      "Holyshield! No Sebum Mineral Blur Translucent Loose Powder SPF39 PA++++.jpeg",
+      "Holyshield! No Sebum Mineral Blur Translucent Loose Powder SPF39 PA++++.jpg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3179,7 +3179,7 @@
     "stock": 100,
     "description": "Holy Shield! My skin is protected",
     "images":
-      "Holyshield! Sunscreen Shake Mist SPF46 PA+++.jpeg",
+      "Holyshield! Sunscreen Shake Mist SPF46 PA+++.jpg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3194,7 +3194,7 @@
     "stock": 100,
     "description": "Holy Shield! My Skin is Protected Now!",
     "images":
-      "Holyshield! Sunscreen Comfort Corrector Serum SPF 50+ PA++++.jpeg",
+      "Holyshield! Sunscreen Comfort Corrector Serum SPF 50+ PA++++.jpg",
     "tags": [
       "skincare",
       "sunscreens"
@@ -3204,12 +3204,12 @@
     "id": 234,
     "name": "Powerstay 24H Weightless Liquid Foundation",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 201000,
     "stock": 100,
     "description": "24H matte foundation with oil control. Lightweight, waterproof, SPF 30.",
     "images":
-      "Powerstay 24H Weightless Liquid Foundation.jpeg",
+      "Powerstay 24H Weightless Liquid Foundation.jpg",
     "tags": [
       "makeup",
       "foundation"
@@ -3219,7 +3219,7 @@
     "id": 235,
     "name": "MAKE OVER Powerstay Sync Matte Cushion",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 239000,
     "stock": 100,
     "description": "Flawless 24H matte cushion with oil control. Lightweight, long-lasting, SPF 50/PA++++.",
@@ -3234,7 +3234,7 @@
     "id": 236,
     "name": "MAKE OVER Hydrastay Prismatic Glass Cushion",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 239000,
     "stock": 100,
     "description": "-",
@@ -3249,12 +3249,12 @@
     "id": 237,
     "name": "MAKE OVER Hydrastay Prismatic Glass Cushion [Refill]",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 160000,
     "stock": 100,
     "description": "-",
     "images":
-      "MAKE OVER Hydrastay Prismatic Glass Cushion [Refill].jpeg",
+      "MAKE OVER Hydrastay Prismatic Glass Cushion [Refill].jpg",
     "tags": [
       "makeup",
       "foundation"
@@ -3264,12 +3264,12 @@
     "id": 238,
     "name": "MAKE OVER Hydrastay Lite Glow Cushion",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 225000,
     "stock": 100,
     "description": "24H hydrating glow cushion for dry skin. Smooth, radiant finish.",
     "images":
-      "MAKE OVER Hydrastay Lite Glow Cushion.jpeg",
+      "MAKE OVER Hydrastay Lite Glow Cushion.png",
     "tags": [
       "makeup",
       "foundation"
@@ -3279,12 +3279,12 @@
     "id": 239,
     "name": "Make Over Ultra Cover Liquid Matt Foundation",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 168000,
     "stock": 100,
     "description": "Natural foundation with soft-focus effect. Hydrating, brightening, and UV-protective.",
     "images":
-      "Make Over Ultra Cover Liquid Matt Foundation.jpeg",
+      "Make Over Ultra Cover Liquid Matt Foundation.jpg",
     "tags": [
       "makeup",
       "foundation"
@@ -3294,7 +3294,7 @@
     "id": 240,
     "name": "[NEW SHADES] MAKE OVER Powerstay Demi-Matte Cover Cushion",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 225000,
     "stock": 100,
     "description": "24H matte cushion with oil control. SPF 50, lightweight, flawless finish.",
@@ -3309,12 +3309,12 @@
     "id": 241,
     "name": "MAKE OVER Powerstay Total Cover Matte Cream Foundation 12 g",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 165000,
     "stock": 100,
     "description": "12H high-coverage matte foundation. Lightweight, oil-absorbing, SPF 30, non-comedogenic.",
     "images": 
-      "MAKE OVER Powerstay Total Cover Matte Cream Foundation 12 g.jpeg",
+      "MAKE OVER Powerstay Total Cover Matte Cream Foundation 12 g.jpg",
     "tags": [
       "makeup",
       "foundation"
@@ -3324,12 +3324,12 @@
     "id": 242,
     "name": "MAKE OVER Hydrastay Glow Fluid Foundation",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 201000,
     "stock": 100,
     "description": "24H hydrating foundation for dry skin. Lightweight, buildable, and gives a natural glow.",
     "images":
-      "MAKE OVER Hydrastay Glow Fluid Foundation.jpeg",
+      "MAKE OVER Hydrastay Glow Fluid Foundation.jpg",
     "tags": [
       "makeup",
       "foundation"
@@ -3339,12 +3339,12 @@
     "id": 243,
     "name": "MAKE OVER Powerstay Total Cover Liquid Concealer",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 123000,
     "stock": 100,
     "description": "12H full-coverage concealer with smooth matte finish. Non-sticky and easy to blend.",
     "images":
-      "MAKE OVER Powerstay Total Cover Liquid Concealer.jpeg",
+      "MAKE OVER Powerstay Total Cover Liquid Concealer.jpg",
     "tags": [
       "makeup",
       "concealer"
@@ -3354,12 +3354,12 @@
     "id": 244,
     "name": "MAKE OVER Powerstay Radiant Illuminizer",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 1000,
     "stock": 100,
     "description": "12H full-coverage concealer with smooth matte finish. Non-sticky and easy to blend.",
     "images":
-      "MAKE OVER Powerstay Radiant Illuminizer.jpeg",
+      "MAKE OVER Powerstay Radiant Illuminizer.jpg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3369,12 +3369,12 @@
     "id": 245,
     "name": "MAKE OVER Powerstay Ultra Glow Highlighter 3 x 3.5 g",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 211000,
     "stock": 100,
     "description": "3-shade shimmer palette with smooth, long-lasting glow. #GlowOnDemand",
     "images":
-      "MAKE OVER Powerstay Ultra Glow Highlighter 3 x 3.5 g.jpeg",
+      "MAKE OVER Powerstay Ultra Glow Highlighter 3 x 3.5 g.jpg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3384,12 +3384,12 @@
     "id": 246,
     "name": "MAKE OVER Shimmering Powder",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 135000,
     "stock": 100,
     "description": "Add 'the last touch' Shimmering Powder to create healthy glowing skin.",
     "images":
-      "MAKE OVER Shimmering Powder.jpeg",
+      "MAKE OVER Shimmering Powder.jpg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3399,12 +3399,12 @@
     "id": 247,
     "name": "Make Over Riche Glow Face Highlighter",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 182000,
     "stock": 100,
     "description": "Universal highlighter with reflective pigments for an intense, seamless glow.",
     "images":
-      "Make Over Riche Glow Face Highlighter.jpeg",
+      "Make Over Riche Glow Face Highlighter.jpg",
     "tags": [
       "makeup",
       "highlighter"
@@ -3414,12 +3414,12 @@
     "id": 248,
     "name": "Make Over Face Contour Kit 14 g",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 144000,
     "stock": 100,
     "description": "2-in-1 compact powder for highlighting and contouring. Fits all skin tones with Vitamin E.",
     "images":
-      "Make Over Face Contour Kit 14 g.jpeg",
+      "Make Over Face Contour Kit 14 g.jpg",
     "tags": [
       "makeup",
       "contour"
@@ -3429,7 +3429,7 @@
     "id": 249,
     "name": "MAKE OVER Multifix Matte Blusher",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 151000,
     "stock": 100,
     "description": "Cream-to-powder blush stick for a soft matte, natural flush.",
@@ -3444,12 +3444,12 @@
     "id": 250,
     "name": "Make Over Blush On Single 6 g",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 110000,
     "stock": 100,
     "description": "Lightweight, silky, long-lasting blush for a natural glow.",
     "images":
-      "Make Over Blush On Single 6 g.jpeg",
+      "Make Over Blush On Single 6 g.jpg",
     "tags": [
       "makeup",
       "blush on"
@@ -3459,12 +3459,12 @@
     "id": 251,
     "name": "[NEW LIMITED EDITION] MAKE OVER Powerstay Suede Blush",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 160000,
     "stock": 100,
     "description": "14H cream blush duo for a smooth, long-lasting suede finish.",
     "images":
-      "[NEW LIMITED EDITION] MAKE OVER Powerstay Suede Blush.jpeg",
+      "[NEW LIMITED EDITION] MAKE OVER Powerstay Suede Blush.jpg",
     "tags": [
       "makeup",
       "blush on"
@@ -3474,12 +3474,12 @@
     "id": 252,
     "name": "MAKE OVER Hydrastay Liquid Tint Blush",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 145000,
     "stock": 100,
     "description": "24H hydrating liquid blush with lasting color and SPF 15.",
     "images":
-      "MAKE OVER Hydrastay Liquid Tint Blush.jpeg",
+      "MAKE OVER Hydrastay Liquid Tint Blush.jpg",
     "tags": [
       "makeup",
       "blush on"
@@ -3489,12 +3489,12 @@
     "id": 253,
     "name": "Make Over Powerstay Grip Brow Gel CLEAR 5.5 g",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 153000,
     "stock": 100,
     "description": "-",
     "images":
-      "Make Over Powerstay Grip Brow Gel CLEAR 5.5 g.jpeg",
+      "Make Over Powerstay Grip Brow Gel CLEAR 5.5 g.jpg",
     "tags": [
       "makeup",
       "mascara"
@@ -3504,12 +3504,12 @@
     "id": 254,
     "name": "Make Over Powerstay Brow Volumizer Mascara",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 140000,
     "stock": 100,
     "description": "-",
     "images":
-      "Make Over Powerstay Brow Volumizer Mascara.jpeg",
+      "Make Over Powerstay Brow Volumizer Mascara.png",
     "tags": [
       "makeup",
       "mascara"
@@ -3519,7 +3519,7 @@
     "id": 255,
     "name": "MAKE OVER Lash Impulse Waterproof Mascara",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 139000,
     "stock": 100,
     "description": "12H waterproof mascara for 10x fuller, clump-free lashes.",
@@ -3534,12 +3534,12 @@
     "id": 256,
     "name": "Make Over Powerstay Micro Brow Sculptor",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 139000,
     "stock": 100,
     "description": "-",
     "images":
-      "Make Over Powerstay Micro Brow Sculptor.jpeg",
+      "Make Over Powerstay Micro Brow Sculptor.jpg",
     "tags": [
       "makeup",
       "mascara"
@@ -3549,12 +3549,12 @@
     "id": 257,
     "name": "Make Over Lip Color Palette 5",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 159000,
     "stock": 100,
     "description": "5-shade lip palette with Jojoba Oil and Vitamin E for soft, vibrant lips.",
     "images":
-      "Make Over Lip Color Palette 5.jpeg",
+      "Make Over Lip Color Palette 5.jpg",
     "tags": [
       "makeup",
       "lip palette"
@@ -3564,12 +3564,12 @@
     "id": 258,
     "name": "MAKE OVER Lip Amplify Contour Liner",
     "category": "Make Up",
-    "brand": "make over",
+    "brand": "makeover",
     "price": 112000,
     "stock": 100,
     "description": "Matte lip liner for precise contour and fuller, long-lasting lips.",
     "images":
-      "MAKE OVER Lip Amplify Contour Liner.jpeg",
+      "MAKE OVER Lip Amplify Contour Liner.jpg",
     "tags": [
       "makeup",
       "lip pencil"
@@ -4233,7 +4233,7 @@
     "stock": 100,
     "description": "Emina Daily Matte Compact Powder is a lightweight, oil-controlling matte powder with UV protection and 8-hour wear.",
     "images":
-      "Daily Matte Compact Powder.jpeg",
+      "Daily Matte Compact Powder.jpg",
     "tags": [
       "makeup",
       "powder"

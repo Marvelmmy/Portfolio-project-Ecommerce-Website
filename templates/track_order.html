@@ -31,90 +31,106 @@
     </nav>
   </div>
 
-<!-- Sections -->
-<section id="to-pay-section" class="tab-content active">
+  <section id="to-pay-section" class="tab-content active">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-pay">
-    {{ brand_name }}
-    <hr>
-    <div class="track-order-product-container">
-      <img src="{{ product_image_url }}" alt="#">
-      <i class="fas fa-info-circle"></i>
-      <div class="track-order-product-info">
-        <h3>{{ product_name }}</h3>
-        <p>Variation: {{ product_tags }}</p>
-        <p>Quantity: {{ product_quantity }}</p>
-        <p>Price: Rp. {{ product_price }}</p>
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
     </div>
-  </div>
-</section>
 
-<section id="to-ship-section" class="tab-content">
+    <div class="to-pay">
+      {% for product in items %}
+      <hr />
+
+      <div class="cart-card">
+        <div class="cart-img-wrapper">
+          <img
+            src="{{ url_for('static', filename='images/products/' + product.images) }}"
+            alt="{{ product.name }}"
+          />
+        </div>
+
+        <div class="cart-info">
+          <h4 class="brand">{{ product.brand }}</h4>
+          <p class="name">{{ product.name }}</p>
+          <p class="variation">Variation: {{ product.tags | join(', ') }}</p>
+          <p class="qty">Qty: {{ product.quantity }}</p>
+          <p class="price">Rp. {{ "{:,.0f}".format(product.price) }}</p>
+        </div>
+      </div>
+
+      {% endfor %}
+      <form action="{{ url_for('paynow') }}" method="POST">
+        <div class="total-pay">
+          <h3>Total Payment: Rp. {{ "{:,.0f}".format(total) }}</h3>
+        </div>
+
+        <button type="submit" class="pay-now-btn">Pay Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="to-ship-section" class="tab-content">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-ship">To Ship content here...</div>
-</section>
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <div class="to-ship">To Ship content here...</div>
+  </section>
 
-<section id="to-receive-section" class="tab-content">
+  <section id="to-receive-section" class="tab-content">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-receive">To Receive content here...</div>
-</section>
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <div class="to-receive">To Receive content here...</div>
+  </section>
 
-<section id="to-complete-section" class="tab-content">
+  <section id="to-complete-section" class="tab-content">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-complete">Completed content here...</div>
-</section>
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <div class="to-complete">Completed content here...</div>
+  </section>
 
-<section id="to-cancel-section" class="tab-content">
+  <section id="to-cancel-section" class="tab-content">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-cancel">Cancelled content here...</div>
-</section>
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <div class="to-cancel">Cancelled content here...</div>
+  </section>
 
-<section id="to-return-section" class="tab-content">
+  <section id="to-return-section" class="tab-content">
     <div class="nav-search">
-    <input
-      type="text"
-      placeholder="&#9776; Specific Order"
-      class="nav-search-input"
-    />
-    <i class="fas fa-magnifying-glass"></i>
-  </div>
-  <div class="to-return">Returned content here...</div>
-</section>
-
-  {% endblock %}
+      <input
+        type="text"
+        placeholder="&#9776; Specific Order"
+        class="nav-search-input"
+      />
+      <i class="fas fa-magnifying-glass"></i>
+    </div>
+    <div class="to-return">Returned content here...</div>
+  </section>
 </div>
+{% endblock %}
