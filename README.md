@@ -46,6 +46,7 @@ Catatan Penting:
 - Semua produk di Brands Page
 - Screenshot di folder screenshot website
 - section selain to pay pada track order page hanya hiasan
+- tidak bisa add barang ke cart apabila belum login dan tak bisa masuk ke page cart apabila belum login/register
 
 
 
