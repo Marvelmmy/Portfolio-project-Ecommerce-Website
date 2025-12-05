@@ -28,11 +28,8 @@ pip install -r requirements.txt
 Jika instalasi gagal, pastikan file requirements.txt ada di folder proyek.
 
 5. Jalankan Aplikasi Flask
-
-Biasanya file utama adalah main.py, jadi jalankan:
-
-set FLASK_APP=main.py
-flask run
+Biasanya file utama adalah main.py, jadi jalankan
+Jika menggunakan VS Code, cukup click run lalu run without debugger dan pilih python debugger
 
 ### 6. Lihat Aplikasi di Browser
 Setelah server berjalan, buka alamat berikut di browser Anda:
